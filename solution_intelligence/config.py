@@ -1,0 +1,12 @@
+OLLAMA_BASE_URL  = "http://localhost:11434"
+OLLAMA_MODEL     = "mistral"
+OLLAMA_TIMEOUT   = 120          # seconds
+LLM_MAX_RETRIES  = 3
+BATCH_SIZE       = 15           # solutions per LLM batch call
+EMBEDDING_MODEL  = "all-MiniLM-L6-v2"   # sentence-transformers
+HDBSCAN_MIN_CLUSTER_SIZE = 3
+HDBSCAN_MIN_SAMPLES      = 2
+SCORE_WEIGHTS    = {"quality": 0.5, "novelty": 0.3, "size_log": 0.2}
+CACHE_DB_PATH    = "cache/llm_cache.db"
+DATA_DIR         = "data/"
+OUTPUT_DIR       = "outputs/"

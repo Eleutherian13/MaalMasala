@@ -1,0 +1,7 @@
+requests
+sentence-transformers
+hdbscan
+numpy
+scikit-learn
+tqdm
+faiss-cpu

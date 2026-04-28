@@ -1,0 +1,168 @@
+{
+  "executive_summary": {
+    "total_problems_ingested": 2,
+    "after_deduplication": {
+      "unique": 2,
+      "duplicates": 0,
+      "too_common": 0
+    },
+    "macro_themes_identified": 2,
+    "top_recommended_problems": [
+      {
+        "id": "p1",
+        "title": "Data Silos in Healthcare",
+        "rationale": "High impact severity with systemic consequences and strong thematic centrality."
+      },
+      {
+        "id": "p2",
+        "title": "High Latency in Last-Mile Delivery",
+        "rationale": "Significant operational bottlenecks affecting multiple stakeholder groups."
+      }
+    ],
+    "most_critical_uncovered_problem": null,
+    "most_well_addressed_problem": {
+      "id": "p1",
+      "title": "Data Silos in Healthcare"
+    }
+  },
+  "deduplication_analysis": {
+    "duplicate_redundant_clusters": [],
+    "too_common_problems": []
+  },
+  "thematic_breakdown": [
+    {
+      "macro_id": "MACRO_001",
+      "theme_title": "Healthcare Systems & Interoperability",
+      "cluster_description": "This theme encompasses the technical and structural challenges within healthcare data management. It focuses on the lack of connected systems and the resulting fragmentation of patient information.",
+      "problem_count": 1,
+      "statistical_summary": {
+        "mean_score": 3.3,
+        "median_score": 3.3,
+        "std_score": 0.0
+      },
+      "top_problem": {
+        "id": "p1",
+        "title": "Data Silos in Healthcare"
+      },
+      "biggest_gap": null,
+      "master_key_points": {
+        "root_causes": [
+          "Patient records are highly fragmented across incompatible electronic health record systems."
+        ],
+        "symptoms": [
+          "Lack of interoperability obstructs comprehensive patient views for healthcare providers."
+        ],
+        "consequences": [
+          "Incomplete medical histories lead to redundant tests and delayed critical diagnoses.",
+          "Fragmented records increase the risk of potentially dangerous drug interactions."
+        ],
+        "opportunities": [
+          "Standardizing electronic health records provides a unified view of patient medical history."
+        ]
+      }
+    },
+    {
+      "macro_id": "MACRO_002",
+      "theme_title": "Urban Logistics & Supply Chain",
+      "cluster_description": "This cluster covers the operational bottlenecks and inefficiencies in modern delivery networks. It highlights the challenges of urban congestion and suboptimal routing that delay final-mile deliveries.",
+      "problem_count": 1,
+      "statistical_summary": {
+        "mean_score": 3.0,
+        "median_score": 3.0,
+        "std_score": 0.0
+      },
+      "top_problem": {
+        "id": "p2",
+        "title": "High Latency in Last-Mile Delivery"
+      },
+      "biggest_gap": null,
+      "master_key_points": {
+        "root_causes": [
+          "Urban delivery operations suffer latency due to unpredictable traffic and suboptimal routing algorithms."
+        ],
+        "symptoms": [
+          "Delivery drivers waste significant time and fuel navigating inefficient urban delivery paths.",
+          "End customers regularly receive inaccurate real-time tracking information."
+        ],
+        "consequences": [
+          "Suboptimal routing results in missed delivery windows and widespread customer frustration.",
+          "Inefficient routing algorithms inflate overall operational costs for logistics providers."
+        ],
+        "opportunities": [
+          "Optimizing routing algorithms dynamically reduces delivery latency and excessive fuel costs."
+        ]
+      }
+    }
+  ],
+  "full_ranked_problem_list": {
+    "table": [
+      {
+        "rank": 1,
+        "problem_id": "p1",
+        "title": "Data Silos in Healthcare",
+        "theme": "Healthcare Systems & Interoperability",
+        "priority_score": 3.3,
+        "coverage": "well_covered",
+        "top_solution": "s1 (Unified Health API Gateway)"
+      },
+      {
+        "rank": 2,
+        "problem_id": "p2",
+        "title": "High Latency in Last-Mile Delivery",
+        "theme": "Urban Logistics & Supply Chain",
+        "priority_score": 3.0,
+        "coverage": "well_covered",
+        "top_solution": "s2 (Dynamic Grid Routing Engine)"
+      }
+    ],
+    "narrative_explanation": "The ranking distribution is heavily influenced by the impact severity and thematic centrality of the problems. 'Data Silos in Healthcare' secured the top rank due to its higher impact severity (score 4) representing large-scale harm to critical healthcare stakeholders. 'High Latency in Last-Mile Delivery' follows closely behind with an impact severity of 3 (moderate harm). Both datasets are completely unique, giving them maximum uniqueness scores, and both are currently well-covered by existing proposed solutions. There is no significant skew or long tail in this dataset as it consists of only two distinct high-priority problem statements."
+  },
+  "solution_effectiveness_analysis": {
+    "top_solutions": [
+      {
+        "id": "s1",
+        "title": "Unified Health API Gateway",
+        "explanation": "Directly addresses the higher-impact healthcare interoperability issue using standardized FHIR protocols."
+      },
+      {
+        "id": "s2",
+        "title": "Dynamic Grid Routing Engine",
+        "explanation": "Effectively mitigates the logistical latency problem by introducing real-time AI capabilities."
+      }
+    ],
+    "solutions_covering_most_problems": ["s1 covers p1", "s2 covers p2"],
+    "urgent_gaps": [],
+    "recommended_pairings": [
+      { "problem_id": "p1", "solution_id": "s1" },
+      { "problem_id": "p2", "solution_id": "s2" }
+    ]
+  },
+  "strategic_recommendations": {
+    "top_problems_to_prioritize": [
+      {
+        "title": "Data Silos in Healthcare",
+        "score": 3.3,
+        "rationale": "Highest societal impact risk with immediate implications for patient safety.",
+        "paired_solution": "s1 (Unified Health API Gateway)",
+        "risk_if_ignored": "Continued delayed diagnoses, redundant testing, and hazardous drug interactions."
+      },
+      {
+        "title": "High Latency in Last-Mile Delivery",
+        "score": 3.0,
+        "rationale": "High operational cost implications and customer dissatisfaction in a growing logistics sector.",
+        "paired_solution": "s2 (Dynamic Grid Routing Engine)",
+        "risk_if_ignored": "Eroding profit margins and permanent loss of e-commerce customer trust."
+      }
+    ],
+    "problems_to_deprioritize": [],
+    "research_gaps": [],
+    "consolidation_recommendations": []
+  },
+  "conclusion": {
+    "paragraphs": [
+      "The overall landscape of the evaluated problem statements reflects two highly distinct and critical domains: Healthcare Interoperability and Urban Logistics. Both problems represent significant bottlenecks in their respective industries, causing measurable harm either through patient risks or operational financial losses. The dataset is lean, lacking redundancy, which indicates highly synthesized initial problem definitions.",
+      "The quality of the provided solutions is exceptionally high. Both 'Data Silos in Healthcare' and 'High Latency in Last-Mile Delivery' are matched with targeted, technologically mature solutions (API Gateways and AI Routing Engines). There are currently no uncovered gaps in the evaluated portfolio, meaning the strategic focus can shift immediately from ideation to implementation and scaling.",
+      "Confidence in these recommendations is high given the clear delineation of the data, though the dataset's small size limits broader portfolio trend analysis. The immediate next steps for the team should involve prioritizing the deployment of the 'Unified Health API Gateway' due to its life-safety implications, followed closely by piloting the 'Dynamic Grid Routing Engine' in a geofenced urban test market."
+    ]
+  }
+}

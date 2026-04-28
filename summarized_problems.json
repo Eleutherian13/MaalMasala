@@ -1,0 +1,36 @@
+[
+  {
+    "id": "p1",
+    "title": "Data Silos in Healthcare",
+    "theme": "Healthcare Data",
+    "summary": "Healthcare providers face severe challenges with fragmented patient data across incompatible electronic health record systems. This lack of interoperability obstructs comprehensive patient views and drives up integration costs. Ultimately, it results in hazardous care gaps, redundant testing, and delayed critical diagnoses.",
+    "pain_point": "Fragmented patient records across non-interoperable EHR systems prevent a holistic view of medical history.",
+    "stakeholder": "Healthcare providers and doctors",
+    "domain": "Healthcare and health informatics",
+    "impact_if_unsolved": "Redundant tests, delayed diagnoses, and potentially dangerous drug interactions.",
+    "keywords": [
+      "interoperability",
+      "electronic health record",
+      "diagnosis",
+      "drug interaction",
+      "integration"
+    ]
+  },
+  {
+    "id": "p2",
+    "title": "High Latency in Last-Mile Delivery",
+    "theme": "Logistics",
+    "summary": "Urban delivery operations suffer from extreme latency due to unpredictable traffic and suboptimal routing algorithms. Drivers waste time and fuel navigating inefficient paths, which disrupts delivery schedules and inflates operational costs. Consequently, end customers face delayed packages and inaccurate real-time tracking.",
+    "pain_point": "Inefficient routing and urban congestion cause costly delays in last-mile e-commerce deliveries.",
+    "stakeholder": "Delivery drivers and e-commerce customers",
+    "domain": "Logistics and last-mile delivery",
+    "impact_if_unsolved": "Missed delivery windows, high fuel costs, and customer frustration.",
+    "keywords": [
+      "last-mile delivery",
+      "routing algorithm",
+      "traffic congestion",
+      "e-commerce",
+      "latency"
+    ]
+  }
+]

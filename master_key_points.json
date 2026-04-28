@@ -1,0 +1,44 @@
+{
+  "total_key_points": 10,
+  "by_theme": [
+    {
+      "macro_id": "MACRO_001",
+      "title": "Healthcare Systems & Interoperability",
+      "key_points": {
+        "root_causes": [
+          "Patient records are highly fragmented across incompatible electronic health record systems."
+        ],
+        "symptoms": [
+          "Lack of interoperability obstructs comprehensive patient views for healthcare providers."
+        ],
+        "consequences": [
+          "Incomplete medical histories lead to redundant tests and delayed critical diagnoses.",
+          "Fragmented records increase the risk of potentially dangerous drug interactions."
+        ],
+        "opportunities": [
+          "Standardizing electronic health records provides a unified view of patient medical history."
+        ]
+      }
+    },
+    {
+      "macro_id": "MACRO_002",
+      "title": "Urban Logistics & Supply Chain",
+      "key_points": {
+        "root_causes": [
+          "Urban delivery operations suffer latency due to unpredictable traffic and suboptimal routing algorithms."
+        ],
+        "symptoms": [
+          "Delivery drivers waste significant time and fuel navigating inefficient urban delivery paths.",
+          "End customers regularly receive inaccurate real-time tracking information."
+        ],
+        "consequences": [
+          "Suboptimal routing results in missed delivery windows and widespread customer frustration.",
+          "Inefficient routing algorithms inflate overall operational costs for logistics providers."
+        ],
+        "opportunities": [
+          "Optimizing routing algorithms dynamically reduces delivery latency and excessive fuel costs."
+        ]
+      }
+    }
+  ]
+}

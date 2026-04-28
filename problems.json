@@ -1,0 +1,20 @@
+{
+  "problems": [
+    {
+      "id": "p1",
+      "title": "Data Silos in Healthcare",
+      "theme": "Healthcare Data",
+      "description": "Healthcare providers currently struggle with fragmented patient records across multiple independent electronic health record (EHR) systems. This lack of interoperability prevents doctors from getting a holistic view of a patient's medical history, leading to redundant tests, delayed diagnoses, and potentially dangerous drug interactions. The reliance on legacy, proprietary data formats makes integration extremely costly and time-consuming.",
+      "source": "Internal Research",
+      "tags": ["healthcare", "data structure", "interoperability"]
+    },
+    {
+      "id": "p2",
+      "title": "High Latency in Last-Mile Delivery",
+      "theme": "Logistics",
+      "description": "Urban traffic congestion and inefficient routing algorithms are causing significant delays in the final leg of e-commerce package deliveries. Delivery drivers spend excessive time stuck in unpredictable traffic or navigating poorly optimized routes, leading to missed delivery windows and high fuel costs. End customers experience frustration due to lack of real-time tracking accuracy and delayed arrivals.",
+      "source": "Logistics Report 2025",
+      "tags": ["logistics", "routing", "e-commerce"]
+    }
+  ]
+}

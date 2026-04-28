@@ -1,0 +1,58 @@
+{
+  "ranked_problems": [
+    {
+      "rank": 1,
+      "id": "p1",
+      "title": "Data Silos in Healthcare",
+      "macro_theme": "Healthcare Systems & Interoperability",
+      "composite_priority_score": 3.3,
+      "dimension_scores": {
+        "impact_severity": 4,
+        "stakeholder_breadth": 3,
+        "solution_coverage_gap": 1,
+        "uniqueness": 5,
+        "thematic_centrality": 5
+      },
+      "coverage_status": "well_covered"
+    },
+    {
+      "rank": 2,
+      "id": "p2",
+      "title": "High Latency in Last-Mile Delivery",
+      "macro_theme": "Urban Logistics & Supply Chain",
+      "composite_priority_score": 3.0,
+      "dimension_scores": {
+        "impact_severity": 3,
+        "stakeholder_breadth": 3,
+        "solution_coverage_gap": 1,
+        "uniqueness": 5,
+        "thematic_centrality": 5
+      },
+      "coverage_status": "well_covered"
+    }
+  ],
+  "theme_statistics": [
+    {
+      "macro_id": "MACRO_001",
+      "title": "Healthcare Systems & Interoperability",
+      "mean_score": 3.3,
+      "median_score": 3.3,
+      "std_dev": 0.0,
+      "min": 3.3,
+      "max": 3.3,
+      "uncovered_count": 0,
+      "unique_percentage": 100.0
+    },
+    {
+      "macro_id": "MACRO_002",
+      "title": "Urban Logistics & Supply Chain",
+      "mean_score": 3.0,
+      "median_score": 3.0,
+      "std_dev": 0.0,
+      "min": 3.0,
+      "max": 3.0,
+      "uncovered_count": 0,
+      "unique_percentage": 100.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "macro_themes": [
+    {
+      "macro_id": "MACRO_001",
+      "title": "Healthcare Systems & Interoperability",
+      "description": "This theme encompasses the technical and structural challenges within healthcare data management. It focuses on the lack of connected systems and the resulting fragmentation of patient information. Solving these issues is critical for modernizing patient care and improving clinical outcomes.",
+      "micro_themes": [
+        {
+          "micro_id": "MICRO_001_A",
+          "title": "EHR Interoperability & Data Silos",
+          "problem_ids": ["p1"]
+        }
+      ],
+      "common_pain_points": [
+        "Fragmented patient records prevent holistic medical history views."
+      ],
+      "shared_stakeholders": ["Healthcare providers", "Doctors"],
+      "collective_impact": "Continued fragmented care leading to hazardous care gaps, redundant testing, and delayed critical diagnoses across the healthcare system.",
+      "problem_count": 1
+    },
+    {
+      "macro_id": "MACRO_002",
+      "title": "Urban Logistics & Supply Chain",
+      "description": "This cluster covers the operational bottlenecks and inefficiencies in modern delivery networks. It highlights the challenges of urban congestion and suboptimal routing that delay final-mile deliveries. Addressing these issues is vital for sustainable and reliable e-commerce growth.",
+      "micro_themes": [
+        {
+          "micro_id": "MICRO_002_A",
+          "title": "Last-Mile Delivery Optimization",
+          "problem_ids": ["p2"]
+        }
+      ],
+      "common_pain_points": [
+        "Inefficient routing and urban congestion cause costly delivery delays."
+      ],
+      "shared_stakeholders": ["Delivery drivers", "E-commerce customers"],
+      "collective_impact": "Systemic delivery delays resulting in high operational costs, missed delivery windows, and significant widespread customer frustration.",
+      "problem_count": 1
+    }
+  ]
+}

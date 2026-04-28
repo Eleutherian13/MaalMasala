@@ -1,0 +1,18 @@
+{
+  "solutions": [
+    {
+      "id": "s1",
+      "title": "Unified Health API Gateway",
+      "description": "A standardized API gateway that connects divergent EHR systems and formats them into a single, cohesive patient profile using FHIR standards to enable seamless interoperability.",
+      "tags": ["api", "fhir", "integration"],
+      "linked_problem_ids": ["p1"]
+    },
+    {
+      "id": "s2",
+      "title": "Dynamic Grid Routing Engine",
+      "description": "An AI-powered routing engine that utilizes real-time traffic data and grid segregation to dynamically adjust last-mile delivery routes on the fly, minimizing latency and fuel spend.",
+      "tags": ["routing", "ai", "real-time"],
+      "linked_problem_ids": ["p2"]
+    }
+  ]
+}
