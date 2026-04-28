@@ -1,0 +1,22 @@
+{
+  "problems": [
+    {
+      "problem_id": "theme_2",
+      "title": "Two-Way Interoperability between the Single Window System and Department Systems",
+      "description": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. The layer must handle schema translation, idempotent delivery, conflict resolution, and full audit trails — without modifying either SWS or any department system.",
+      "constraints": "Neither SWS nor any department system can be modified. UBID is the only reliable join key. Every propagation must be idempotent and fully auditable. No hosted-LLM calls on raw PII."
+    },
+    {
+      "problem_id": "theme_3",
+      "title": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+      "description": "Design a technical platform that, given a tender document and a set of bidder submissions, extracts eligibility criteria, parses heterogeneous bidder documents, evaluates each bidder criterion-by-criterion, and produces explainable evaluation reports suitable for formal government procurement decisions.",
+      "constraints": "Every verdict must be explainable at criterion level. System must never silently disqualify a bidder. Must handle scanned documents and photographs. Must be auditable end-to-end."
+    },
+    {
+      "problem_id": "theme_11",
+      "title": "From Court Judgments to Verified Action Plans",
+      "description": "Build an AI system that reads court judgment PDFs, extracts key information such as case details, key directions, parties involved, and timelines, generates a structured action plan identifying compliance requirements and responsible departments, enforces human-in-the-loop verification before any data is used, and presents only approved records on a government dashboard.",
+      "constraints": "Must handle complex, inconsistent legal PDFs including scanned documents. Outputs must be explainable and verifiable. Focus on decision support, not full automation. Human verification is mandatory before dashboard display."
+    }
+  ]
+}

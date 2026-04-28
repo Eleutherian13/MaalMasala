@@ -1,9 +1,0 @@
-{
-  "total_input": 2,
-  "unique_count": 2,
-  "duplicate_count": 0,
-  "redundant_count": 0,
-  "too_common_count": 0,
-  "clusters": [],
-  "unique_problems": ["p1", "p2"]
-}
