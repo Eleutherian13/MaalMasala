@@ -1,0 +1,26 @@
+{
+  "solution_id": "S254",
+  "problem_id": "Theme_2",
+  "team_name": "Ai earth",
+  "summary": "Design a layer for two-way propagation of service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Ai"
+  ],
+  "key_steps": [
+    "Design a layer",
+    "Implement propagation logic",
+    "Integrate with UBID system"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Two-way propagation",
+    "Department systems integration"
+  ],
+  "missing_components": [
+    "Specific programming language",
+    "Detailed design blueprint"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

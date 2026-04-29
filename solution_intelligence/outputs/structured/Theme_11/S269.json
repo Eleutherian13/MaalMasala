@@ -1,0 +1,35 @@
+{
+  "solution_id": "S269",
+  "problem_id": "Theme_11",
+  "team_name": "JusticeTrack — AI-Powered Court Judgment Analysis and Verified Compliance Action System",
+  "summary": "Build an AI system to extract key information from court judgment PDFs, generate a structured action plan, and present human-verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "AI",
+    "SQL",
+    "API"
+  ],
+  "key_steps": [
+    "Judgment Classification",
+    "Structured Extraction with Confidence Scoring",
+    "Legal Deadline Engine",
+    "Human Verification Interface",
+    "Department Routing & Escalation",
+    "Trusted Dashboard"
+  ],
+  "optimization_claims": [
+    "No missed appeal deadlines",
+    "Reduced contempt risk",
+    "Faster inter-department coordination",
+    "Full accountability and auditability"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

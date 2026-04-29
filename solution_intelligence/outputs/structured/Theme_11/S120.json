@@ -1,0 +1,37 @@
+{
+  "solution_id": "S120",
+  "problem_id": "Theme_11",
+  "team_name": "TirpuKaryaSetu AI: From Court Judgments to Verified Government Actions",
+  "summary": "Build an AI system that converts court judgment PDFs into verified, structured action workflows. The system uses OCR, Retrieval-Augmented Generation (RAG), and a human verification workflow. It supports bilingual Kannada and English, reduces manual effort for officers by over 80%, and ensures accountability with full audit trail.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Google Gemini",
+    "LangChain",
+    "PyMuPDF",
+    "Tesseract OCR",
+    "Python FastAPI",
+    "React"
+  ],
+  "key_steps": [
+    "Process court judgment PDFs using OCR and text extraction",
+    "Identify orders, directions, deadlines, responsible authorities, and conditions from the original judgment text",
+    "Convert the judgment into structured outputs: compliance actions, appeal options, timelines, and department routing",
+    "Apply policy and rule logic such as appeal windows, compliance deadlines, and urgency/risk flags",
+    "Send output into a human verification workflow where officers can Approve, Edit, Reject, assign ownership, and add notes before final action",
+    "Maintain full traceability by linking each action item back to the exact source sentence in the judgment"
+  ],
+  "optimization_claims": [
+    "Reduces manual reading and note-making effort for officers handling court orders by over 80%",
+    "Speeds up accurate decision-making immediately after judgment receipt",
+    "Prevents missed deadlines and lowers legal/contempt risk for departments",
+    "Bridges the gap between court judgment and on-ground government execution with clear ownership and evidence"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

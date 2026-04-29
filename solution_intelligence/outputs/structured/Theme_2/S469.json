@@ -1,0 +1,34 @@
+{
+  "solution_id": "S469",
+  "problem_id": "Theme_2",
+  "team_name": "AI-Driven Two-Way Interoperability Layer for Government Service Synchronization",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "API",
+    "Webhooks",
+    "Polling",
+    "Schema Translation Engine"
+  ],
+  "key_steps": [
+    "Detect changes using APIs, webhooks, or polling",
+    "Convert data between different formats",
+    "Track transactions with unique identifiers",
+    "Identify and resolve conflicts",
+    "Record transformations and decisions"
+  ],
+  "optimization_claims": [
+    "Non-intrusive layer that operates without modifying any existing systems",
+    "Compatible with masked or synthetic data environments",
+    "Modular and extensible architecture"
+  ],
+  "constraints_addressed": [
+    "Coexistence of two parallel systems",
+    "Different schemas, identifiers, and APIs",
+    "Unsynchronized updates",
+    "Data drift due to inconsistencies"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

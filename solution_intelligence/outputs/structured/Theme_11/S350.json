@@ -1,0 +1,40 @@
+{
+  "solution_id": "S350",
+  "problem_id": "Theme_11",
+  "team_name": "Nishchay AI — Decision-Safe Judgment Intelligence System",
+  "summary": "Build an AI system that can read court judgment PDFs, extract key information, generate a structured action plan, and ensure human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python (FastAPI)",
+    "PyMuPDF / pdfplumber",
+    "Tesseract / PaddleOCR",
+    "HuggingFace / LLMs",
+    "Rule-based system",
+    "PostgreSQL",
+    "React / Streamlit",
+    "PDF.js",
+    "Celery + Redis (optional)",
+    "Docker (optional)"
+  ],
+  "key_steps": [
+    "Information Extraction",
+    "Action Plan Generation",
+    "Decision Intelligence Layer",
+    "Human-in-the-Loop Verification",
+    "Dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces manual effort in reading judgments",
+    "Prevents missed deadlines and incorrect actions",
+    "Improves reliability of decision-making",
+    "Ensures accountability through verification"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

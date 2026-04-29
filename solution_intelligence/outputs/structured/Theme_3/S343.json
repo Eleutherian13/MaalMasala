@@ -1,0 +1,36 @@
+{
+  "solution_id": "S343",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ: AI-Powered Eligibility Evaluation Engine for Government Procurement",
+  "summary": "AI-Powered Eligibility Evaluation Engine for Government Procurement",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Claude 3.5",
+    "Sonnet / GPT-4o",
+    "Tesseract OCR",
+    "PyMu PDF",
+    "FastAPI",
+    "Next.js",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Extracts eligibility criteria from tender documents",
+    "Parses bidder submissions",
+    "Evaluates each bidder criterion-by-criterion",
+    "Generates a consolidated audit-ready report"
+  ],
+  "optimization_claims": [
+    "What takes a committee days today takes minutes",
+    "Greater consistency",
+    "Full auditability",
+    "Zero silent disqualifications"
+  ],
+  "constraints_addressed": [
+    "Slow and inconsistent evaluation process",
+    "Hard to audit",
+    "Mistakes are costly"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

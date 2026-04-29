@@ -1,0 +1,35 @@
+{
+  "solution_id": "S486",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI Lite – Smart Eligibility Analyzer for Government Tenders",
+  "summary": "Design an AI-based platform for simplifying the process of analyzing government tender documents, extracting key eligibility criteria, organizing information, evaluating user eligibility, and reducing manual effort in the procurement process.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "React.js",
+    "FastAPI (Python)",
+    "spaCy / Transformers",
+    "PyMuPDF / pdfplumber",
+    "Tesseract"
+  ],
+  "key_steps": [
+    "Automatically extracts key eligibility criteria from tender documents",
+    "Identifies important details such as financial requirements, technical qualifications, certifications, and compliance conditions",
+    "Organizes extracted information into a structured format and clearly categorizes it into mandatory and optional requirements",
+    "Evaluates user eligibility based on the extracted criteria"
+  ],
+  "optimization_claims": [
+    "Reduces time and effort required to analyze tender documents",
+    "Minimizes the risk of missing important details",
+    "Enables businesses to quickly assess their eligibility before applying",
+    "Improves efficiency in the procurement process"
+  ],
+  "constraints_addressed": [
+    "Complex and unstructured tender documents",
+    "Manual effort required for analysis",
+    "Time consumption during manual analysis",
+    "Risk of missing important criteria"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,39 @@
+{
+  "solution_id": "S407",
+  "problem_id": "Theme_2",
+  "team_name": "UMBRA Universal Mesh Bridge for Real-time Assimilation",
+  "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and the legacy department systems using UBID as the common join key, without modifying anything on either side.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Kafka",
+    "Flink",
+    "Redis",
+    "PostgreSQL",
+    "ClickHouse",
+    "Java Spring Boot",
+    "Python",
+    "Confluent Schema Registry",
+    "React + D3",
+    "Kubernetes"
+  ],
+  "key_steps": [
+    "Capture",
+    "Translate",
+    "Propagate",
+    "Conflict Arbiter",
+    "Audit Ledger"
+  ],
+  "optimization_claims": [
+    "Merkle tree snapshot diffing solves ‘silent’ departments.",
+    "Hub-and-spoke translation avoids 1,600 integrations.",
+    "Reversible conflict resolution ensures accountability."
+  ],
+  "constraints_addressed": [
+    "No system can be touched. No webhooks, no triggers, no database hooks.",
+    "UBID is the only join key.",
+    "Big bang migration is impossible."
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

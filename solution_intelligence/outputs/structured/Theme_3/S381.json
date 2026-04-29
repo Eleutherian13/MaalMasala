@@ -1,0 +1,31 @@
+{
+  "solution_id": "S381",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Based Tender Intelligence System for Automated Eligibility and Criteria Analysis",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Tesseract OCR",
+    "LayoutLM",
+    "spaCy",
+    "Python (FastAPI)"
+  ],
+  "key_steps": [
+    "Automatic extraction from PDFs and scanned documents",
+    "NLP-based classification of eligibility criteria",
+    "Differentiation between mandatory and optional conditions",
+    "Rule generation for automated eligibility checking"
+  ],
+  "optimization_claims": [
+    "Saves time in tender evaluation process",
+    "Reduces human errors and ambiguity",
+    "Ensures fair and consistent eligibility assessment"
+  ],
+  "constraints_addressed": [
+    "Complex legal tender documents",
+    "Manual interpretation errors"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

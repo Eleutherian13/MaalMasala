@@ -1,0 +1,34 @@
+{
+  "solution_id": "S215",
+  "problem_id": "Theme_2",
+  "team_name": "SyncBridge Karnataka",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "Spring Boot",
+    "Kafka",
+    "RabbitMQ",
+    "PostgreSQL",
+    "React"
+  ],
+  "key_steps": [
+    "Canonical event conversion",
+    "UBID-based routing",
+    "Idempotent propagation",
+    "Conflict detection and resolution",
+    "Audit logging"
+  ],
+  "optimization_claims": [
+    "Reliable propagation",
+    "Transparent conflict handling",
+    "Fully auditable system"
+  ],
+  "constraints_addressed": [
+    "Heterogeneous live systems",
+    "No changes to SWS or department systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

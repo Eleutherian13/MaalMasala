@@ -1,0 +1,40 @@
+{
+  "solution_id": "S173",
+  "problem_id": "Theme_3",
+  "team_name": "TenderTrace: AI-Based Tender Evaluation and Audit Platform",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement. Automates the entire tender evaluation process end-to-end using Google Gemini 1.5 Flash, Google Vision API, Apache PDFBox, Apache POI, iText 7, and H2.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Java 8",
+    "Spring Boot (REST API)",
+    "Google Gemini 1.5 Flash",
+    "Google Vision API",
+    "Apache PDFBox",
+    "Apache POI",
+    "iText 7",
+    "H2",
+    "HTML",
+    "vanilla JavaScript"
+  ],
+  "key_steps": [
+    "Tender Understanding",
+    "Bidder Document Parsing",
+    "Evaluation Engine",
+    "Explainability",
+    "Audit Trail"
+  ],
+  "optimization_claims": [
+    "Automates the entire tender evaluation process",
+    "No black-box outputs",
+    "Generates a downloadable, audit-ready PDF report"
+  ],
+  "constraints_addressed": [
+    "Manual evaluation of hundreds of pages of bidder documents",
+    "Inconsistent results",
+    "Lack of structured audit trail",
+    "Differences in conclusions between evaluators"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

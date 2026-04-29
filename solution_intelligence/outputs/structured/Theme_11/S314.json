@@ -1,0 +1,31 @@
+{
+  "solution_id": "S314",
+  "problem_id": "Theme_11",
+  "team_name": "JudgeAI — From Court Judgments to Verified Action Plans",
+  "summary": "From Court Judgments to Verified Action Plans is an AI system that reads court judgment PDFs, extracts key information, generates structured action plans, and ensures human-verified data presentation in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Legal NLP",
+    "Open-source tools"
+  ],
+  "key_steps": [
+    "AI Extraction Engine",
+    "AI Action Plan Generator",
+    "Mandatory Human Verification Loop",
+    "Trusted Audit Trail"
+  ],
+  "optimization_claims": [
+    "Faster judicial compliance",
+    "Improved fairness in judgments",
+    "Full accountability"
+  ],
+  "constraints_addressed": [
+    "Manual, inconsistent, and error-prone process of reading court judgment PDFs",
+    "Inconsistent interpretations",
+    "Missed deadlines for appeals",
+    "Zero accountability or audit trail"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

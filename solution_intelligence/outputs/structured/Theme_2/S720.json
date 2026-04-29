@@ -1,0 +1,38 @@
+{
+  "solution_id": "S720",
+  "problem_id": "Theme_2",
+  "team_name": "PRATIDHVANI: Conflict-Free Bidirectional Interoperability Fabric for Karnataka's Single Window System",
+  "summary": "Design a layer that propagates service requests between Karnataka's Single Window System (SWS) and department systems using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Apache Kafka",
+    "Rust",
+    "Temporal",
+    "Postgres",
+    "Debezium"
+  ],
+  "key_steps": [
+    "Event-sourced backbone",
+    "CRDTs for conflict resolution",
+    "Tiered change detection",
+    "Schema translation",
+    "Idempotency & delivery guarantees",
+    "Audit & reconciliation"
+  ],
+  "optimization_claims": [
+    "idempotency",
+    "at-least-once delivery",
+    "mathematically provable conflict convergence",
+    "conflict convergence without modifying a single line of code in SWS or any department system"
+  ],
+  "constraints_addressed": [
+    "permanently heterogeneous systems",
+    "split brain",
+    "neither side can be changed",
+    "UBID as the only trustworthy join key",
+    "every byte of propagated state must be auditable to a formal government standard"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

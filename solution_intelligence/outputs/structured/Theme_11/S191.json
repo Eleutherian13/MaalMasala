@@ -1,0 +1,32 @@
+{
+  "solution_id": "S191",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaSetu: Turning Court Judgments into Clear, Verified Action Plans for Government Departments",
+  "summary": "Build an AI system that converts court judgments into clear, structured, and verified action plans for government departments.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "language models",
+    "rule-based logic"
+  ],
+  "key_steps": [
+    "Reading the judgment",
+    "Converting into actions",
+    "Human verification",
+    "Dashboard presentation"
+  ],
+  "optimization_claims": [
+    "Reduces missed deadlines",
+    "Lowers legal risk",
+    "Improves accountability",
+    "Ensures continuity during officer transfers"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

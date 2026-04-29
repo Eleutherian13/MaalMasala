@@ -1,0 +1,34 @@
+{
+  "solution_id": "S557",
+  "problem_id": "Theme_3",
+  "team_name": "Pramana.AI: Enterprise Tender Intelligence & Automated Auditing",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, and produce explainable evaluation reports using Pramana.AI, a system combining Regex, NLP logic, OCR, and FastAPI.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "FastAPI",
+    "EasyOCR",
+    "OpenCV",
+    "Python",
+    "Spacy"
+  ],
+  "key_steps": [
+    "Document ingestion",
+    "Key data point extraction",
+    "Mathematical grading against rulebook",
+    "Audit matrix output"
+  ],
+  "optimization_claims": [
+    "100% auditable, transparent, and legally defensible results",
+    "Automation of the tender evaluation pipeline",
+    "Elimination of human error in compliance checks"
+  ],
+  "constraints_addressed": [
+    "Turnover",
+    "GSTINs",
+    "ISO certifications"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

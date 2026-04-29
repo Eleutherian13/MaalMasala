@@ -1,0 +1,28 @@
+{
+  "solution_id": "S101",
+  "problem_id": "Theme_3",
+  "team_name": "SATYA: AI-Powered Tender Evaluation & Procurement Integrity System",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PaddleOCR",
+    "Vision AI"
+  ],
+  "key_steps": [
+    "Extracting tender criteria",
+    "Evaluating bidder eligibility with explainable evidence",
+    "Detecting fraud signals",
+    "Ensuring audit-ready and RTI-compliant decisions"
+  ],
+  "optimization_claims": [
+    "Never silently disqualifies a bidder",
+    "Every ambiguous case is escalated to the officer with full context"
+  ],
+  "constraints_addressed": [
+    "Audit-readiness",
+    "RTI compliance"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

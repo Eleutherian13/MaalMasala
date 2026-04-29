@@ -1,0 +1,29 @@
+{
+  "solution_id": "S669",
+  "problem_id": "Theme_3",
+  "team_name": "Nyaya-Scan  ( AI for Transparent & Explainable Government Procurement)",
+  "summary": "Design an AI-powered tender transparency and evaluation system called Nyaya-Scan to eliminate bias, corruption, and opacity in government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python (FastAPI)",
+    "React",
+    "PostgreSQL",
+    "spaCy/Transformers",
+    "Tesseract OCR"
+  ],
+  "key_steps": [
+    "AI document understanding using OCR + NLP",
+    "Automated eligibility evaluation",
+    "Human review for uncertain cases"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to minutes",
+    "Standardizes decisions"
+  ],
+  "constraints_addressed": [
+    "Bias and corruption in manual tender evaluation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

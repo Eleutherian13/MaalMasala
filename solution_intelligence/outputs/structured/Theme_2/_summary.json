@@ -1,0 +1,3063 @@
+[
+  {
+    "solution_id": "S001",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge AI - Autonomous Government Interoperability Layer",
+    "summary": "Design an intelligent interoperability layer for two-way synchronization between Karnataka's Single Window System and legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "webhooks",
+      "polling mechanisms",
+      "snapshot comparisons",
+      "event-driven architecture",
+      "AI-powered schema translation engine",
+      "conflict resolution engine"
+    ],
+    "key_steps": [
+      "Real-time middleware design",
+      "Data field mapping and transformation",
+      "Simultaneous update detection",
+      "Configurable conflict resolution policies",
+      "Idempotency and reliability guarantees",
+      "Audit trail implementation",
+      "Microservices-based architecture",
+      "Monitoring dashboards"
+    ],
+    "optimization_claims": [
+      "Improved governance efficiency",
+      "Enhanced citizen experience"
+    ],
+    "constraints_addressed": [
+      "Data inconsistency",
+      "System fragmentation"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S003",
+    "problem_id": "Theme_2",
+    "team_name": "Setu AI \u2014 Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System (SWS) and its department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Setu AI"
+    ],
+    "key_steps": [
+      "DIRECTION 1 \u2014 SWS TO DEPARTMENTS: propagation, idempotency keys, exponential backoff retry queue, declarative mapping engine, configuration-based onboarding",
+      "DIRECTION 2 \u2014 DEPARTMENTS TO SWS: three-tier detection strategy, webhook subscription, REST polling, scheduled snapshot diffing",
+      "CONFLICT RESOLUTION",
+      "AUDIT TRAIL",
+      "RISKS ADDRESSED"
+    ],
+    "optimization_claims": [
+      "Zero modifications to either SWS or department systems",
+      "Every propagation is idempotent, auditable, and conflict-aware"
+    ],
+    "constraints_addressed": [
+      "Department system going offline mid-propagation",
+      "Schema changes in a department system breaking the mapping",
+      "Clock skew between systems causing false conflict detection"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S004",
+    "problem_id": "Theme_2",
+    "team_name": "Adaptive Screen Interaction System Using AI-Based Gesture and Voice Control",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. The solution is an AI-based multimodal human-computer interaction system called ASIS.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "computer vision",
+      "machine learning",
+      "speech processing",
+      "MediaPipe",
+      "K-Nearest Neighbors",
+      "PyAutoGUI",
+      "VOSK"
+    ],
+    "key_steps": [
+      "real-time video capture",
+      "hand landmarks detection and tracking",
+      "gesture recognition",
+      "cursor movement, clicking, dragging, scrolling performance",
+      "voice assistant integration",
+      "eye-blink detection",
+      "adaptive learning capability"
+    ],
+    "optimization_claims": [
+      "operates in real-time with optimized performance and minimal latency"
+    ],
+    "constraints_addressed": [
+      "interoperability between Single Window System and legacy department systems using UBID"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S007",
+    "problem_id": "Theme_2",
+    "team_name": "\"UBID Bridge\" \u2014 A Stateful Interoperability Engine",
+    "summary": "Design a stateful interoperability engine (UBID Bridge) to propagate service requests bi-directionally between Karnataka's Single Window System (SWS) and department systems using UBID as a common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Redis",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Build UBID Bridge middleware",
+      "Establish integration with SWS and department systems",
+      "Implement event-driven propagation",
+      "Handle conflict detection and resolution"
+    ],
+    "optimization_claims": [
+      "Idempotency through unique event IDs, retries, and deduplication store",
+      "Automated schema translation via per-department Translator modules",
+      "Three tiers for handling heterogeneous department APIs"
+    ],
+    "constraints_addressed": [
+      "Data consistency across systems",
+      "Conflict resolution policies for high integrity data"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S010",
+    "problem_id": "Theme_2",
+    "team_name": "Sutra-K: The Interoperability Fabric for Karnataka SWS",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Redis Streams/RabbitMQ",
+      "C",
+      "Modern frontend framework"
+    ],
+    "key_steps": [
+      "Event-driven, bidirectional interoperability layer",
+      "JSON mapping layer",
+      "Robust retry queues",
+      "High-Speed Polling Engine",
+      "Deterministic Timestamp Triage",
+      "Immutable Audit Ledger",
+      "Adaptive Polling"
+    ],
+    "optimization_claims": [
+      "Strict data synchronization without modifying a single line of legacy source code.",
+      "100% data parity across the state's ecosystem."
+    ],
+    "constraints_addressed": [
+      "Isolated silos of department systems",
+      "Lack of modern webhook capabilities"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S012",
+    "problem_id": "Theme_2",
+    "team_name": "NullSync \u2014 Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a bidirectional interoperability layer for Karnataka's government systems using Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Node-cron"
+    ],
+    "key_steps": [
+      "Identify changes in SWS",
+      "Translate SWS payload to target schema",
+      "Write updates via APIs",
+      "Handle conflicts",
+      "Audit propagation events"
+    ],
+    "optimization_claims": [
+      "Idempotent operations",
+      "Configurable conflict resolution policy"
+    ],
+    "constraints_addressed": [
+      "No modification of SWS or department systems",
+      "UBID as the only join key"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S018",
+    "problem_id": "Theme_2",
+    "team_name": "SetuSync AI: Two-Way Interoperability Layer for SWS and Department Systems",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "SetuSync AI"
+    ],
+    "key_steps": [
+      "Translation of requests",
+      "Handling retries, duplicates, conflicts, and failures",
+      "Logging of every propagation",
+      "Configurable policies for conflicting updates",
+      "Schema mappings",
+      "Audit trails"
+    ],
+    "optimization_claims": [
+      "Idempotent propagations",
+      "Traceability",
+      "Reliability",
+      "Reversibility"
+    ],
+    "constraints_addressed": [
+      "Systems cannot be modified",
+      "Differing schemas across departments",
+      "Service requests may originate from either side"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S020",
+    "problem_id": "Theme_2",
+    "team_name": "OmniLink: Bi-Directional Legacy Sync Layer",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Python",
+      "FastAPI",
+      "Kafka or RabbitMQ",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Problem Understanding & Constraints",
+      "Two-Way Propagation Architecture",
+      "Schema Translation & Management",
+      "Conflict Resolution & Idempotency",
+      "Audit Trail Design",
+      "Architecture Overview",
+      "Risks & Trade-Offs",
+      "Implementation Plan (Round 2)"
+    ],
+    "optimization_claims": [
+      "Batching snapshot queries during off-peak hours and strictly limiting the query scope to high-velocity tables"
+    ],
+    "constraints_addressed": [
+      "Strict idempotency, flawless auditability, zero source-system modification"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S029",
+    "problem_id": "Theme_2",
+    "team_name": "Sutradhara: AI-Powered Two-Way Interoperability Layer Between Karnataka Single Window System and Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "AI",
+      "Middleware"
+    ],
+    "key_steps": [
+      "Implementing an AI-powered orchestration layer",
+      "Using UBID as a common identity key",
+      "Propagating verified updates in both directions",
+      "Conflict detection and resolution",
+      "Auditability of every action",
+      "AI assistance for onboarding, schema mappings, conflict rules, anomaly explanations"
+    ],
+    "optimization_claims": [
+      "Faster approvals",
+      "Consistent business records across departments",
+      "Lower reconciliation workload",
+      "Stronger compliance monitoring",
+      "Better investor confidence",
+      "Future-ready interoperable governance infrastructure"
+    ],
+    "constraints_addressed": [
+      "Fragmented records",
+      "Operational delays",
+      "Repeated document verification",
+      "Inconsistent decisions",
+      "Poor citizen experience"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S032",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge AI - Autonomous Government Interoperability Layer",
+    "summary": "Design an intelligent interoperability layer for two-way synchronization between Karnataka's Single Window System and legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "webhooks",
+      "polling mechanisms",
+      "snapshot comparisons",
+      "event-driven architecture",
+      "AI-powered schema translation engine",
+      "conflict resolution engine"
+    ],
+    "key_steps": [
+      "Real-time middleware design",
+      "Data field mapping and transformation",
+      "Simultaneous update detection",
+      "Configurable conflict resolution policies",
+      "Idempotency and reliability guarantees",
+      "Audit trail implementation",
+      "Microservices-based architecture",
+      "Monitoring dashboards"
+    ],
+    "optimization_claims": [
+      "Improved governance efficiency",
+      "Enhanced citizen experience"
+    ],
+    "constraints_addressed": [
+      "Data inconsistency",
+      "System fragmentation"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S034",
+    "problem_id": "Theme_2",
+    "team_name": "Setu AI \u2014 Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System (SWS) and its department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Setu AI"
+    ],
+    "key_steps": [
+      "DIRECTION 1 \u2014 SWS TO DEPARTMENTS: propagation, idempotency keys, exponential backoff retry queue, declarative mapping engine, configuration-based onboarding",
+      "DIRECTION 2 \u2014 DEPARTMENTS TO SWS: three-tier detection strategy, webhook subscription, REST polling, scheduled snapshot diffing",
+      "CONFLICT RESOLUTION",
+      "AUDIT TRAIL",
+      "RISKS ADDRESSED"
+    ],
+    "optimization_claims": [
+      "Zero modifications to either SWS or department systems",
+      "Every propagation is idempotent, auditable, and conflict-aware"
+    ],
+    "constraints_addressed": [
+      "Department system going offline mid-propagation",
+      "Schema changes in a department system breaking the mapping",
+      "Clock skew between systems causing false conflict detection"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S035",
+    "problem_id": "Theme_2",
+    "team_name": "Adaptive Screen Interaction System Using AI-Based Gesture and Voice Control",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. The solution is an AI-based multimodal human-computer interaction system called ASIS.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "computer vision",
+      "machine learning",
+      "speech processing",
+      "MediaPipe",
+      "K-Nearest Neighbors",
+      "PyAutoGUI",
+      "VOSK"
+    ],
+    "key_steps": [
+      "real-time video capture",
+      "hand landmarks detection and tracking",
+      "gesture recognition",
+      "cursor movement, clicking, dragging, scrolling performance",
+      "voice assistant integration",
+      "eye-blink detection",
+      "adaptive learning capability"
+    ],
+    "optimization_claims": [
+      "operates in real-time with optimized performance and minimal latency"
+    ],
+    "constraints_addressed": [
+      "interoperability between Single Window System and legacy department systems using UBID"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S038",
+    "problem_id": "Theme_2",
+    "team_name": "\"UBID Bridge\" \u2014 A Stateful Interoperability Engine",
+    "summary": "Design a stateful interoperability engine (UBID Bridge) to propagate service requests bi-directionally between Karnataka's Single Window System (SWS) and department systems using UBID as a common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Redis",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Build UBID Bridge middleware",
+      "Establish integration with SWS and department systems",
+      "Implement event-driven propagation",
+      "Handle conflict detection and resolution"
+    ],
+    "optimization_claims": [
+      "Idempotency through unique event IDs, retries, and deduplication store",
+      "Automated schema translation via per-department Translator modules",
+      "Three tiers for handling heterogeneous department APIs"
+    ],
+    "constraints_addressed": [
+      "Data consistency across systems",
+      "Conflict resolution policies for high integrity data"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S041",
+    "problem_id": "Theme_2",
+    "team_name": "Sutra-K: The Interoperability Fabric for Karnataka SWS",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Redis Streams/RabbitMQ",
+      "C",
+      "Modern frontend framework"
+    ],
+    "key_steps": [
+      "Event-driven, bidirectional interoperability layer",
+      "JSON mapping layer",
+      "Robust retry queues",
+      "High-Speed Polling Engine",
+      "Deterministic Timestamp Triage",
+      "Immutable Audit Ledger",
+      "Adaptive Polling"
+    ],
+    "optimization_claims": [
+      "Strict data synchronization without modifying a single line of legacy source code.",
+      "100% data parity across the state's ecosystem."
+    ],
+    "constraints_addressed": [
+      "Isolated silos of department systems",
+      "Lack of modern webhook capabilities"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S043",
+    "problem_id": "Theme_2",
+    "team_name": "NullSync \u2014 Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a bidirectional interoperability layer for Karnataka's government systems using Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Node-cron"
+    ],
+    "key_steps": [
+      "Identify changes in SWS",
+      "Translate SWS payload to target schema",
+      "Write updates via APIs",
+      "Handle conflicts",
+      "Audit propagation events"
+    ],
+    "optimization_claims": [
+      "Idempotent operations",
+      "Configurable conflict resolution policy"
+    ],
+    "constraints_addressed": [
+      "No modification of SWS or department systems",
+      "UBID as the only join key"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S049",
+    "problem_id": "Theme_2",
+    "team_name": "SetuSync AI: Two-Way Interoperability Layer for SWS and Department Systems",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "SetuSync AI"
+    ],
+    "key_steps": [
+      "Translation of requests",
+      "Handling retries, duplicates, conflicts, and failures",
+      "Logging of every propagation",
+      "Configurable policies for conflicting updates",
+      "Schema mappings",
+      "Audit trails"
+    ],
+    "optimization_claims": [
+      "Idempotent propagations",
+      "Traceability",
+      "Reliability",
+      "Reversibility"
+    ],
+    "constraints_addressed": [
+      "Systems cannot be modified",
+      "Differing schemas across departments",
+      "Service requests may originate from either side"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S051",
+    "problem_id": "Theme_2",
+    "team_name": "OmniLink: Bi-Directional Legacy Sync Layer",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Python",
+      "FastAPI",
+      "Kafka or RabbitMQ",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Problem Understanding & Constraints",
+      "Two-Way Propagation Architecture",
+      "Schema Translation & Management",
+      "Conflict Resolution & Idempotency",
+      "Audit Trail Design",
+      "Architecture Overview",
+      "Risks & Trade-Offs",
+      "Implementation Plan (Round 2)"
+    ],
+    "optimization_claims": [
+      "Batching snapshot queries during off-peak hours and strictly limiting the query scope to high-velocity tables"
+    ],
+    "constraints_addressed": [
+      "Strict idempotency, flawless auditability, zero source-system modification"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S060",
+    "problem_id": "Theme_2",
+    "team_name": "Sutradhara: AI-Powered Two-Way Interoperability Layer Between Karnataka Single Window System and Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "AI",
+      "Middleware"
+    ],
+    "key_steps": [
+      "Implementing an AI-powered orchestration layer",
+      "Using UBID as a common identity key",
+      "Propagating verified updates in both directions",
+      "Conflict detection and resolution",
+      "Auditability of every action",
+      "AI assistance for onboarding, schema mappings, conflict rules, anomaly explanations"
+    ],
+    "optimization_claims": [
+      "Faster approvals",
+      "Consistent business records across departments",
+      "Lower reconciliation workload",
+      "Stronger compliance monitoring",
+      "Better investor confidence",
+      "Future-ready interoperable governance infrastructure"
+    ],
+    "constraints_addressed": [
+      "Fragmented records",
+      "Operational delays",
+      "Repeated document verification",
+      "Inconsistent decisions",
+      "Poor citizen experience"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S124",
+    "problem_id": "Theme_2",
+    "team_name": "New",
+    "summary": "Design a layer that facilitates bi-directional propagation of service requests using Unique Business Identifier (UBID) as common join key, for Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Develop the bi-directional layer",
+      "Establish UBID as common join key",
+      "Integrate with Single Window System and legacy department systems"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data integration between disparate systems",
+      "Interoperability between Single Window System and legacy departments"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S134",
+    "problem_id": "Theme_2",
+    "team_name": "New 1m rupiya ka",
+    "summary": "Design a layer that enables two-way propagation of service requests using Unique Business Identifier (UBID) as common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Define APIs for request propagation",
+      "Implement UBID as common join key",
+      "Test bi-directional data flow"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data consistency between systems",
+      "Efficient communication between systems"
+    ],
+    "missing_components": [
+      "Detailed design and architecture",
+      "Implementation details"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S140",
+    "problem_id": "Theme_2",
+    "team_name": "Aether: Intelligent Self-Healing Interoperability Layer",
+    "summary": "Design a layer, Aether, that propagates service requests both ways between Karnataka's Single Window System (SWS) and the legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs",
+      "webhooks",
+      "polling",
+      "Kafka",
+      "Redis",
+      "config-based mapping layer"
+    ],
+    "key_steps": [
+      "Capturing data changes",
+      "Sending updates to event queue",
+      "Background processing and syncing",
+      "Handling different data formats",
+      "Finding changes fast",
+      "Handling conflicts",
+      "Ensuring idempotency",
+      "Self-healing mechanism",
+      "Monitoring and visibility",
+      "Audit and traceability"
+    ],
+    "optimization_claims": [
+      "Makes updates flow in both directions smoothly",
+      "No need to change existing systems",
+      "Easier onboarding of new departments",
+      "Finding changes fast with SHA-256 hashes and event IDs based on UBID and payload",
+      "Self-healing mechanism keeps data accurate and consistent over time"
+    ],
+    "constraints_addressed": [
+      "Inconsistent data across systems",
+      "Lack of real-time updates",
+      "Data loss in case of failures"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S142",
+    "problem_id": "Theme_2",
+    "team_name": "New",
+    "summary": "Design a layer that facilitates bi-directional propagation of service requests using Unique Business Identifier (UBID) as common join key, for Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Develop the bi-directional layer",
+      "Establish UBID as common join key",
+      "Integrate with Single Window System and legacy department systems"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data integration between disparate systems",
+      "Interoperability between Single Window System and legacy departments"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S152",
+    "problem_id": "Theme_2",
+    "team_name": "New 1m rupiya ka",
+    "summary": "Design a layer that enables two-way propagation of service requests using Unique Business Identifier (UBID) as common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Define APIs for request propagation",
+      "Implement UBID as common join key",
+      "Test bi-directional data flow"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data consistency between systems",
+      "Efficient communication between systems"
+    ],
+    "missing_components": [
+      "Detailed design and architecture",
+      "Implementation details"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S158",
+    "problem_id": "Theme_2",
+    "team_name": "Aether: Intelligent Self-Healing Interoperability Layer",
+    "summary": "Design a layer, Aether, that propagates service requests both ways between Karnataka's Single Window System (SWS) and the legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs",
+      "webhooks",
+      "polling",
+      "Kafka",
+      "Redis",
+      "config-based mapping layer"
+    ],
+    "key_steps": [
+      "Capturing data changes",
+      "Sending updates to event queue",
+      "Background processing and syncing",
+      "Handling different data formats",
+      "Finding changes fast",
+      "Handling conflicts",
+      "Ensuring idempotency",
+      "Self-healing mechanism",
+      "Monitoring and visibility",
+      "Audit and traceability"
+    ],
+    "optimization_claims": [
+      "Makes updates flow in both directions smoothly",
+      "No need to change existing systems",
+      "Easier onboarding of new departments",
+      "Finding changes fast with SHA-256 hashes and event IDs based on UBID and payload",
+      "Self-healing mechanism keeps data accurate and consistent over time"
+    ],
+    "constraints_addressed": [
+      "Inconsistent data across systems",
+      "Lack of real-time updates",
+      "Data loss in case of failures"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S163",
+    "problem_id": "Theme_2",
+    "team_name": "Nexus: A Secure AI Command Layer for Cross-System Interoperability and Controlled Execution",
+    "summary": "Design a secure AI command layer for cross-system interoperability between Karnataka's Single Window System and legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Next.js 16",
+      "Auth0 Token Vault + Auth0 AI SDK",
+      "Google Gemini via Vercel AI SDK",
+      "Custom Risk Engine",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Framer Motion"
+    ],
+    "key_steps": [
+      "Multi-system orchestration across independent platforms",
+      "Policy-based execution control using risk classification",
+      "Human-in-the-loop approvals for sensitive operations",
+      "Explainable decisions with transparent logs",
+      "Secure token handling with zero credential exposure"
+    ],
+    "optimization_claims": [
+      "Enables safe adoption of AI agents in real-world systems without compromising security.",
+      "Improves visibility and control over AI actions.",
+      "Provides an audit trail for every action."
+    ],
+    "constraints_addressed": [
+      "Credentials are often stored in insecure ways",
+      "Actions execute without clear visibility",
+      "No control over what the agent can or cannot do",
+      "No audit trail to verify behavior"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S183",
+    "problem_id": "Theme_2",
+    "team_name": "Nexus: A Secure AI Command Layer for Cross-System Interoperability and Controlled Execution",
+    "summary": "Design a secure AI command layer for cross-system interoperability between Karnataka's Single Window System and legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Next.js 16",
+      "Auth0 Token Vault + Auth0 AI SDK",
+      "Google Gemini via Vercel AI SDK",
+      "Custom Risk Engine",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Framer Motion"
+    ],
+    "key_steps": [
+      "Multi-system orchestration across independent platforms",
+      "Policy-based execution control using risk classification",
+      "Human-in-the-loop approvals for sensitive operations",
+      "Explainable decisions with transparent logs",
+      "Secure token handling with zero credential exposure"
+    ],
+    "optimization_claims": [
+      "Enables safe adoption of AI agents in real-world systems without compromising security.",
+      "Improves visibility and control over AI actions.",
+      "Provides an audit trail for every action."
+    ],
+    "constraints_addressed": [
+      "Credentials are often stored in insecure ways",
+      "Actions execute without clear visibility",
+      "No control over what the agent can or cannot do",
+      "No audit trail to verify behavior"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S201",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge Karnataka",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "Spring Boot",
+      "Kafka",
+      "RabbitMQ",
+      "PostgreSQL",
+      "React"
+    ],
+    "key_steps": [
+      "Canonical event conversion",
+      "UBID-based routing",
+      "Idempotent propagation",
+      "Conflict detection and resolution",
+      "Audit logging"
+    ],
+    "optimization_claims": [
+      "Reliable propagation",
+      "Transparent conflict handling",
+      "Fully auditable system"
+    ],
+    "constraints_addressed": [
+      "Heterogeneous live systems",
+      "No changes to SWS or department systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S207",
+    "problem_id": "Theme_2",
+    "team_name": "Jfcbjnbgc",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API"
+    ],
+    "key_steps": [
+      "Identify the required data for propagation",
+      "Define APIs for bi-directional communication",
+      "Implement the UBID-based mapping layer",
+      "Test and deploy the solution"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data inconsistency across systems",
+      "Manual data entry",
+      "Lack of real-time updates"
+    ],
+    "missing_components": [
+      "Detailed error handling mechanism",
+      "Monitoring and logging tools"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S210",
+    "problem_id": "Theme_2",
+    "team_name": "Adaptive Consistency Interoperability Layer for Two-Way Government System Synchronization",
+    "summary": "Design an interoperability layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API Gateway",
+      "SWS ID Registry",
+      "Schema Registry",
+      "Event Bus",
+      "Transformation Layer",
+      "Policy Engine",
+      "Sync Engine",
+      "Conflict Resolver",
+      "Audit Store",
+      "Change Capture Layer"
+    ],
+    "key_steps": [
+      "Core Design Principle",
+      "Two-Way Propagation",
+      "Schema Translation and Registry Management",
+      "Change Discovery for Systems Without Events",
+      "Conflict Detection and Resolution",
+      "Explainability and reversibility",
+      "Reliability Guarantees"
+    ],
+    "optimization_claims": [
+      "Deterministic idempotency keys",
+      "Eventual propagation where safe and reconciliation for drift",
+      "Adaptive consistency only where needed",
+      "Retry, backoff, and reconciliation queues",
+      "Configurable resolution policies"
+    ],
+    "constraints_addressed": [
+      "Fragmented public-sector environment",
+      "Independent and failure-prone systems",
+      "40+ legacy department systems with their own schemas and operational rules"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S215",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge Karnataka",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "Spring Boot",
+      "Kafka",
+      "RabbitMQ",
+      "PostgreSQL",
+      "React"
+    ],
+    "key_steps": [
+      "Canonical event conversion",
+      "UBID-based routing",
+      "Idempotent propagation",
+      "Conflict detection and resolution",
+      "Audit logging"
+    ],
+    "optimization_claims": [
+      "Reliable propagation",
+      "Transparent conflict handling",
+      "Fully auditable system"
+    ],
+    "constraints_addressed": [
+      "Heterogeneous live systems",
+      "No changes to SWS or department systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S221",
+    "problem_id": "Theme_2",
+    "team_name": "Jfcbjnbgc",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API"
+    ],
+    "key_steps": [
+      "Identify the required data for propagation",
+      "Define APIs for bi-directional communication",
+      "Implement the UBID-based mapping layer",
+      "Test and deploy the solution"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data inconsistency across systems",
+      "Manual data entry",
+      "Lack of real-time updates"
+    ],
+    "missing_components": [
+      "Detailed error handling mechanism",
+      "Monitoring and logging tools"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S224",
+    "problem_id": "Theme_2",
+    "team_name": "Adaptive Consistency Interoperability Layer for Two-Way Government System Synchronization",
+    "summary": "Design an interoperability layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API Gateway",
+      "SWS ID Registry",
+      "Schema Registry",
+      "Event Bus",
+      "Transformation Layer",
+      "Policy Engine",
+      "Sync Engine",
+      "Conflict Resolver",
+      "Audit Store",
+      "Change Capture Layer"
+    ],
+    "key_steps": [
+      "Core Design Principle",
+      "Two-Way Propagation",
+      "Schema Translation and Registry Management",
+      "Change Discovery for Systems Without Events",
+      "Conflict Detection and Resolution",
+      "Explainability and reversibility",
+      "Reliability Guarantees"
+    ],
+    "optimization_claims": [
+      "Deterministic idempotency keys",
+      "Eventual propagation where safe and reconciliation for drift",
+      "Adaptive consistency only where needed",
+      "Retry, backoff, and reconciliation queues",
+      "Configurable resolution policies"
+    ],
+    "constraints_addressed": [
+      "Fragmented public-sector environment",
+      "Independent and failure-prone systems",
+      "40+ legacy department systems with their own schemas and operational rules"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S236",
+    "problem_id": "Theme_2",
+    "team_name": "BRIDGE \u2014 Bidirectional Real-time Interoperability for Distributed Government Entities",
+    "summary": "Design a layer for bidirectional real-time interoperability using UBID as common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "system",
+    "tech_stack": [
+      "BRIDGE"
+    ],
+    "key_steps": [
+      "Implement bidirectional propagation of service requests",
+      "Use UBID as common join key"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between different systems"
+    ],
+    "missing_components": [
+      "Detailed design and implementation guidelines for the BRIDGE system"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S237",
+    "problem_id": "Theme_2",
+    "team_name": "Ai earth",
+    "summary": "Design a layer for two-way propagation of service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Ai"
+    ],
+    "key_steps": [
+      "Design a layer",
+      "Implement propagation logic",
+      "Integrate with UBID system"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Two-way propagation",
+      "Department systems integration"
+    ],
+    "missing_components": [
+      "Specific programming language",
+      "Detailed design blueprint"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S253",
+    "problem_id": "Theme_2",
+    "team_name": "BRIDGE \u2014 Bidirectional Real-time Interoperability for Distributed Government Entities",
+    "summary": "Design a layer for bidirectional real-time interoperability using UBID as common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "system",
+    "tech_stack": [
+      "BRIDGE"
+    ],
+    "key_steps": [
+      "Implement bidirectional propagation of service requests",
+      "Use UBID as common join key"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between different systems"
+    ],
+    "missing_components": [
+      "Detailed design and implementation guidelines for the BRIDGE system"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S254",
+    "problem_id": "Theme_2",
+    "team_name": "Ai earth",
+    "summary": "Design a layer for two-way propagation of service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Ai"
+    ],
+    "key_steps": [
+      "Design a layer",
+      "Implement propagation logic",
+      "Integrate with UBID system"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Two-way propagation",
+      "Department systems integration"
+    ],
+    "missing_components": [
+      "Specific programming language",
+      "Detailed design blueprint"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S276",
+    "problem_id": "Theme_2",
+    "team_name": "SAMANVAYA: Zero-Disruption Interoperability OS",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "React",
+      "Tailwind CSS",
+      "Python (FastAPI)",
+      "PostgreSQL",
+      "local Llama-3"
+    ],
+    "key_steps": [
+      "Intercept service requests in SWS and route events to department-specific adapters",
+      "Write data via robust PostgreSQL-backed retry queues",
+      "Detect changes using Webhooks, Adaptive API Polling, or Merkle-Tree Snapshot Diffing",
+      "Translate data to the SWS schema and write with UBID as the join key"
+    ],
+    "optimization_claims": [
+      "Idempotency and auditability guaranteed",
+      "Zero modifications to SWS or legacy systems",
+      "Local LLM used only for design-time schema mapping on non-PII column headers"
+    ],
+    "constraints_addressed": [
+      "Cascading failures from big-bang migration",
+      "Lack of interoperability between SWS and department systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S297",
+    "problem_id": "Theme_2",
+    "team_name": "SAMANVAYA: Zero-Disruption Interoperability OS",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "React",
+      "Tailwind CSS",
+      "Python (FastAPI)",
+      "PostgreSQL",
+      "local Llama-3"
+    ],
+    "key_steps": [
+      "Intercept service requests in SWS and route events to department-specific adapters",
+      "Write data via robust PostgreSQL-backed retry queues",
+      "Detect changes using Webhooks, Adaptive API Polling, or Merkle-Tree Snapshot Diffing",
+      "Translate data to the SWS schema and write with UBID as the join key"
+    ],
+    "optimization_claims": [
+      "Idempotency and auditability guaranteed",
+      "Zero modifications to SWS or legacy systems",
+      "Local LLM used only for design-time schema mapping on non-PII column headers"
+    ],
+    "constraints_addressed": [
+      "Cascading failures from big-bang migration",
+      "Lack of interoperability between SWS and department systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S359",
+    "problem_id": "Theme_2",
+    "team_name": "AI-Powered Schema Translation Middleware for Seamless Government System Interoperability",
+    "summary": "Design a layer using AI-Powered Schema Translation Middleware for seamless government system interoperability.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js",
+      "Python (FastAPI)",
+      "Sentence Transformers",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Receives data from one system",
+      "Understands its schema using semantic similarity",
+      "Automatically maps fields to the target system schema",
+      "Transforms and forwards the data in real time"
+    ],
+    "optimization_claims": [
+      "Bidirectional data exchange (SWS \u2194 Department Systems)",
+      "AI-based schema mapping using semantic similarity",
+      "Dynamic field mapping (no hardcoding required)",
+      "Reusable mapping memory for faster future integrations"
+    ],
+    "constraints_addressed": [
+      "Different data formats and schemas between government department systems and the Single Window System"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S380",
+    "problem_id": "Theme_2",
+    "team_name": "AI-Powered Schema Translation Middleware for Seamless Government System Interoperability",
+    "summary": "Design a layer using AI-Powered Schema Translation Middleware for seamless government system interoperability.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js",
+      "Python (FastAPI)",
+      "Sentence Transformers",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Receives data from one system",
+      "Understands its schema using semantic similarity",
+      "Automatically maps fields to the target system schema",
+      "Transforms and forwards the data in real time"
+    ],
+    "optimization_claims": [
+      "Bidirectional data exchange (SWS \u2194 Department Systems)",
+      "AI-based schema mapping using semantic similarity",
+      "Dynamic field mapping (no hardcoding required)",
+      "Reusable mapping memory for faster future integrations"
+    ],
+    "constraints_addressed": [
+      "Different data formats and schemas between government department systems and the Single Window System"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S389",
+    "problem_id": "Theme_2",
+    "team_name": "Happy",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using UBID as common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs"
+    ],
+    "key_steps": [
+      "Integration of APIs for data exchange",
+      "Implementation of UBID-based matching system"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data consistency across systems"
+    ],
+    "missing_components": [
+      "Detailed technical design",
+      "Performance optimization strategies"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S390",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 Bidirectional Event-Driven Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a bidirectional event-driven interoperability layer for Karnataka Government Systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Python",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Core Event Bus & UBID Routing",
+      "Department Adapter Plugin Framework",
+      "Conflict Detection & Resolution",
+      "Audit Trail & Reconciliation Dashboard"
+    ],
+    "optimization_claims": [
+      "idempotency keys ensure that retry storms never produce duplicate writes in target systems",
+      "conflict detection with a configurable resolution policy means that simultaneous updates are handled explicitly rather than producing silent data corruption"
+    ],
+    "constraints_addressed": [
+      "Karnataka's 'split-brain' problem",
+      "UBID is the only reliable join key"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S392",
+    "problem_id": "Theme_2",
+    "team_name": "Android",
+    "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Android"
+    ],
+    "key_steps": [
+      "Implement Android layer for two-way interoperability",
+      "Use UBID as common join key",
+      "Test integration with department systems"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data inconsistency due to manual data entry",
+      "Lack of real-time updates between systems"
+    ],
+    "missing_components": [
+      "Web interface for the layer",
+      "Integration tests and documentation"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S395",
+    "problem_id": "Theme_2",
+    "team_name": "UMBRA Universal Mesh Bridge for Real-time Assimilation",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and the legacy department systems using UBID as the common join key, without modifying anything on either side.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Kafka",
+      "Flink",
+      "Redis",
+      "PostgreSQL",
+      "ClickHouse",
+      "Java Spring Boot",
+      "Python",
+      "Confluent Schema Registry",
+      "React + D3",
+      "Kubernetes"
+    ],
+    "key_steps": [
+      "Capture",
+      "Translate",
+      "Propagate",
+      "Conflict Arbiter",
+      "Audit Ledger"
+    ],
+    "optimization_claims": [
+      "Merkle tree snapshot diffing solves \u2018silent\u2019 departments.",
+      "Hub-and-spoke translation avoids 1,600 integrations.",
+      "Reversible conflict resolution ensures accountability."
+    ],
+    "constraints_addressed": [
+      "No system can be touched. No webhooks, no triggers, no database hooks.",
+      "UBID is the only join key.",
+      "Big bang migration is impossible."
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S397",
+    "problem_id": "Theme_2",
+    "team_name": "\u201cSamanvaya: A UBID-Centric Interoperability Layer for Real-Time Government System Synchronization\u201d",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Samanvaya",
+      "Webhooks",
+      "Snapshot Diffing"
+    ],
+    "key_steps": [
+      "Identify local IDs with UBID",
+      "Schema Translation",
+      "Data Propagation",
+      "Idempotency Check",
+      "Conflict Resolution"
+    ],
+    "optimization_claims": [
+      "Ensures at least once delivery of updates using retry logic and exponential backoff.",
+      "Prevents redundant updates by hashing payloads."
+    ],
+    "constraints_addressed": [
+      "Fragmented architecture between Single Window System and departmental databases",
+      "Inconsistent critical business data across platforms"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S401",
+    "problem_id": "Theme_2",
+    "team_name": "Happy",
+    "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using UBID as common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs"
+    ],
+    "key_steps": [
+      "Integration of APIs for data exchange",
+      "Implementation of UBID-based matching system"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data consistency across systems"
+    ],
+    "missing_components": [
+      "Detailed technical design",
+      "Performance optimization strategies"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S402",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 Bidirectional Event-Driven Interoperability Layer for Karnataka Government Systems",
+    "summary": "Design a bidirectional event-driven interoperability layer for Karnataka Government Systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Python",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Core Event Bus & UBID Routing",
+      "Department Adapter Plugin Framework",
+      "Conflict Detection & Resolution",
+      "Audit Trail & Reconciliation Dashboard"
+    ],
+    "optimization_claims": [
+      "idempotency keys ensure that retry storms never produce duplicate writes in target systems",
+      "conflict detection with a configurable resolution policy means that simultaneous updates are handled explicitly rather than producing silent data corruption"
+    ],
+    "constraints_addressed": [
+      "Karnataka's 'split-brain' problem",
+      "UBID is the only reliable join key"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S404",
+    "problem_id": "Theme_2",
+    "team_name": "Android",
+    "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common join key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Android"
+    ],
+    "key_steps": [
+      "Implement Android layer for two-way interoperability",
+      "Use UBID as common join key",
+      "Test integration with department systems"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Data inconsistency due to manual data entry",
+      "Lack of real-time updates between systems"
+    ],
+    "missing_components": [
+      "Web interface for the layer",
+      "Integration tests and documentation"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S407",
+    "problem_id": "Theme_2",
+    "team_name": "UMBRA Universal Mesh Bridge for Real-time Assimilation",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and the legacy department systems using UBID as the common join key, without modifying anything on either side.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Kafka",
+      "Flink",
+      "Redis",
+      "PostgreSQL",
+      "ClickHouse",
+      "Java Spring Boot",
+      "Python",
+      "Confluent Schema Registry",
+      "React + D3",
+      "Kubernetes"
+    ],
+    "key_steps": [
+      "Capture",
+      "Translate",
+      "Propagate",
+      "Conflict Arbiter",
+      "Audit Ledger"
+    ],
+    "optimization_claims": [
+      "Merkle tree snapshot diffing solves \u2018silent\u2019 departments.",
+      "Hub-and-spoke translation avoids 1,600 integrations.",
+      "Reversible conflict resolution ensures accountability."
+    ],
+    "constraints_addressed": [
+      "No system can be touched. No webhooks, no triggers, no database hooks.",
+      "UBID is the only join key.",
+      "Big bang migration is impossible."
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S409",
+    "problem_id": "Theme_2",
+    "team_name": "\u201cSamanvaya: A UBID-Centric Interoperability Layer for Real-Time Government System Synchronization\u201d",
+    "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Samanvaya",
+      "Webhooks",
+      "Snapshot Diffing"
+    ],
+    "key_steps": [
+      "Identify local IDs with UBID",
+      "Schema Translation",
+      "Data Propagation",
+      "Idempotency Check",
+      "Conflict Resolution"
+    ],
+    "optimization_claims": [
+      "Ensures at least once delivery of updates using retry logic and exponential backoff.",
+      "Prevents redundant updates by hashing payloads."
+    ],
+    "constraints_addressed": [
+      "Fragmented architecture between Single Window System and departmental databases",
+      "Inconsistent critical business data across platforms"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S411",
+    "problem_id": "Theme_2",
+    "team_name": "VyaparaSetu: Connecting Karnataka\u2019s Business Systems through Event Driven Middleware",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "CDC",
+      "Polling",
+      "Logs",
+      "Kafka",
+      "AI"
+    ],
+    "key_steps": [
+      "Converts updates from any system into standardized events",
+      "Uses UBID as the single linking key",
+      "Propagates updates across systems through an event-driven pipeline",
+      "Ensures data consistency, reliability, and traceability"
+    ],
+    "optimization_claims": [
+      "Two-way synchronization (SWS \u2194 Departments)",
+      "Zero modification to existing systems",
+      "Conflict detection & resolution using configurable rules",
+      "Full auditability (who changed what, when, and where)"
+    ],
+    "constraints_addressed": [
+      "Data inconsistency across departments",
+      "Operational inefficiencies",
+      "Lack of trust"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S423",
+    "problem_id": "Theme_2",
+    "team_name": "VyaparaSetu: Connecting Karnataka\u2019s Business Systems through Event Driven Middleware",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "CDC",
+      "Polling",
+      "Logs",
+      "Kafka",
+      "AI"
+    ],
+    "key_steps": [
+      "Converts updates from any system into standardized events",
+      "Uses UBID as the single linking key",
+      "Propagates updates across systems through an event-driven pipeline",
+      "Ensures data consistency, reliability, and traceability"
+    ],
+    "optimization_claims": [
+      "Two-way synchronization (SWS \u2194 Departments)",
+      "Zero modification to existing systems",
+      "Conflict detection & resolution using configurable rules",
+      "Full auditability (who changed what, when, and where)"
+    ],
+    "constraints_addressed": [
+      "Data inconsistency across departments",
+      "Operational inefficiencies",
+      "Lack of trust"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S446",
+    "problem_id": "Theme_2",
+    "team_name": "UBID Sync Layer: A Bidirectional, Idempotent Interoperability Framework for SWS and Legacy Systems",
+    "summary": "Design a bidirectional, idempotent interoperability framework between Karnataka's Single Window System (SWS) and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "event-based paradigm",
+      "API",
+      "webhook",
+      "polling",
+      "schema translation engine"
+    ],
+    "key_steps": [
+      "implement interoperability layer",
+      "define standard schema (SWS format)",
+      "configure field mapping per department",
+      "translate fields as needed",
+      "detect changes via APIs/webhooks/polling",
+      "apply conflict resolution rules"
+    ],
+    "optimization_claims": [
+      "guarantees idempotence, retryability, avoids duplicates"
+    ],
+    "constraints_addressed": [
+      "managing real-world inconsistencies",
+      "handling legacy evolution",
+      "ensuring accuracy of translation",
+      "preventing invalid updates"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S448",
+    "problem_id": "Theme_2",
+    "team_name": "Title 1",
+    "summary": "Design a layer that enables two-way interoperability between Karnataka's Single Window System and legacy department systems using Unique Business Identifier (UBID) as common join key.",
+    "approach_type": "system",
+    "tech_stack": [
+      "Hackerearth Platform"
+    ],
+    "key_steps": [
+      "Propagating service requests both ways",
+      "Using UBID as the common join key"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S462",
+    "problem_id": "Theme_2",
+    "team_name": "UBID Sync Layer: A Bidirectional, Idempotent Interoperability Framework for SWS and Legacy Systems",
+    "summary": "Design a bidirectional, idempotent interoperability framework between Karnataka's Single Window System (SWS) and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "event-based paradigm",
+      "API",
+      "webhook",
+      "polling",
+      "schema translation engine"
+    ],
+    "key_steps": [
+      "implement interoperability layer",
+      "define standard schema (SWS format)",
+      "configure field mapping per department",
+      "translate fields as needed",
+      "detect changes via APIs/webhooks/polling",
+      "apply conflict resolution rules"
+    ],
+    "optimization_claims": [
+      "guarantees idempotence, retryability, avoids duplicates"
+    ],
+    "constraints_addressed": [
+      "managing real-world inconsistencies",
+      "handling legacy evolution",
+      "ensuring accuracy of translation",
+      "preventing invalid updates"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S464",
+    "problem_id": "Theme_2",
+    "team_name": "Title 1",
+    "summary": "Design a layer that enables two-way interoperability between Karnataka's Single Window System and legacy department systems using Unique Business Identifier (UBID) as common join key.",
+    "approach_type": "system",
+    "tech_stack": [
+      "Hackerearth Platform"
+    ],
+    "key_steps": [
+      "Propagating service requests both ways",
+      "Using UBID as the common join key"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S469",
+    "problem_id": "Theme_2",
+    "team_name": "AI-Driven Two-Way Interoperability Layer for Government Service Synchronization",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "Webhooks",
+      "Polling",
+      "Schema Translation Engine"
+    ],
+    "key_steps": [
+      "Detect changes using APIs, webhooks, or polling",
+      "Convert data between different formats",
+      "Track transactions with unique identifiers",
+      "Identify and resolve conflicts",
+      "Record transformations and decisions"
+    ],
+    "optimization_claims": [
+      "Non-intrusive layer that operates without modifying any existing systems",
+      "Compatible with masked or synthetic data environments",
+      "Modular and extensible architecture"
+    ],
+    "constraints_addressed": [
+      "Coexistence of two parallel systems",
+      "Different schemas, identifiers, and APIs",
+      "Unsynchronized updates",
+      "Data drift due to inconsistencies"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S483",
+    "problem_id": "Theme_2",
+    "team_name": "AI-Driven Two-Way Interoperability Layer for Government Service Synchronization",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "Webhooks",
+      "Polling",
+      "Schema Translation Engine"
+    ],
+    "key_steps": [
+      "Detect changes using APIs, webhooks, or polling",
+      "Convert data between different formats",
+      "Track transactions with unique identifiers",
+      "Identify and resolve conflicts",
+      "Record transformations and decisions"
+    ],
+    "optimization_claims": [
+      "Non-intrusive layer that operates without modifying any existing systems",
+      "Compatible with masked or synthetic data environments",
+      "Modular and extensible architecture"
+    ],
+    "constraints_addressed": [
+      "Coexistence of two parallel systems",
+      "Different schemas, identifiers, and APIs",
+      "Unsynchronized updates",
+      "Data drift due to inconsistencies"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S499",
+    "problem_id": "Theme_2",
+    "team_name": "SWS-Sync \u2014 Bidirectional Interoperability Layer for SWS and Legacy Departments",
+    "summary": "Design a layer for bidirectional interoperability between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js / TypeScript",
+      "Kafka (or NATS JetStream)",
+      "PostgreSQL",
+      "Temporal"
+    ],
+    "key_steps": [
+      "Implement lightweight adapters for each department system",
+      "Use durable bus for propagating canonical events keyed and ordered by UBID",
+      "Develop schema translator driven by declarative mapping files",
+      "Enforce idempotency through deterministic event IDs",
+      "Configure conflict resolver policies and capture audit logs"
+    ],
+    "optimization_claims": [
+      "Avoids big-bang migration trap",
+      "SWS becomes authoritative over time",
+      "Training burden is minimized"
+    ],
+    "constraints_addressed": [
+      "No modification of source systems",
+      "Hot-reloadable conflict policies for governance teams"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S522",
+    "problem_id": "Theme_2",
+    "team_name": "SWS-Sync \u2014 Bidirectional Interoperability Layer for SWS and Legacy Departments",
+    "summary": "Design a layer for bidirectional interoperability between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js / TypeScript",
+      "Kafka (or NATS JetStream)",
+      "PostgreSQL",
+      "Temporal"
+    ],
+    "key_steps": [
+      "Implement lightweight adapters for each department system",
+      "Use durable bus for propagating canonical events keyed and ordered by UBID",
+      "Develop schema translator driven by declarative mapping files",
+      "Enforce idempotency through deterministic event IDs",
+      "Configure conflict resolver policies and capture audit logs"
+    ],
+    "optimization_claims": [
+      "Avoids big-bang migration trap",
+      "SWS becomes authoritative over time",
+      "Training burden is minimized"
+    ],
+    "constraints_addressed": [
+      "No modification of source systems",
+      "Hot-reloadable conflict policies for governance teams"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S540",
+    "problem_id": "Theme_2",
+    "team_name": "NexusFlow: Two-Way Interoperability for Smart Governance",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. Solution: NexusFlow.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs",
+      "Middleware Architecture",
+      "Intelligent Data Synchronization",
+      "AI-driven validation",
+      "Workflow Automation"
+    ],
+    "key_steps": [
+      "Creating a real-time, bidirectional data exchange layer",
+      "Automating approvals, status updates, and compliance checks",
+      "Providing real-time dashboards and tracking mechanisms",
+      "Ensuring data consistency, detecting anomalies, and enhancing operational efficiency"
+    ],
+    "optimization_claims": [
+      "Reducing manual intervention, redundancy, and delays",
+      "Accelerating service delivery",
+      "Enhancing coordination among departments",
+      "Supporting data-driven governance"
+    ],
+    "constraints_addressed": [
+      "Data silos",
+      "Inaccurate information flow",
+      "Manual intervention",
+      "Redundancy"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S546",
+    "problem_id": "Theme_2",
+    "team_name": "ABIL \u2013 Agent Based Interoperability Layer",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js",
+      "Kafka or queue simulation",
+      "REST APIs",
+      "MongoDB / PostgreSQL",
+      "Dashboard"
+    ],
+    "key_steps": [
+      "Detects changes across systems",
+      "Translates heterogeneous data formats",
+      "Synchronizes updates in both directions",
+      "Resolves conflicts using defined policies",
+      "Maintains a complete audit trail"
+    ],
+    "optimization_claims": [
+      "Eliminates data inconsistencies across systems",
+      "Improves transparency and trust",
+      "Enables reliable decision-making",
+      "Scales across departments and future integrations"
+    ],
+    "constraints_addressed": [
+      "Multiple authoritative systems",
+      "Lack of real-time communication",
+      "Schema and API heterogeneity",
+      "No reliable synchronization mechanism",
+      "Inability to modify existing systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S549",
+    "problem_id": "Theme_2",
+    "team_name": "InteropSync Karnataka \u2014 Two-Way SWS \u2194 Department Middleware",
+    "summary": "Design a bidirectional middleware layer that propagates service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "SQLAlchemy",
+      "APScheduler",
+      "React",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "key_steps": [
+      "Push engine for propagating SWS changes",
+      "Pull engine for receiving department updates",
+      "Schema translation using JSON-config",
+      "Conflict detection and resolution",
+      "Idempotency, audit log, and immutable records"
+    ],
+    "optimization_claims": [
+      "Fast and efficient data synchronization",
+      "Reduced costs compared to retroactively rebuilding source systems"
+    ],
+    "constraints_addressed": [
+      "Silent drifting apart of SWS and department systems",
+      "Lack of two-way interoperability"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S552",
+    "problem_id": "Theme_2",
+    "team_name": "Sync-Mesh: The Bidirectional Data Reconciliation Layer",
+    "summary": "Design a bidirectional data reconciliation layer for Two-Way Interoperability between Karnataka's Single Window System and legacy department systems using UBID as common join key.",
+    "approach_type": "DL",
+    "tech_stack": [
+      "D DualAgent",
+      "Sync-Mesh"
+    ],
+    "key_steps": [
+      "Project Description",
+      "System Architecture Diagram"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between Single Window System and Department Systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S554",
+    "problem_id": "Theme_2",
+    "team_name": "OmniBridge - An Event-Driven, Self-Healing Integration Fabric for SWS",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Django",
+      "Celery + Redis",
+      "PostgreSQL",
+      "Redis",
+      "YAML"
+    ],
+    "key_steps": [
+      "Bidirectional Sync Without Changes",
+      "Schema Mapping & Onboarding",
+      "Change Detection in Legacy Systems",
+      "Conflict Detection & Resolution",
+      "Reliability & Audit",
+      "Demo Scenarios"
+    ],
+    "optimization_claims": [
+      "Adaptive polling based on activity",
+      "Idempotency Unique keys prevent duplicate writes."
+    ],
+    "constraints_addressed": [
+      "SWS backed by 40+ independent systems with different schemas, tech levels, and unsynchronized clocks.",
+      "Departments are independent. Coordinating schema changes is slow and risky."
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S561",
+    "problem_id": "Theme_2",
+    "team_name": "NexusFlow: Two-Way Interoperability for Smart Governance",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. Solution: NexusFlow.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "APIs",
+      "Middleware Architecture",
+      "Intelligent Data Synchronization",
+      "AI-driven validation",
+      "Workflow Automation"
+    ],
+    "key_steps": [
+      "Creating a real-time, bidirectional data exchange layer",
+      "Automating approvals, status updates, and compliance checks",
+      "Providing real-time dashboards and tracking mechanisms",
+      "Ensuring data consistency, detecting anomalies, and enhancing operational efficiency"
+    ],
+    "optimization_claims": [
+      "Reducing manual intervention, redundancy, and delays",
+      "Accelerating service delivery",
+      "Enhancing coordination among departments",
+      "Supporting data-driven governance"
+    ],
+    "constraints_addressed": [
+      "Data silos",
+      "Inaccurate information flow",
+      "Manual intervention",
+      "Redundancy"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S567",
+    "problem_id": "Theme_2",
+    "team_name": "ABIL \u2013 Agent Based Interoperability Layer",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Node.js",
+      "Kafka or queue simulation",
+      "REST APIs",
+      "MongoDB / PostgreSQL",
+      "Dashboard"
+    ],
+    "key_steps": [
+      "Detects changes across systems",
+      "Translates heterogeneous data formats",
+      "Synchronizes updates in both directions",
+      "Resolves conflicts using defined policies",
+      "Maintains a complete audit trail"
+    ],
+    "optimization_claims": [
+      "Eliminates data inconsistencies across systems",
+      "Improves transparency and trust",
+      "Enables reliable decision-making",
+      "Scales across departments and future integrations"
+    ],
+    "constraints_addressed": [
+      "Multiple authoritative systems",
+      "Lack of real-time communication",
+      "Schema and API heterogeneity",
+      "No reliable synchronization mechanism",
+      "Inability to modify existing systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S570",
+    "problem_id": "Theme_2",
+    "team_name": "InteropSync Karnataka \u2014 Two-Way SWS \u2194 Department Middleware",
+    "summary": "Design a bidirectional middleware layer that propagates service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "SQLAlchemy",
+      "APScheduler",
+      "React",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "key_steps": [
+      "Push engine for propagating SWS changes",
+      "Pull engine for receiving department updates",
+      "Schema translation using JSON-config",
+      "Conflict detection and resolution",
+      "Idempotency, audit log, and immutable records"
+    ],
+    "optimization_claims": [
+      "Fast and efficient data synchronization",
+      "Reduced costs compared to retroactively rebuilding source systems"
+    ],
+    "constraints_addressed": [
+      "Silent drifting apart of SWS and department systems",
+      "Lack of two-way interoperability"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S573",
+    "problem_id": "Theme_2",
+    "team_name": "Sync-Mesh: The Bidirectional Data Reconciliation Layer",
+    "summary": "Design a bidirectional data reconciliation layer for Two-Way Interoperability between Karnataka's Single Window System and legacy department systems using UBID as common join key.",
+    "approach_type": "DL",
+    "tech_stack": [
+      "D DualAgent",
+      "Sync-Mesh"
+    ],
+    "key_steps": [
+      "Project Description",
+      "System Architecture Diagram"
+    ],
+    "optimization_claims": [],
+    "constraints_addressed": [
+      "Interoperability between Single Window System and Department Systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S575",
+    "problem_id": "Theme_2",
+    "team_name": "OmniBridge - An Event-Driven, Self-Healing Integration Fabric for SWS",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Django",
+      "Celery + Redis",
+      "PostgreSQL",
+      "Redis",
+      "YAML"
+    ],
+    "key_steps": [
+      "Bidirectional Sync Without Changes",
+      "Schema Mapping & Onboarding",
+      "Change Detection in Legacy Systems",
+      "Conflict Detection & Resolution",
+      "Reliability & Audit",
+      "Demo Scenarios"
+    ],
+    "optimization_claims": [
+      "Adaptive polling based on activity",
+      "Idempotency Unique keys prevent duplicate writes."
+    ],
+    "constraints_addressed": [
+      "SWS backed by 40+ independent systems with different schemas, tech levels, and unsynchronized clocks.",
+      "Departments are independent. Coordinating schema changes is slow and risky."
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S602",
+    "problem_id": "Theme_2",
+    "team_name": "Event Ease \u2013 Smart Event Planning and Vendor Marketplace Platform",
+    "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Integrate APIs for data exchange",
+      "Implement UBID as common key",
+      "Establish two-way propagation of service requests"
+    ],
+    "optimization_claims": [
+      "Improved efficiency in service request processing",
+      "Reduced errors due to manual data entry",
+      "Enhanced transparency and traceability"
+    ],
+    "constraints_addressed": [
+      "Data silos across department systems",
+      "Manual and time-consuming process of service request propagation"
+    ],
+    "missing_components": [
+      "Real-time monitoring and alert system",
+      "User interface for department systems"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S624",
+    "problem_id": "Theme_2",
+    "team_name": "Event Ease \u2013 Smart Event Planning and Vendor Marketplace Platform",
+    "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common key between Karnataka's Single Window System and legacy department systems.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "API",
+      "UBID"
+    ],
+    "key_steps": [
+      "Integrate APIs for data exchange",
+      "Implement UBID as common key",
+      "Establish two-way propagation of service requests"
+    ],
+    "optimization_claims": [
+      "Improved efficiency in service request processing",
+      "Reduced errors due to manual data entry",
+      "Enhanced transparency and traceability"
+    ],
+    "constraints_addressed": [
+      "Data silos across department systems",
+      "Manual and time-consuming process of service request propagation"
+    ],
+    "missing_components": [
+      "Real-time monitoring and alert system",
+      "User interface for department systems"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S632",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge Karnataka: Event-Driven Bidirectional Interoperability Mesh with Zero-Touch System Integration",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Redis",
+      "HashiCorp Vault",
+      "Kong",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Build an autonomous interoperability mesh",
+      "Use UBID as the universal join key",
+      "Deploy schema translation engine",
+      "Implement dual-mode change capture",
+      "Establish direction 1: SWS to Department Propagation",
+      "Establish direction 2: Department to SWS Propagation",
+      "Cross-Cutting: Conflict Detection & Explainable Resolution"
+    ],
+    "optimization_claims": [
+      "Eliminating split-brain means businesses update once, not forty times",
+      "From Karnataka to National Integration",
+      "Revenue & Compliance Impact: Officer productivity rises, citizen grievances drop, and compliance timelines shrink from weeks to hours"
+    ],
+    "constraints_addressed": [
+      "SWS and legacy departments operate as independent authorities with no shared state",
+      "A business can file the same request in two places simultaneously, creating divergent records",
+      "Department schemas, identifiers, validation rules, and APIs are heterogeneous and frozen",
+      "Some departments emit no events at all"
+    ],
+    "missing_components": [
+      "Performance optimization for handling large-scale data",
+      "Real-time conflict resolution for critical updates",
+      "Long-term scalability plan for adding more departments and services"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S640",
+    "problem_id": "Theme_2",
+    "team_name": "InteropSync Karnataka \u2014 Self-Healing Semantic Middleware for Government Interoperability",
+    "summary": "Design a bidirectional translation and propagation layer between Karnataka's Single Window System (SWS) and department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "REST API",
+      "webhook callback",
+      "SFTP file drop",
+      "database polling",
+      "SQLite"
+    ],
+    "key_steps": [
+      "Multi-Surface Integration Engine",
+      "Configurable Schema Translation Layer",
+      "Conflict Detection & Resolution with Policy Engine",
+      "Tamper-Proof Cryptographic Audit Chain",
+      "Retry & Failure Recovery with Dead-Letter Queue",
+      "Offline-First Sync for Rural District Offices",
+      "Department Health Dashboard & SLA Monitoring"
+    ],
+    "optimization_claims": [
+      "Data consistency across systems",
+      "Reduced manual re-entry",
+      "Improved approval times",
+      "Tamper-proof audit trail",
+      "No data loss due to system failures"
+    ],
+    "constraints_addressed": [
+      "Heterogeneous databases",
+      "No modification of existing systems",
+      "Intermittent rural connectivity"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S651",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge Karnataka: Event-Driven Bidirectional Interoperability Mesh with Zero-Touch System Integration",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Redis",
+      "HashiCorp Vault",
+      "Kong",
+      "PostgreSQL"
+    ],
+    "key_steps": [
+      "Build an autonomous interoperability mesh",
+      "Use UBID as the universal join key",
+      "Deploy schema translation engine",
+      "Implement dual-mode change capture",
+      "Establish direction 1: SWS to Department Propagation",
+      "Establish direction 2: Department to SWS Propagation",
+      "Cross-Cutting: Conflict Detection & Explainable Resolution"
+    ],
+    "optimization_claims": [
+      "Eliminating split-brain means businesses update once, not forty times",
+      "From Karnataka to National Integration",
+      "Revenue & Compliance Impact: Officer productivity rises, citizen grievances drop, and compliance timelines shrink from weeks to hours"
+    ],
+    "constraints_addressed": [
+      "SWS and legacy departments operate as independent authorities with no shared state",
+      "A business can file the same request in two places simultaneously, creating divergent records",
+      "Department schemas, identifiers, validation rules, and APIs are heterogeneous and frozen",
+      "Some departments emit no events at all"
+    ],
+    "missing_components": [
+      "Performance optimization for handling large-scale data",
+      "Real-time conflict resolution for critical updates",
+      "Long-term scalability plan for adding more departments and services"
+    ],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S659",
+    "problem_id": "Theme_2",
+    "team_name": "InteropSync Karnataka \u2014 Self-Healing Semantic Middleware for Government Interoperability",
+    "summary": "Design a bidirectional translation and propagation layer between Karnataka's Single Window System (SWS) and department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "REST API",
+      "webhook callback",
+      "SFTP file drop",
+      "database polling",
+      "SQLite"
+    ],
+    "key_steps": [
+      "Multi-Surface Integration Engine",
+      "Configurable Schema Translation Layer",
+      "Conflict Detection & Resolution with Policy Engine",
+      "Tamper-Proof Cryptographic Audit Chain",
+      "Retry & Failure Recovery with Dead-Letter Queue",
+      "Offline-First Sync for Rural District Offices",
+      "Department Health Dashboard & SLA Monitoring"
+    ],
+    "optimization_claims": [
+      "Data consistency across systems",
+      "Reduced manual re-entry",
+      "Improved approval times",
+      "Tamper-proof audit trail",
+      "No data loss due to system failures"
+    ],
+    "constraints_addressed": [
+      "Heterogeneous databases",
+      "No modification of existing systems",
+      "Intermittent rural connectivity"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S720",
+    "problem_id": "Theme_2",
+    "team_name": "PRATIDHVANI: Conflict-Free Bidirectional Interoperability Fabric for Karnataka's Single Window System",
+    "summary": "Design a layer that propagates service requests between Karnataka's Single Window System (SWS) and department systems using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Rust",
+      "Temporal",
+      "Postgres",
+      "Debezium"
+    ],
+    "key_steps": [
+      "Event-sourced backbone",
+      "CRDTs for conflict resolution",
+      "Tiered change detection",
+      "Schema translation",
+      "Idempotency & delivery guarantees",
+      "Audit & reconciliation"
+    ],
+    "optimization_claims": [
+      "idempotency",
+      "at-least-once delivery",
+      "mathematically provable conflict convergence",
+      "conflict convergence without modifying a single line of code in SWS or any department system"
+    ],
+    "constraints_addressed": [
+      "permanently heterogeneous systems",
+      "split brain",
+      "neither side can be changed",
+      "UBID as the only trustworthy join key",
+      "every byte of propagated state must be auditable to a formal government standard"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S721",
+    "problem_id": "Theme_2",
+    "team_name": "BridgeSync : A Two-Way Interoperability Fabric for Karnataka's Single Window System",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Python",
+      "PostgreSQL",
+      "Redis",
+      "Apache Airflow",
+      "FastAPI",
+      "Docker & Kubernetes"
+    ],
+    "key_steps": [
+      "Change Capture",
+      "Event Routing",
+      "Translation Registry",
+      "Idempotent Dispatch Engine",
+      "Conflict Detection & Resolution Engine",
+      "Retry Queue with Dead-Letter",
+      "Append-Only Audit Ledger",
+      "Operations Dashboard"
+    ],
+    "optimization_claims": [
+      "Improved freshness due to change capture strategies.",
+      "Avoidance of duplicates through read-before-write checks.",
+      "Reduced risk of big-bang migration with configuration-driven extensibility."
+    ],
+    "constraints_addressed": [
+      "Schema heterogeneity",
+      "No change emission systems",
+      "Non-idempotent APIs",
+      "PII in LLM features"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S722",
+    "problem_id": "Theme_2",
+    "team_name": "The \"Smart Bridge\": A Two-Way Interoperability Layer for Karnataka's E-Governance Ecosystem",
+    "summary": "Design a bidirectional interoperability layer for Karnataka's e-governance ecosystem using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Redis",
+      "Debezium",
+      "Apache Camel or Jolt",
+      "Apache Flink",
+      "TimescaleDB",
+      "Temporal.io"
+    ],
+    "key_steps": [
+      "Capture changes in SWS and legacy systems",
+      "UBID Routing",
+      "Metadata-Driven Schema Translation",
+      "Idempotent Proxy",
+      "Cross-Cutting Concern: Conflict Detection & Resolution",
+      "Cross-Cutting Concern: Auditability & Distributed State Management"
+    ],
+    "optimization_claims": [
+      "Asynchronous, at-least-once delivery",
+      "Prevention of silent data overwrites",
+      "High availability",
+      "Mathematically tamper-evident audits"
+    ],
+    "constraints_addressed": [
+      "Data consistency across systems",
+      "Non-intrusive data extraction from legacy systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S723",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 A Two-Way Interoperability Layer for Karnataka's SWS and Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Kafka",
+      "PostgreSQL",
+      "Redis",
+      "Spring Boot"
+    ],
+    "key_steps": [
+      "Event-driven architecture",
+      "Translation Engine",
+      "Schema Registry",
+      "Conflict Detector",
+      "Audit Trail",
+      "Reviewer Dashboard"
+    ],
+    "optimization_claims": [
+      "Replay capability for error handling",
+      "Version control for schema mappings",
+      "Fast conflict detection and resolution"
+    ],
+    "constraints_addressed": [
+      "Too many systems with different schemas and identifiers",
+      "Lack of common join key across systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S724",
+    "problem_id": "Theme_2",
+    "team_name": "UBID Fabric \u2014 Deterministic Interoperability Layer for Karnataka's SWS and Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "PostgreSQL",
+      "Redis",
+      "Temporal.io",
+      "Debezium",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "HashiCorp Vault"
+    ],
+    "key_steps": [
+      "Data integration using webhooks, APIs, or bulk data exports",
+      "Conflict resolution using mathematically proven algorithms",
+      "Automatic propagation of changes to all relevant systems",
+      "Creation of a unified event backbone and evidence graph for traceability"
+    ],
+    "optimization_claims": [
+      "Reducing schema mapping time from 2\u20133 days to 2\u20133 hours",
+      "Efficient responses to RTI queries about data processing decisions"
+    ],
+    "constraints_addressed": [
+      "Split-brain problem in Karnataka's e-governance infrastructure",
+      "Lack of shared event bus, common identity layer, conflict resolution protocol, and audit mechanism"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S725",
+    "problem_id": "Theme_2",
+    "team_name": "BridgeSync : A Two-Way Interoperability Fabric for Karnataka's Single Window System",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Python",
+      "PostgreSQL",
+      "Redis",
+      "Apache Airflow",
+      "FastAPI",
+      "Docker & Kubernetes"
+    ],
+    "key_steps": [
+      "Change Capture",
+      "Event Routing",
+      "Translation Registry",
+      "Idempotent Dispatch Engine",
+      "Conflict Detection & Resolution Engine",
+      "Retry Queue with Dead-Letter",
+      "Append-Only Audit Ledger",
+      "Operations Dashboard"
+    ],
+    "optimization_claims": [
+      "Improved freshness due to change capture strategies.",
+      "Avoidance of duplicates through read-before-write checks.",
+      "Reduced risk of big-bang migration with configuration-driven extensibility."
+    ],
+    "constraints_addressed": [
+      "Schema heterogeneity",
+      "No change emission systems",
+      "Non-idempotent APIs",
+      "PII in LLM features"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S726",
+    "problem_id": "Theme_2",
+    "team_name": "The \"Smart Bridge\": A Two-Way Interoperability Layer for Karnataka's E-Governance Ecosystem",
+    "summary": "Design a bidirectional interoperability layer for Karnataka's e-governance ecosystem using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "Redis",
+      "Debezium",
+      "Apache Camel or Jolt",
+      "Apache Flink",
+      "TimescaleDB",
+      "Temporal.io"
+    ],
+    "key_steps": [
+      "Capture changes in SWS and legacy systems",
+      "UBID Routing",
+      "Metadata-Driven Schema Translation",
+      "Idempotent Proxy",
+      "Cross-Cutting Concern: Conflict Detection & Resolution",
+      "Cross-Cutting Concern: Auditability & Distributed State Management"
+    ],
+    "optimization_claims": [
+      "Asynchronous, at-least-once delivery",
+      "Prevention of silent data overwrites",
+      "High availability",
+      "Mathematically tamper-evident audits"
+    ],
+    "constraints_addressed": [
+      "Data consistency across systems",
+      "Non-intrusive data extraction from legacy systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S727",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 A Two-Way Interoperability Layer for Karnataka's SWS and Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Kafka",
+      "PostgreSQL",
+      "Redis",
+      "Spring Boot"
+    ],
+    "key_steps": [
+      "Event-driven architecture",
+      "Translation Engine",
+      "Schema Registry",
+      "Conflict Detector",
+      "Audit Trail",
+      "Reviewer Dashboard"
+    ],
+    "optimization_claims": [
+      "Replay capability for error handling",
+      "Version control for schema mappings",
+      "Fast conflict detection and resolution"
+    ],
+    "constraints_addressed": [
+      "Too many systems with different schemas and identifiers",
+      "Lack of common join key across systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S728",
+    "problem_id": "Theme_2",
+    "team_name": "IML: A Non-Invasive Interoperability Layer for SWS and Karnataka's 40+ Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Spring Boot microservices",
+      "Apache Kafka",
+      "Redis",
+      "PostgreSQL",
+      "Flutter Web"
+    ],
+    "key_steps": [
+      "Change Detection Layer",
+      "Normalisation Layer",
+      "Routing & Conflict Engine",
+      "Write & Confirmation Layer",
+      "Audit & Review Layer"
+    ],
+    "optimization_claims": [
+      "Idempotency is guaranteed via a SHA-256 dedup key",
+      "Five-layer architecture for efficient data processing",
+      "Full auditability of all events"
+    ],
+    "constraints_addressed": [
+      "No source system modification",
+      "UBID as the only join key",
+      "Deterministic rule-based mapping only for schema translation",
+      "Idempotent propagation and auditable logging"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S729",
+    "problem_id": "Theme_2",
+    "team_name": "IML: A Non-Invasive Interoperability Layer for SWS and Karnataka's 40+ Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Spring Boot microservices",
+      "Apache Kafka",
+      "Redis",
+      "PostgreSQL",
+      "Flutter Web"
+    ],
+    "key_steps": [
+      "Change Detection Layer",
+      "Normalisation Layer",
+      "Routing & Conflict Engine",
+      "Write & Confirmation Layer",
+      "Audit & Review Layer"
+    ],
+    "optimization_claims": [
+      "Idempotency is guaranteed via a SHA-256 dedup key",
+      "Five-layer architecture for efficient data processing",
+      "Full auditability of all events"
+    ],
+    "constraints_addressed": [
+      "No source system modification",
+      "UBID as the only join key",
+      "Deterministic rule-based mapping only for schema translation",
+      "Idempotent propagation and auditable logging"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S730",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge  A Two-Way Interoperability Layer for Karnataka's SWS and Legacy Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "Kafka",
+      "MongoDB",
+      "Python",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "key_steps": [
+      "Change Detection",
+      "Conflict Resolution",
+      "Full Audit Trail"
+    ],
+    "optimization_claims": [
+      "Every delivery is idempotent"
+    ],
+    "constraints_addressed": [
+      "Data format differences between systems",
+      "Silent legacy systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S731",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge  A Two-Way Interoperability Layer for Karnataka's SWS and Legacy Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "FastAPI",
+      "Kafka",
+      "MongoDB",
+      "Python",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "key_steps": [
+      "Change Detection",
+      "Conflict Resolution",
+      "Full Audit Trail"
+    ],
+    "optimization_claims": [
+      "Every delivery is idempotent"
+    ],
+    "constraints_addressed": [
+      "Data format differences between systems",
+      "Silent legacy systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S734",
+    "problem_id": "Theme_2",
+    "team_name": "Zero-Disruption Bidirectional Sync Layer for Karnataka's Single Window System",
+    "summary": "Design a bidirectional synchronization layer for Karnataka's Single Window System using Unique Business Identifier (UBID) as the common join key, ensuring zero-disruption and handling conflicts.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Debezium",
+      "Snapshot Based Change Data Capture",
+      "Translating Dictionary",
+      "Event Streaming Platform"
+    ],
+    "key_steps": [
+      "Change Discovery",
+      "Database Schema Translation",
+      "Conflict Resolution",
+      "Guaranteeing Delivery and Idempotency"
+    ],
+    "optimization_claims": [
+      "Ensuring system stability by accepting a delay of 5 to 15 minutes for older systems"
+    ],
+    "constraints_addressed": [
+      "No modification to the original code or database structures of the Single Window System or the old systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S735",
+    "problem_id": "Theme_2",
+    "team_name": "Samanvay \u2014 A Causal Semantic Interoperability Fabric Between Karnataka's Single Window System and 40+ Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "PostgreSQL",
+      "Debezium",
+      "Open Policy Agent",
+      "Neo4j",
+      "Apache Flink",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "HashiCorp Vault",
+      "Istio",
+      "eBPF-based tooling",
+      "OpenFHE",
+      "Locally-hosted Llama 3.1 8B and sentence-transformers models"
+    ],
+    "key_steps": [
+      "Mapping department systems with UBID Registry",
+      "Change Detection and Propagation",
+      "Conflict Resolution"
+    ],
+    "optimization_claims": [
+      "Causal Interoperability Graph (CIG) for predictive integration",
+      "Zero-Trust PII with Partial Homomorphic Encryption",
+      "Neuro-Symbolic Conflict Arbitration with Explanations in Kannada",
+      "CRDT Consistency Layer and Self-Healing Schema Drift Detection"
+    ],
+    "constraints_addressed": [
+      "Single-day cutover is not realistic at this scale",
+      "Changes are not propagating between SWS and department systems",
+      "Data privacy concerns"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S736",
+    "problem_id": "Theme_2",
+    "team_name": "Zero-Disruption Bidirectional Sync Layer for Karnataka's Single Window System",
+    "summary": "Design a bidirectional synchronization layer for Karnataka's Single Window System using Unique Business Identifier (UBID) as the common join key, ensuring zero-disruption and handling conflicts.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Debezium",
+      "Snapshot Based Change Data Capture",
+      "Translating Dictionary",
+      "Event Streaming Platform"
+    ],
+    "key_steps": [
+      "Change Discovery",
+      "Database Schema Translation",
+      "Conflict Resolution",
+      "Guaranteeing Delivery and Idempotency"
+    ],
+    "optimization_claims": [
+      "Ensuring system stability by accepting a delay of 5 to 15 minutes for older systems"
+    ],
+    "constraints_addressed": [
+      "No modification to the original code or database structures of the Single Window System or the old systems"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S737",
+    "problem_id": "Theme_2",
+    "team_name": "Samanvay \u2014 A Causal Semantic Interoperability Fabric Between Karnataka's Single Window System and 40+ Department Systems",
+    "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "Apache Kafka",
+      "PostgreSQL",
+      "Debezium",
+      "Open Policy Agent",
+      "Neo4j",
+      "Apache Flink",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "HashiCorp Vault",
+      "Istio",
+      "eBPF-based tooling",
+      "OpenFHE",
+      "Locally-hosted Llama 3.1 8B and sentence-transformers models"
+    ],
+    "key_steps": [
+      "Mapping department systems with UBID Registry",
+      "Change Detection and Propagation",
+      "Conflict Resolution"
+    ],
+    "optimization_claims": [
+      "Causal Interoperability Graph (CIG) for predictive integration",
+      "Zero-Trust PII with Partial Homomorphic Encryption",
+      "Neuro-Symbolic Conflict Arbitration with Explanations in Kannada",
+      "CRDT Consistency Layer and Self-Healing Schema Drift Detection"
+    ],
+    "constraints_addressed": [
+      "Single-day cutover is not realistic at this scale",
+      "Changes are not propagating between SWS and department systems",
+      "Data privacy concerns"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S740",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 AI-Assisted Two-Way Interoperability Layer for Karnataka's Single Window System.",
+    "summary": "Design a layer that propagates service requests bi-directionally between Karnataka's Single Window System and department systems using UBID as a common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "AI",
+      "Unique Business Identifier (UBID)"
+    ],
+    "key_steps": [
+      "Bi-directional propagation of service requests",
+      "Conflict resolution",
+      "Immutable audit trail"
+    ],
+    "optimization_claims": [
+      "No duplicate pushes nor data loss due to retries when needed",
+      "Configurable conflict resolution strategy"
+    ],
+    "constraints_addressed": [
+      "Interoperability between systems",
+      "Data integrity",
+      "Conflict resolution"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  {
+    "solution_id": "S741",
+    "problem_id": "Theme_2",
+    "team_name": "SyncBridge \u2014 AI-Assisted Two-Way Interoperability Layer for Karnataka's Single Window System.",
+    "summary": "Design a layer that propagates service requests bi-directionally between Karnataka's Single Window System and department systems using UBID as a common join key.",
+    "approach_type": "hybrid",
+    "tech_stack": [
+      "AI",
+      "Unique Business Identifier (UBID)"
+    ],
+    "key_steps": [
+      "Bi-directional propagation of service requests",
+      "Conflict resolution",
+      "Immutable audit trail"
+    ],
+    "optimization_claims": [
+      "No duplicate pushes nor data loss due to retries when needed",
+      "Configurable conflict resolution strategy"
+    ],
+    "constraints_addressed": [
+      "Interoperability between systems",
+      "Data integrity",
+      "Conflict resolution"
+    ],
+    "missing_components": [],
+    "strengths": [],
+    "weaknesses": []
+  }
+]

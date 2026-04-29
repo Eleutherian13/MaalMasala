@@ -1,0 +1,34 @@
+{
+  "solution_id": "S035",
+  "problem_id": "Theme_2",
+  "team_name": "Adaptive Screen Interaction System Using AI-Based Gesture and Voice Control",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key. The solution is an AI-based multimodal human-computer interaction system called ASIS.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "computer vision",
+    "machine learning",
+    "speech processing",
+    "MediaPipe",
+    "K-Nearest Neighbors",
+    "PyAutoGUI",
+    "VOSK"
+  ],
+  "key_steps": [
+    "real-time video capture",
+    "hand landmarks detection and tracking",
+    "gesture recognition",
+    "cursor movement, clicking, dragging, scrolling performance",
+    "voice assistant integration",
+    "eye-blink detection",
+    "adaptive learning capability"
+  ],
+  "optimization_claims": [
+    "operates in real-time with optimized performance and minimal latency"
+  ],
+  "constraints_addressed": [
+    "interoperability between Single Window System and legacy department systems using UBID"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

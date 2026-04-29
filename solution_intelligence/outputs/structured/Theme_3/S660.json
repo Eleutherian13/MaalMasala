@@ -1,0 +1,36 @@
+{
+  "solution_id": "S660",
+  "problem_id": "Theme_3",
+  "team_name": "TenderEval AI — Anti-Cartel Forensic Tender Evaluation for Government Procurement",
+  "summary": "AI-based tender evaluation and eligibility analysis platform for government procurement",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Zero-Labeling Criterion Extraction",
+    "Multi-Format Document Intelligence Pipeline",
+    "Per-Criterion Verdict with Source-Page Anchoring",
+    "Temporal Graph Neural Networks",
+    "Statutory Cross-Verification"
+  ],
+  "key_steps": [
+    "Ingest tender document and extract eligibility criteria",
+    "Evaluate bidders against each criterion",
+    "Produce explainable, per-criterion verdict with source-page anchoring",
+    "Detect bid-rigging and forensic risk",
+    "Cross-reference bidder claims with live government databases"
+  ],
+  "optimization_claims": [
+    "10x faster evaluation with zero silent disqualifications",
+    "Tamper-proof, explainable evaluations with source-linked verdicts",
+    "Automated cartel detection across historical tenders",
+    "Complete audit trail for every procurement decision"
+  ],
+  "constraints_addressed": [
+    "Manual, opaque, and vulnerable tender evaluation process",
+    "Genuine bidders getting disqualified for minor formatting issues",
+    "Cartels submitting coordinated bids through shell companies",
+    "Procurement irregularities constituting the largest category of corruption complaints"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

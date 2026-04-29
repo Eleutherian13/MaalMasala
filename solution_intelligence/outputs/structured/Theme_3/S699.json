@@ -1,0 +1,46 @@
+{
+  "solution_id": "S699",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI: An AI-Powered Tender Evaluation and Eligibility Analysis Platform for Government Procurement.",
+  "summary": "Design an AI-powered platform to evaluate tenders, understand bidders, and produce explainable evaluation reports. The platform will handle structured reasoning over unstructured data, provide auditability, and ensure consistent, explainable, human-verifiable decisions.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PyMuPDF",
+    "Claude Sonnet",
+    "Google Document AI",
+    "AWS Textract",
+    "python-docx",
+    "OpenCV",
+    "text-embedding-3-large",
+    "pgvector",
+    "FastAPI",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Problem Understanding",
+    "Criterion Extraction",
+    "Bidder Document Parsing",
+    "Matching & Evaluation",
+    "Explainability & Human Review",
+    "Auditability",
+    "Architecture & Technology",
+    "Risks & Trade-offs",
+    "Round 2 Plan"
+  ],
+  "optimization_claims": [
+    "criterion extraction precision ≥ 95%",
+    "evidence recall ≥ 90% typed / ≥ 80% scanned",
+    "zero silent disqualifications",
+    "10-bidder evaluation in under 5 minutes"
+  ],
+  "constraints_addressed": [
+    "high-stakes procurement with legal challenges",
+    "unstructured tender documents",
+    "varying bidder document formats",
+    "vague language creating evaluator inconsistency",
+    "need for auditability and explainability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

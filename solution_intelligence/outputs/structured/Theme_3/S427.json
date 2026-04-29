@@ -1,0 +1,52 @@
+{
+  "solution_id": "S427",
+  "problem_id": "Theme_3",
+  "team_name": "Nyayadarsi: AI-Powered Procurement Justice Platform - From Tender Creation to Project Completion",
+  "summary": "Design a technical platform for AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement in India to address corruption by examining tenders, bidders, evaluating eligibility, and producing explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LayoutLMv3",
+    "Tesseract",
+    "Google Document AI",
+    "Llama 3",
+    "YOLOv8",
+    "scipy",
+    "NetworkX",
+    "FastAPI",
+    "Celery",
+    "Redis",
+    "React",
+    "Next.js",
+    "React Native",
+    "SHA-256",
+    "WORM volume",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "MeitY GovCloud"
+  ],
+  "key_steps": [
+    "Tender Analysis",
+    "Bidder Evaluation",
+    "Eligibility Reporting",
+    "Cross-Bidder Analysis",
+    "Construction Progress Verification",
+    "Audit Trail Generation"
+  ],
+  "optimization_claims": [
+    "Reduces corruption by making it visible at the moment of decision",
+    "Improves accountability with complete audit trails",
+    "Speeds up tender processing through AI automation",
+    "Ensures fairness through a transparent evaluation process"
+  ],
+  "constraints_addressed": [
+    "Tender manipulation for excluding competition",
+    "Fraudulent documents passing evaluation",
+    "Shell companies simulating competition",
+    "Ghost work and cleared payments",
+    "Payment extortion"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

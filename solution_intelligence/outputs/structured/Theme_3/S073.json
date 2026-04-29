@@ -1,0 +1,50 @@
+{
+  "solution_id": "S073",
+  "problem_id": "Theme_3",
+  "team_name": "TenderMind AI",
+  "summary": "Design an AI-powered evaluation platform to automate the evaluation process of government tenders, reducing evaluation time from weeks to hours, minimizing litigation risk, ensuring CAG compliance, and eliminating corruption risks.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "MinIO",
+    "ClamAV",
+    "Tesseract OCR",
+    "Azure AI Doc Intelligence",
+    "IndicBERT (Kannada/Hindi/English)",
+    "Fine-tuned LLM",
+    "LangChain",
+    "RAG pipeline",
+    "Python rules engine",
+    "PostgreSQL",
+    "Redis",
+    "React.js",
+    "DSC-signed PDF export",
+    "immutable audit log"
+  ],
+  "key_steps": [
+    "Upload tender document",
+    "AI auto-extracts eligibility criteria",
+    "Officer confirms or edits criteria",
+    "Bidders upload documents",
+    "AI classifies each document",
+    "OCR + LLM pipeline reads all documents",
+    "AI scores every bidder against every criterion",
+    "Generates a ranked bidder list and audit-ready report"
+  ],
+  "optimization_claims": [
+    "Weeks of evaluation compressed to hours",
+    "Litigation risk drops to near-zero",
+    "CAG compliance becomes automatic",
+    "Corruption loses its entry points"
+  ],
+  "constraints_addressed": [
+    "Inconsistent evaluation",
+    "Document overload",
+    "Silent disqualification",
+    "Corruption & Bid Rigging",
+    "CAG Audit Failures"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

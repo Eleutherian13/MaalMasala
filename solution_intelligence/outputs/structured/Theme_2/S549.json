@@ -1,0 +1,33 @@
+{
+  "solution_id": "S549",
+  "problem_id": "Theme_2",
+  "team_name": "InteropSync Karnataka — Two-Way SWS ↔ Department Middleware",
+  "summary": "Design a bidirectional middleware layer that propagates service requests between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "SQLAlchemy",
+    "APScheduler",
+    "React",
+    "TypeScript",
+    "Tailwind"
+  ],
+  "key_steps": [
+    "Push engine for propagating SWS changes",
+    "Pull engine for receiving department updates",
+    "Schema translation using JSON-config",
+    "Conflict detection and resolution",
+    "Idempotency, audit log, and immutable records"
+  ],
+  "optimization_claims": [
+    "Fast and efficient data synchronization",
+    "Reduced costs compared to retroactively rebuilding source systems"
+  ],
+  "constraints_addressed": [
+    "Silent drifting apart of SWS and department systems",
+    "Lack of two-way interoperability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,29 @@
+{
+  "solution_id": "S434",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSense AI: Automated Eligibility Evaluation Platform for Government Procurement",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis Platform for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "OCR pipeline (Tesseract + cloud fallback)",
+    "LLM-based NLP",
+    "React"
+  ],
+  "key_steps": [
+    "Understands the tender",
+    "Parses every bidder submission",
+    "Evaluates and explains"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to minutes"
+  ],
+  "constraints_addressed": [
+    "Handles real documents",
+    "Ensures consistent, fair decisions across all bidders"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,41 @@
+{
+  "solution_id": "S079",
+  "problem_id": "Theme_3",
+  "team_name": "TenderVerify AI: Agentic Multi-Modal Framework for Explainable Procurement Audit",
+  "summary": "Design a technical platform for AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Gemini 1.5 Pro",
+    "DocTR",
+    "Azure Document Intelligence",
+    "PyMuPDF",
+    "EasyOCR/Tesseract",
+    "LangGraph",
+    "CrewAI",
+    "ChromaDB",
+    "Pinecone",
+    "LayoutLMv3",
+    "Streamlit/React"
+  ],
+  "key_steps": [
+    "Problem Understanding",
+    "Proposed Architecture",
+    "Technical Approach",
+    "Explainable Evaluation & Human-in-the-Loop",
+    "Auditability and Risk Management",
+    "Round 2 Implementation Plan"
+  ],
+  "optimization_claims": [
+    "Improved extraction accuracy with diverse Indian government document templates",
+    "Factual alignment using Self-Correction loops",
+    "End-to-End Audit Trail for accountability"
+  ],
+  "constraints_addressed": [
+    "Semantic Complexity",
+    "Data Heterogeneity",
+    "Accountability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

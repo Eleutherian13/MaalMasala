@@ -1,0 +1,30 @@
+{
+  "solution_id": "S687",
+  "problem_id": "Theme_3",
+  "team_name": "Veridict Evaluation System",
+  "summary": "Design a technical platform that automates the manual process of government procurement, comparing tender requirements with bidder submissions, identifying legit bidders, and producing explainable evaluation reports.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "pdfplumber",
+    "Semantic classification",
+    "PyMuPDF",
+    "OpenCV",
+    "Azure Document Intelligence",
+    "Tesseract"
+  ],
+  "key_steps": [
+    "Document scanning",
+    "Semantic classification",
+    "Evaluation of bidder submissions"
+  ],
+  "optimization_claims": [
+    "Reducing time taken for checking and cross-referencing from days to minutes"
+  ],
+  "constraints_addressed": [
+    "Tedious and difficult process of government procurement",
+    "Risk of wrongful termination leading to legal disputes"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

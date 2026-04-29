@@ -1,0 +1,42 @@
+{
+  "solution_id": "S391",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens — Explainable AI Procurement Evaluation Platform for Government Tenders",
+  "summary": "Design an explainable AI platform for government procurement tender evaluation and eligibility analysis.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "pdfplumber",
+    "PyMuPDF",
+    "Sarvam Document Intelligence API",
+    "LLMS",
+    "RapidFuzz",
+    "spaCy NER",
+    "Python",
+    "WeasyPrint",
+    "React",
+    "FastAPI",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Tender Criterion Extraction",
+    "Bidder Document Parsing",
+    "Criterion-Level Evaluation & Escalation",
+    "Consolidated Report & Audit Trail"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to hours",
+    "Eliminates inter-evaluator inconsistency",
+    "Ensures no bidder is silently disqualified",
+    "Makes every verdict auditable"
+  ],
+  "constraints_addressed": [
+    "Tender language variation across government departments",
+    "Fraudulent documents",
+    "Evaluation at scale",
+    "Data sensitivity",
+    "Auditability under challenge"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

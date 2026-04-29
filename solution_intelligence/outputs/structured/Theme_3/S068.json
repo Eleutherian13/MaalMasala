@@ -1,0 +1,27 @@
+{
+  "solution_id": "S068",
+  "problem_id": "Theme_3",
+  "team_name": "CocoMind",
+  "summary": "Design a technical platform using LLMs, Python Rule Engine, and hybrid multilingual RAG for AI-based tender evaluation and eligibility analysis in government procurement to reduce evaluation time and provide a transparent, secure, and auditable solution.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LLMs",
+    "Python Rule Engine",
+    "Hybrid multilingual RAG"
+  ],
+  "key_steps": [
+    "Data extraction",
+    "Verification using Python Rule Engine",
+    "Production of Verdict Traceability Matrix (VTM)"
+  ],
+  "optimization_claims": [
+    "90% reduction in evaluation time"
+  ],
+  "constraints_addressed": [
+    "Indian-specific PII redaction",
+    "CRPF-specific compliance"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

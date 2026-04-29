@@ -1,0 +1,33 @@
+{
+  "solution_id": "S042",
+  "problem_id": "Theme_3",
+  "team_name": "Sentinel-AI: Multi-Modal & Explainable Procurement Evaluation Engine",
+  "summary": "Design a technical platform that can understand tenders, understand bidders, evaluate eligibility, and produce explainable evaluation reports. The platform uses a multi-modal, human-in-the-loop (HITL) pipeline to handle heterogeneous bidder documents, extract tender criteria, and provide mathematical confidence scores with bounding-box evidence.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "EasyOCR/Tesseract",
+    "Vector Database",
+    "LLM"
+  ],
+  "key_steps": [
+    "Problem Understanding & The Realities of Procurement",
+    "Tender Criteria Extraction Layer",
+    "Multi-Modal Parsing & Value Mapping",
+    "Explainability & The 'No Silent Rejection' HITL Protocol",
+    "Auditability for Government Context"
+  ],
+  "optimization_claims": [
+    "100% auditable eligibility report",
+    "Mathematical confidence score",
+    "Direct hyperlinking to the exact highlighted evidence"
+  ],
+  "constraints_addressed": [
+    "Wildly heterogeneous bidder documents",
+    "Legally binding tender frameworks",
+    "Avoidance of AI hallucinations"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,33 @@
+{
+  "solution_id": "S465",
+  "problem_id": "Theme_3",
+  "team_name": "AutoTender: AI-Driven Criterion Extraction & Eligibility Verification for CRPF Procurement",
+  "summary": "Design a technical platform that automates tender evaluation and eligibility analysis for government procurement, reducing manual evaluation time and increasing consistency.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Tesseract",
+    "EasyOCR",
+    "LayoutLMv3",
+    "spaCy",
+    "Hugging Face Transformers (RoBERTa)",
+    "FastAPI",
+    "Custom comparator"
+  ],
+  "key_steps": [
+    "Intelligent Criterion Extraction",
+    "Legal-to-Logic Conversion",
+    "Mandatory vs. Optional Classification",
+    "Vendor Eligibility Check"
+  ],
+  "optimization_claims": [
+    "90% reduction in manual evaluation time",
+    "98% consistency in eligibility extraction"
+  ],
+  "constraints_addressed": [
+    "eliminates interpretation bias",
+    "scalable for all government e-procurement portals"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

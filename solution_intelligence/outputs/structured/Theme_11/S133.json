@@ -1,0 +1,35 @@
+{
+  "solution_id": "S133",
+  "problem_id": "Theme_11",
+  "team_name": "AdeshX: From Judgments to Just-in-Time Government Action",
+  "summary": "Build an AI system to convert court judgment PDFs into actionable plans, ensuring human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Next.js",
+    "Node.js APIs",
+    "LLM + structured prompts",
+    "OCR + text parsing",
+    "MongoDB"
+  ],
+  "key_steps": [
+    "Document Processing",
+    "Information Extraction",
+    "Action Plan Creation",
+    "Verification Layer",
+    "Dashboard"
+  ],
+  "optimization_claims": [
+    "Saves time spent on reading long documents",
+    "Makes important actions visible instantly",
+    "Reduces chances of missing deadlines",
+    "Helps teams coordinate better"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

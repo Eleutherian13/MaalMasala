@@ -1,0 +1,39 @@
+{
+  "solution_id": "S441",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens AI — Explainable AI Platform for Tender Evaluation & Eligibility Analysis",
+  "summary": "Design an AI platform to automate, standardize, and explain tender evaluation for government organizations like CRPF. The platform uses OCR, NLP, and human-in-the-loop validation to parse bidder submissions, match extracted data against criteria, generate explainable eligibility decisions, and produce audit-ready reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React.js",
+    "Python (FastAPI)",
+    "Tesseract / EasyOCR",
+    "LLM (Gemini/OpenAI)",
+    "MongoDB / Firebase"
+  ],
+  "key_steps": [
+    "Tender Ingestion",
+    "Bidder Document Processing",
+    "Criteria Matching Engine",
+    "Decision Engine",
+    "Explainability Layer",
+    "Human-in-the-Loop",
+    "Final Report"
+  ],
+  "optimization_claims": [
+    "Consistent evaluation",
+    "Explainable AI decisions",
+    "Auditability",
+    "Scalable solution"
+  ],
+  "constraints_addressed": [
+    "Time-consuming manual process",
+    "Inconsistency among evaluators",
+    "Error-prone decisions",
+    "Difficulty to audit",
+    "Bidders' varied document formats"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

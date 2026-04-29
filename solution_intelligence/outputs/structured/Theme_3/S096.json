@@ -1,0 +1,33 @@
+{
+  "solution_id": "S096",
+  "problem_id": "Theme_3",
+  "team_name": "PramaanAI – Explainable Tender Eligibility Copilot",
+  "summary": "Design a technical platform that automates tender evaluation, understands bidder eligibility, and produces explainable evaluation reports for government procurement.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "AI",
+    "NLP"
+  ],
+  "key_steps": [
+    "Automatic extraction of technical, financial, and compliance criteria from tender documents",
+    "Analysis of bidder submissions across various file formats",
+    "Distinguishing mandatory vs optional conditions",
+    "Mapping bidder evidence to each criterion",
+    "Producing pass/fail/manual review decisions criterion-wise",
+    "Providing page-level document references and extracted values",
+    "Routing low-confidence or ambiguous cases for officer review",
+    "Ensuring explainability, logging, and exportable audit-ready reports"
+  ],
+  "optimization_claims": [
+    "Reducing initial evaluation time from days to minutes",
+    "Strengthening transparency, consistency, and efficiency in government procurement"
+  ],
+  "constraints_addressed": [
+    "Complex eligibility clauses",
+    "Manual document verification",
+    "Time-consuming processes"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,41 @@
+{
+  "solution_id": "S574",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered End-to-End Tender Eligibility Evaluation for Government Procurement Developed for the Central Reserve Police Force (CRPF)",
+  "summary": "Design a technical platform that can understand tender documents, understand each bidder, evaluate eligibility, and produce explainable evaluation reports for government procurement. The platform uses large language models (LLMs) for criteria extraction, hybrid evaluation engine, document classification, image preprocessing pipeline, OCR waterfall, document indexing, and an immutable audit log.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PyMuPDF",
+    "Azure OCR",
+    "Tesseract",
+    "GPT-4 Vision",
+    "Retrieval-Augmented Generation (RAG)"
+  ],
+  "key_steps": [
+    "Tender and bidder uploads",
+    "Document Classification",
+    "Image Preprocessing Pipeline",
+    "OCR Waterfall",
+    "Criteria Extraction (LLM)",
+    "Document Indexing (RAG)",
+    "Hybrid Evaluation Engine",
+    "Confidence Scoring",
+    "Human Review Interface",
+    "Explainable Verdicts",
+    "Immutable Audit Log"
+  ],
+  "optimization_claims": [
+    "Faster evaluations",
+    "Consistent decision-making",
+    "Full transparency"
+  ],
+  "constraints_addressed": [
+    "Terminology variation",
+    "Multi-document aggregation",
+    "Borderline values",
+    "Genuine ambiguity"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

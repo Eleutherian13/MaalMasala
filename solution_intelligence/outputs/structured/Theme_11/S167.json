@@ -1,0 +1,33 @@
+{
+  "solution_id": "S167",
+  "problem_id": "Theme_11",
+  "team_name": "Swadhikar — AI-Powered Legal Rights & Judgment Compliance Platform for Every Indian Citizen",
+  "summary": "Build an AI system (Swadhikar) that extracts actionable items from court judgment PDFs, generates a citizen action plan with RTI templates, deadline countdowns, and escalation paths. The platform also includes a multilingual conversational AI for legal advice, scheme finder, and judgment compliance tracking.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Gemini 1.5 Flash",
+    "Google Translate API (7 Indian languages)",
+    "PyMuPDF",
+    "React + Node.js",
+    "PostgreSQL + Drizzle ORM"
+  ],
+  "key_steps": [
+    "Upload court judgment PDFs",
+    "Extract binding directives",
+    "Generate action plans",
+    "Monitor compliance rates",
+    "Auto-generate contempt petition drafts"
+  ],
+  "optimization_claims": [
+    "Improved post-judgment compliance rates",
+    "Efficient legal advice",
+    "Increased transparency and accountability"
+  ],
+  "constraints_addressed": [
+    "Complex, inconsistent legal PDFs",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

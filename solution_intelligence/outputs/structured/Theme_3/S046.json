@@ -1,0 +1,43 @@
+{
+  "solution_id": "S046",
+  "problem_id": "Theme_3",
+  "team_name": "Evidence-First AI",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "spaCy",
+    "Transformers",
+    "Tesseract",
+    "Vision API",
+    "PostgreSQL",
+    "Elasticsearch",
+    "React.js"
+  ],
+  "key_steps": [
+    "Understanding of the Problem",
+    "Proposed Solution",
+    "Technical Approach",
+    "System Architecture",
+    "UI/UX Design",
+    "Implementation Plan",
+    "Sample Scenario",
+    "Conclusion"
+  ],
+  "optimization_claims": [
+    "Faster processing",
+    "Transparent decisions",
+    "Reduced errors",
+    "Scalable solution"
+  ],
+  "constraints_addressed": [
+    "Manual verification of large volumes of documents",
+    "Inconsistent evaluation across officers",
+    "Lack of transparency and auditability",
+    "Difficulty handling scanned and unstructured data"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

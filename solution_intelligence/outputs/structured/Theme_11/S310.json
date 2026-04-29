@@ -1,0 +1,37 @@
+{
+  "solution_id": "S310",
+  "problem_id": "Theme_11",
+  "team_name": "NyaySetu: Bridging Court Judgments to Ground-Level Action",
+  "summary": "Build an AI system that can read court judgment PDFs, extract key information, generate a structured action plan, and ensure human-verified data is presented in a dashboard for government use. The system should handle complex, inconsistent legal PDFs, outputs must be explainable and verifiable, and the focus should be on decision support, not full automation.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR: Tesseract + OpenCV + AWS Textract",
+    "Document AI: LayoutLM (fine-tuned on Indian court documents)",
+    "NLP: spaCy (legal entity recognition)",
+    "LLMs: Claude API / GPT-4o (directive extraction), GPT-4 Vision / Gemini Vision (compliance verification)",
+    "Backend: Python FastAPI",
+    "Frontend: React.js + Tailwind CSS",
+    "Database: PostgreSQL",
+    "Job queue: Redis + Celery",
+    "Notifications: Twilio (SMS), SendGrid (email)",
+    "Deployment: Docker + AWS EC2 / NIC Cloud"
+  ],
+  "key_steps": [
+    "Document Ingestion and Intelligent Parsing",
+    "Spatial Document Understanding with LayoutLM",
+    "LLM-Powered Directive Extraction and Entity Recognition",
+    "Action Card Generation and Authority Assignment",
+    "Real-Time Compliance Dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces the time to convert a court judgment into a structured, assigned, deadline-bound action plan from an average of 15 days (current manual process) to under 2 minutes"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

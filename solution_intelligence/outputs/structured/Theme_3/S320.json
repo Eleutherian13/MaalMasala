@@ -1,0 +1,31 @@
+{
+  "solution_id": "S320",
+  "problem_id": "Theme_3",
+  "team_name": "TenderTwin AI: Intelligent Tender Analysis & Eligibility Engine",
+  "summary": "Design a platform using AI + NLP to automate tender analysis, helping users understand, evaluate, and act on tender documents.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "Transformer-based models (BERT / LLMs)",
+    "Web-based interface",
+    "Structured storage for tender data"
+  ],
+  "key_steps": [
+    "Smart Document Parsing",
+    "Clause Classification",
+    "Eligibility Checker",
+    "Natural Language Querying",
+    "Instant Insights"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Identifying relevant tenders",
+    "Understanding eligibility criteria",
+    "Analyzing legal clauses",
+    "Making quick bid decisions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

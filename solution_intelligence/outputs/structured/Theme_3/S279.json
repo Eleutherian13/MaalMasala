@@ -1,0 +1,35 @@
+{
+  "solution_id": "S279",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens AI: Explainable & Fraud-Aware Tender Evaluation System for Transparent Government Procurement",
+  "summary": "AI-based tender evaluation and eligibility analysis system designed to automate government procurement, improve speed, consistency, transparency, and reduce fraud.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python (FastAPI)",
+    "Transformer-based NLP Models",
+    "Tesseract OCR",
+    "React.js Dashboard",
+    "PostgreSQL",
+    "Cloud Deployment (AWS/Azure/GCP)"
+  ],
+  "key_steps": [
+    "Upload tender",
+    "Extract criteria (OCR + NLP)",
+    "Analyze bidder documents",
+    "Match with rules",
+    "Generate evaluation report",
+    "Review and finalize"
+  ],
+  "optimization_claims": [
+    "Faster tender evaluation",
+    "Reduced fraud and manipulation",
+    "Improved transparency and accountability"
+  ],
+  "constraints_addressed": [
+    "Time-consuming and manual tender evaluation",
+    "Risk of fraud, manipulation, and subjective interpretation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

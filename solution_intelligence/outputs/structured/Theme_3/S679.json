@@ -1,0 +1,36 @@
+{
+  "solution_id": "S679",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI: Explainable AI Platform for Automated Tender Evaluation & Eligibility Analysis",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement using TenderAI platform",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React.js",
+    "Node.js + Express",
+    "NLP/LLM",
+    "OCR",
+    "MongoDB"
+  ],
+  "key_steps": [
+    "Tender Understanding Module",
+    "Bidder Document Processing Module",
+    "Criteria Matching Engine",
+    "Explainability Engine",
+    "Human-in-the-Loop System",
+    "Audit & Reporting Module"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to minutes",
+    "Ensures consistent and unbiased evaluation",
+    "Improves transparency & accountability"
+  ],
+  "constraints_addressed": [
+    "Highly manual and time-consuming process",
+    "Prone to inconsistency and human error",
+    "Difficult to audit and justify decisions",
+    "Challenging due to unstructured and varied document formats"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

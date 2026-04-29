@@ -31,12 +31,20 @@ def validate_phase1_output(problem_id: str, output_dir: str):
     with open(path, 'r', encoding='utf-8') as f:
         data = json.load(f)
         
-    required = {"solution_id", "core_idea", "approach", "novelty_score", "quality_score", "summary"}
+    required = {"solution_id", "summary", "approach_type", "tech_stack"}
     for item in data:
         if item.get("parse_error"):
             continue
         missing = required - item.keys()
         assert not missing, f"Missing keys: {missing}"
-        assert 1 <= item["novelty_score"] <= 10
-        assert 1 <= item["quality_score"] <= 10
     return True
+
+def determine_cluster_tier(avg_score: float, variance: float, size: int, min_cluster_size: int, variance_threshold: float = 100.0) -> str:
+    """
+    Evaluates cluster statistics to determine ELITE, STRONG, or BASELINE tier.
+    """
+    if avg_score > 75 and variance < variance_threshold and size > min_cluster_size:
+        return "ELITE"
+    elif avg_score > 60:
+        return "STRONG"
+    return "BASELINE"

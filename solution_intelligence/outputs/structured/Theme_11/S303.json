@@ -1,0 +1,35 @@
+{
+  "solution_id": "S303",
+  "problem_id": "Theme_11",
+  "team_name": "PRAMAN-AVA (Action and Verification Assistant) : AI System for Court Judgment Understanding and Verified Action Planning",
+  "summary": "Build an AI system to read court judgment PDFs, extract key information, generate a structured action plan, and present verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Transformer-based NLP models (BERT / Legal-BERT)",
+    "LayoutLM",
+    "Tesseract / PaddleOCR",
+    "Python (FastAPI / Django)",
+    "React / Next.js",
+    "PostgreSQL / MongoDB"
+  ],
+  "key_steps": [
+    "Document processing and extraction",
+    "Action plan generation and reasoning",
+    "Human verification interface",
+    "Dashboard and analytics",
+    "(Extended) Risk detection, timeline intelligence, and cross-case learning"
+  ],
+  "optimization_claims": [
+    "Reduction in manual processing time",
+    "Reduction in missed deadlines",
+    "Reviewer intervention rate minimized"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

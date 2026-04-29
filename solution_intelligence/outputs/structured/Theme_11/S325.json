@@ -1,0 +1,26 @@
+{
+  "solution_id": "S325",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaSetu — From Court Judgments to Verified Action Plans",
+  "summary": "Build an AI system for extracting key information from court judgment PDFs, generating structured action plans and presenting human-verified data in a dashboard.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NyayaSetu"
+  ],
+  "key_steps": [
+    "PDF processing",
+    "Information extraction",
+    "Structured action plan generation",
+    "Human verification",
+    "Dashboard presentation"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Handling complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,37 @@
+{
+  "solution_id": "S567",
+  "problem_id": "Theme_2",
+  "team_name": "ABIL – Agent Based Interoperability Layer",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Node.js",
+    "Kafka or queue simulation",
+    "REST APIs",
+    "MongoDB / PostgreSQL",
+    "Dashboard"
+  ],
+  "key_steps": [
+    "Detects changes across systems",
+    "Translates heterogeneous data formats",
+    "Synchronizes updates in both directions",
+    "Resolves conflicts using defined policies",
+    "Maintains a complete audit trail"
+  ],
+  "optimization_claims": [
+    "Eliminates data inconsistencies across systems",
+    "Improves transparency and trust",
+    "Enables reliable decision-making",
+    "Scales across departments and future integrations"
+  ],
+  "constraints_addressed": [
+    "Multiple authoritative systems",
+    "Lack of real-time communication",
+    "Schema and API heterogeneity",
+    "No reliable synchronization mechanism",
+    "Inability to modify existing systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

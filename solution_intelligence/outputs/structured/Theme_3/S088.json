@@ -1,0 +1,34 @@
+{
+  "solution_id": "S088",
+  "problem_id": "Theme_3",
+  "team_name": "CertiProcure AI: Blockchain-Anchored Multi-Modal Intelligence for Automated Tender Compliance",
+  "summary": "Design a technical platform for CRPF to eliminate manual evaluation fatigue, combining Agentic AI and Blockchain. The system automates tender compliance, provides explainable verdicts, and ensures accountability.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LayoutLMv3",
+    "Tesseract",
+    "TrOCR",
+    "Llama-3 or Claude",
+    "Hyperledger Fabric",
+    "AWS S3"
+  ],
+  "key_steps": [
+    "Tender Ingestion",
+    "Multi-Modal Bidder Analysis",
+    "Automated Comparison",
+    "Verification & Logging"
+  ],
+  "optimization_claims": [
+    "Eliminates manual evaluation fatigue",
+    "Immutable and legally defensible eligibility decisions",
+    "Addresses ambiguous cases with human-in-the-loop"
+  ],
+  "constraints_addressed": [
+    "Explainable verdicts",
+    "Human-in-the-loop for ambiguous cases",
+    "Consolidated Audit Report for accountability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,29 @@
+{
+  "solution_id": "S165",
+  "problem_id": "Theme_11",
+  "team_name": "hhdr",
+  "summary": "From Court Judgments to Verified Action Plans: Develop an AI system that extracts key information from court judgment PDFs, generates a structured action plan, and presents verified data in a dashboard for government use. Constraints include handling complex, inconsistent legal PDFs, ensuring explainable and verifiable outputs, and focusing on decision support rather than full automation.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PDF processing libraries",
+    "NLP"
+  ],
+  "key_steps": [
+    "PDF pre-processing",
+    "Information extraction",
+    "Action plan generation",
+    "Data verification",
+    "Dashboard creation"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Complex, inconsistent legal PDFs",
+    "Explainable and verifiable outputs",
+    "Decision support instead of full automation"
+  ],
+  "missing_components": [
+    "Optimization claims"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

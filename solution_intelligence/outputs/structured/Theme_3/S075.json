@@ -1,0 +1,32 @@
+{
+  "solution_id": "S075",
+  "problem_id": "Theme_3",
+  "team_name": "EcoProcure AI – Intelligent Tender Evaluation System for Plastic Waste Management Contracts",
+  "summary": "Design a technical platform that can understand tender documents, evaluate bidders, determine eligibility, and produce explainable evaluation reports for plastic waste management contracts.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP",
+    "rule-based algorithms",
+    "data analysis"
+  ],
+  "key_steps": [
+    "Automated Requirement Extraction",
+    "AI-Based Eligibility Evaluation",
+    "Scoring & Ranking System",
+    "Risk & Fraud Detection",
+    "Explainable AI Output"
+  ],
+  "optimization_claims": [
+    "faster evaluation",
+    "transparent decision-making",
+    "reduced manual effort"
+  ],
+  "constraints_addressed": [
+    "manual, time-consuming process",
+    "errors in evaluation",
+    "difficulty in selecting capable and compliant companies"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

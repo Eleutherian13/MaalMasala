@@ -1,0 +1,37 @@
+{
+  "solution_id": "S189",
+  "problem_id": "Theme_11",
+  "team_name": "JudgeAI: Intelligent Court Judgment Analyzer & Compliance Action Engine",
+  "summary": "Build an AI system that processes court judgment PDFs, extracts key information, generates structured action plans, and ensures human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Tailwind CSS",
+    "FastAPI (Python)",
+    "PyMuPDF + pdfplumber",
+    "Tesseract",
+    "PostgreSQL",
+    "JWT"
+  ],
+  "key_steps": [
+    "Extract (Adaptive Document Processing)",
+    "Directive Intelligence & Action Plan Generation",
+    "Confidence-Aware Decision Layer",
+    "Uncertainty & Conflict Handling",
+    "Explainability Layer",
+    "Human Verification",
+    "Trusted Dashboard"
+  ],
+  "optimization_claims": [
+    "Extracts and structures all critical actions in under 30 seconds.",
+    "Enables faster, safer, and more reliable decision-making for government departments."
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

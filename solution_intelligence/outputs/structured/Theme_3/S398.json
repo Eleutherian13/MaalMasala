@@ -1,0 +1,40 @@
+{
+  "solution_id": "S398",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens AI — Automated Tender Eligibility Evaluation with Human Verification",
+  "summary": "Design a platform to automate first reading of tender documents, extract eligibility criteria, evaluate bidders, flag ambiguous cases for human review, and generate explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "Django",
+    "HTML/CSS/JavaScript",
+    "Tesseract OCR",
+    "Google Gemini Free API",
+    "Hugging Face Inference API",
+    "MongoDB Atlas (Free Tier) / PostgreSQL"
+  ],
+  "key_steps": [
+    "Upload tender document",
+    "Extract eligibility criteria",
+    "Upload bidder submissions",
+    "OCR processing",
+    "AI evaluation",
+    "Manual review for ambiguous cases",
+    "Final approval by procurement officer",
+    "Generation of consolidated evaluation report"
+  ],
+  "optimization_claims": [
+    "Reduces tender evaluation time from days to hours",
+    "Ensures every bidder is checked against the same criteria consistently",
+    "Eliminates silent disqualifications",
+    "Produces a fully auditable report suitable for formal government procurement decisions"
+  ],
+  "constraints_addressed": [
+    "Slow and inconsistent manual checking",
+    "Hard-to-audit process",
+    "Silent disqualifications"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

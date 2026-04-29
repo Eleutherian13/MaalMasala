@@ -1,0 +1,48 @@
+{
+  "solution_id": "S076",
+  "problem_id": "Theme_3",
+  "team_name": "NirnayAI : AI-powered tender evaluation for fast, fair, and auditable government decisions",
+  "summary": "Design an AI-powered platform for automatic tender evaluation and eligibility analysis in government procurement to streamline the process, reduce subjective judgments, and improve transparency.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract OCR",
+    "AWS Textract/Google Vision",
+    "Claude API/GPT-4 via Azure OpenAI",
+    "Python + FastAPI",
+    "LangChain",
+    "PyMuPDF",
+    "python-docx",
+    "PostgreSQL",
+    "React + TypeScript",
+    "Docker",
+    "NIC MeghRaj/AWS GovCloud"
+  ],
+  "key_steps": [
+    "Automated Criteria Extraction",
+    "Multi-Format Document Ingestion",
+    "OCR with Confidence Scoring",
+    "Evidence Mapping",
+    "Three-Tier Verdict System",
+    "Criterion-Level Explainability",
+    "Human-in-the-Loop Review Interface",
+    "Immutable Audit Log",
+    "Consolidated Procurement Report",
+    "Role-Based Access Control"
+  ],
+  "optimization_claims": [
+    "Faster evaluations",
+    "Higher accuracy",
+    "Scalability",
+    "Improved transparency in procurement"
+  ],
+  "constraints_addressed": [
+    "Poor Quality Scanned Documents",
+    "Ambiguous Tender Language",
+    "Data Privacy & Security",
+    "Resistance to Adoption",
+    "Legal Admissibility"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

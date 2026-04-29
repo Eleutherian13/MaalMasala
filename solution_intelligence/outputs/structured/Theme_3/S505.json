@@ -1,0 +1,33 @@
+{
+  "solution_id": "S505",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Tender Evaluation and Eligibility Analysis Platform",
+  "summary": "Design a technical platform that automates the evaluation of government tenders by intelligently analyzing both tender documents and bidder submissions, providing clear, criterion-level explanations with document references.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Python (FastAPI)",
+    "Java (Spring Boot)",
+    "Large Language Models (LLMs)",
+    "Tesseract / EasyOCR",
+    "MongoDB / PostgreSQL"
+  ],
+  "key_steps": [
+    "Intelligent Tender Understanding",
+    "Bidder Document Analysis",
+    "Automated Evaluation & Explainability"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to minutes",
+    "Ensures consistency across all bidders",
+    "Improves fairness and transparency in procurement",
+    "Enables audit-ready decision-making"
+  ],
+  "constraints_addressed": [
+    "unstructured documents",
+    "scanned documents"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

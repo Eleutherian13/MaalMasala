@@ -1,0 +1,32 @@
+{
+  "solution_id": "S248",
+  "problem_id": "Theme_3",
+  "team_name": "BidOptic: Layout-Aware Parsing and Rule-Bound Evaluation for Government Procurement",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, produce explainable evaluation reports, and ensure legal compliance.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LayoutLMv3",
+    "Flan-T5",
+    "DeBERTa",
+    "Python rule engine",
+    "React"
+  ],
+  "key_steps": [
+    "AI data extraction",
+    "Hard-coded Python rule checks",
+    "Text matching using DeBERTa"
+  ],
+  "optimization_claims": [
+    "Mathematical accuracy",
+    "Auditability through pixel coordinates",
+    "Quick verification"
+  ],
+  "constraints_addressed": [
+    "Legal compliance",
+    "Ambiguous wording",
+    "Low-quality scans"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

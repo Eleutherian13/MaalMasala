@@ -1,0 +1,43 @@
+{
+  "solution_id": "S737",
+  "problem_id": "Theme_2",
+  "team_name": "Samanvay — A Causal Semantic Interoperability Fabric Between Karnataka's Single Window System and 40+ Department Systems",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Apache Kafka",
+    "PostgreSQL",
+    "Debezium",
+    "Open Policy Agent",
+    "Neo4j",
+    "Apache Flink",
+    "Kubernetes",
+    "Prometheus",
+    "Grafana",
+    "Loki",
+    "HashiCorp Vault",
+    "Istio",
+    "eBPF-based tooling",
+    "OpenFHE",
+    "Locally-hosted Llama 3.1 8B and sentence-transformers models"
+  ],
+  "key_steps": [
+    "Mapping department systems with UBID Registry",
+    "Change Detection and Propagation",
+    "Conflict Resolution"
+  ],
+  "optimization_claims": [
+    "Causal Interoperability Graph (CIG) for predictive integration",
+    "Zero-Trust PII with Partial Homomorphic Encryption",
+    "Neuro-Symbolic Conflict Arbitration with Explanations in Kannada",
+    "CRDT Consistency Layer and Self-Healing Schema Drift Detection"
+  ],
+  "constraints_addressed": [
+    "Single-day cutover is not realistic at this scale",
+    "Changes are not propagating between SWS and department systems",
+    "Data privacy concerns"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

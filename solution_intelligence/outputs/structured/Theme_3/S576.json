@@ -1,0 +1,29 @@
+{
+  "solution_id": "S576",
+  "problem_id": "Theme_3",
+  "team_name": "SHAKTI AI: Explainable Tender Evaluation & Eligibility Analysis Platform for CRPF Government Procurement",
+  "summary": "Design a technical platform that evaluates tenders, understands bidders, checks eligibility, and produces explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PRACTICE",
+    "COMPETE",
+    "JOBS",
+    "LEADERBOARD"
+  ],
+  "key_steps": [
+    "Understand tender document",
+    "Analyze bidder submissions",
+    "Evaluate eligibility",
+    "Produce explainable evaluation reports"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Government procurement",
+    "Tender evaluation",
+    "Bidder analysis",
+    "Eligibility checking"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

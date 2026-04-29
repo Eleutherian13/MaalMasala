@@ -1,0 +1,40 @@
+{
+  "solution_id": "S265",
+  "problem_id": "Theme_3",
+  "team_name": "Tenderly",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "spaCy",
+    "Hugging Face Legal-BERT",
+    "PyPDF2",
+    "pdfplumber",
+    "Tesseract OCR",
+    "OpenCV",
+    "python-docx",
+    "openpyxl",
+    "Pandas",
+    "Logic Layer"
+  ],
+  "key_steps": [
+    "Extracting Eligibility Criteria",
+    "Parsing bidder documents",
+    "Matching & Evaluation",
+    "Explainability",
+    "Ambiguity Handling"
+  ],
+  "optimization_claims": [
+    "Automation of extraction, matching, and explainable evaluation",
+    "Transparent, auditable decisions"
+  ],
+  "constraints_addressed": [
+    "Documents in multiple formats",
+    "Strict eligibility criteria",
+    "Legal/compliance, financial, and technical criteria",
+    "Ambiguities in OCR or legal language or multilingual submissions",
+    "Manual follow-ups with bidders"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

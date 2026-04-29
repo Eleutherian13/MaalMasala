@@ -1,0 +1,33 @@
+{
+  "solution_id": "S581",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ- AI-Based Tender Evaluation Platform",
+  "summary": "Design a technical platform that can understand tenders, evaluate bidders, generate explainable reports, flag uncertain cases for human review, and improve over time through a feedback loop.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP Engine",
+    "Document Processing Engine",
+    "Information Mapping Layer",
+    "Evaluation Engine",
+    "Explainability Module"
+  ],
+  "key_steps": [
+    "Extract structured eligibility criteria from tender documents",
+    "Parse and understand multi-format bidder submissions",
+    "Evaluate each bidder against all the required criterion",
+    "Generate explainable, auditable, and consistent decisions and reasoning",
+    "Flag uncertain cases for human review",
+    "Improve overall evaluation through a feedback loop"
+  ],
+  "optimization_claims": [
+    "The system can handle moderate customization with transformer-based NLP models and OCR engines.",
+    "Components can be independently developed, tested, and scaled."
+  ],
+  "constraints_addressed": [
+    "Ambiguous cases are not auto-rejected.",
+    "Handles real-world government workflows where accuracy and auditability are critical"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

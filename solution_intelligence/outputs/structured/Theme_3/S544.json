@@ -1,0 +1,31 @@
+{
+  "solution_id": "S544",
+  "problem_id": "Theme_3",
+  "team_name": "Project DRISHTI - Document Review and Intelligent Screening for Tender Inspection",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement using the platform Project DRISHTI",
+  "approach_type": "ml",
+  "tech_stack": [
+    "AI"
+  ],
+  "key_steps": [
+    "Automated tender parsing",
+    "Multi-modal document ingestion",
+    "Smart criterion matching",
+    "Cross-document contradiction detection",
+    "Explainable verdicts",
+    "Regulatory intelligence",
+    "Immutable audit trail"
+  ],
+  "optimization_claims": [
+    "Reduces human effort in tender evaluation",
+    "Increases consistency and accuracy",
+    "Improves accountability and legal defensibility"
+  ],
+  "constraints_addressed": [
+    "Slow and inconsistent current tender evaluation process",
+    "Vulnerability to errors and fraud"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

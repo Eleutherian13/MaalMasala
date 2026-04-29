@@ -1,0 +1,36 @@
+{
+  "solution_id": "S299",
+  "problem_id": "Theme_11",
+  "team_name": "AdhikarAI: Explainable & Action-Oriented System for Converting Court Judgments into Verified Government Workflows",
+  "summary": "Build an AI system to read court judgment PDFs, extract key information, generate a structured action plan, and ensure human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python (FastAPI)",
+    "Transformer-based NLP Models",
+    "Tesseract OCR",
+    "React.js Dashboard",
+    "PostgreSQL",
+    "Cloud Deployment (AWS/Azure/GCP)"
+  ],
+  "key_steps": [
+    "Extract text (OCR)",
+    "Identify directives (NLP)",
+    "Generate action plan",
+    "Verify",
+    "Track in dashboard"
+  ],
+  "optimization_claims": [
+    "Faster decisions",
+    "Reduced legal risk",
+    "Improved transparency",
+    "Lower manual workload"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

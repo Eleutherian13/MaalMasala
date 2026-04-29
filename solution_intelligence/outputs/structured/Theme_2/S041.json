@@ -1,0 +1,32 @@
+{
+  "solution_id": "S041",
+  "problem_id": "Theme_2",
+  "team_name": "Sutra-K: The Interoperability Fabric for Karnataka SWS",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Redis Streams/RabbitMQ",
+    "C",
+    "Modern frontend framework"
+  ],
+  "key_steps": [
+    "Event-driven, bidirectional interoperability layer",
+    "JSON mapping layer",
+    "Robust retry queues",
+    "High-Speed Polling Engine",
+    "Deterministic Timestamp Triage",
+    "Immutable Audit Ledger",
+    "Adaptive Polling"
+  ],
+  "optimization_claims": [
+    "Strict data synchronization without modifying a single line of legacy source code.",
+    "100% data parity across the state's ecosystem."
+  ],
+  "constraints_addressed": [
+    "Isolated silos of department systems",
+    "Lack of modern webhook capabilities"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

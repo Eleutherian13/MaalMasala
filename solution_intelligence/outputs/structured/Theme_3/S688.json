@@ -1,0 +1,36 @@
+{
+  "solution_id": "S688",
+  "problem_id": "Theme_3",
+  "team_name": "Dyuti — A Criterion Ontology Engine for Explainable, Vigilance-Aware Bid Evaluation in Government Procurement",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Mistral-7B",
+    "Apache Tika",
+    "Tesseract",
+    "LayoutLM",
+    "BGE-M3",
+    "Bhashini API"
+  ],
+  "key_steps": [
+    "Criterion Ontology building",
+    "Document Parsing",
+    "Matching",
+    "Verdicts & Collusion Detection",
+    "Explainability & Reports",
+    "Audit Trail"
+  ],
+  "optimization_claims": [
+    "Eliminating hallucination risk on numeric thresholds",
+    "Avoiding silent rejection",
+    "Advisory collusion flags"
+  ],
+  "constraints_addressed": [
+    "Language inconsistency",
+    "Format chaos",
+    "Silent disqualification trap"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

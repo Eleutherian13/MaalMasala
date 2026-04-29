@@ -1,0 +1,32 @@
+{
+  "solution_id": "S463",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ: Explainable AI Platform for Automated Eligibility Evaluation in Government Procurement",
+  "summary": "Design an AI platform to automate tender evaluation, understand tenders and bidders, evaluate eligibility, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP",
+    "OCR",
+    "PDF parsers",
+    "Tesseract",
+    "Vision AI",
+    "Table parsing models"
+  ],
+  "key_steps": [
+    "Understanding the Tender",
+    "Understanding Bidders' Submissions",
+    "Evaluation and Decision Making"
+  ],
+  "optimization_claims": [
+    "fast, reliable, compliant tender decisions",
+    "consistent, traceable, explainable process"
+  ],
+  "constraints_addressed": [
+    "heterogeneous submissions",
+    "variation handling",
+    "ambiguity"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

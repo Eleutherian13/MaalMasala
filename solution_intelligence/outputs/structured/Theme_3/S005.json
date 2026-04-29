@@ -1,0 +1,45 @@
+{
+  "solution_id": "S005",
+  "problem_id": "Theme_3",
+  "team_name": "ai-tender-evaluation-solution",
+  "summary": "Design a technical platform that automates the evaluation and eligibility analysis for government procurement using AI. The system extracts information from unstructured documents, applies eligibility rules consistently, and generates explainable reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "React",
+    "Tailwind CSS",
+    "Tesseract",
+    "GPT-4o",
+    "FAISS",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Understanding the Problem",
+    "Overview of the System",
+    "Understanding the Tender",
+    "Understanding the Documents (RAG Approach)",
+    "Processing Bidder Documents",
+    "Evaluating Eligibility",
+    "Human-in-the-Loop and Continuous Improvement",
+    "Explainability, Audit, and Security",
+    "Dashboard and Reporting",
+    "Measuring System Performance"
+  ],
+  "optimization_claims": [
+    "Improves efficiency in government procurement process",
+    "Reduces human error during evaluation",
+    "Ensures consistency in eligibility decisions",
+    "Makes the process faster, more consistent, and easier to audit",
+    "Increases fairness and transparency"
+  ],
+  "constraints_addressed": [
+    "Time-consuming manual review process",
+    "Different evaluators interpreting documents differently",
+    "Important details being missed",
+    "Decisions difficult to track and audit later"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

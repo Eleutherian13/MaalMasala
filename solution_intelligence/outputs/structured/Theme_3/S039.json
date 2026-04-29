@@ -1,0 +1,30 @@
+{
+  "solution_id": "S039",
+  "problem_id": "Theme_3",
+  "team_name": "\"TenderLens\" — An Explainable AI Procurement Evaluator",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Kafka",
+    "Redis",
+    "PostgreSQL",
+    "LLM Gateway"
+  ],
+  "key_steps": [
+    "Criterion Extraction from the Tender",
+    "Bidder Document Parsing",
+    "Matching and Verdict",
+    "Consolidated Report and Audit"
+  ],
+  "optimization_claims": [
+    "AI hallucination prevention",
+    "silent disqualification prevention",
+    "human review for low-confidence cases"
+  ],
+  "constraints_addressed": [
+    "PII constraint"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,35 @@
+{
+  "solution_id": "S382",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Based Tender Evaluation and Eligibility Analysis System",
+  "summary": "Design a technical platform that automates tender evaluation and eligibility analysis for government procurement, improving accuracy, transparency, and auditability.",
+  "approach_type": "hybrid (rule-based, ml)",
+  "tech_stack": [
+    "React",
+    "FastAPI",
+    "Node.js",
+    "Tesseract",
+    "spaCy",
+    "MongoDB"
+  ],
+  "key_steps": [
+    "Document ingestion & OCR",
+    "Data extraction & structuring",
+    "Rule engine & evaluation",
+    "UI & reporting system"
+  ],
+  "optimization_claims": [
+    "Improved accuracy",
+    "Transparency",
+    "Auditability"
+  ],
+  "constraints_addressed": [
+    "Inconsistent decisions",
+    "High processing time",
+    "Risk of missing critical information",
+    "Lack of auditability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

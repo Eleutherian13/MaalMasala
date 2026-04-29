@@ -1,0 +1,39 @@
+{
+  "solution_id": "S309",
+  "problem_id": "Theme_11",
+  "team_name": "Kartavya: A Compliance Operations Layer for the Karnataka CCMS",
+  "summary": "Build an AI system that converts disposed court judgment PDFs into verified, deadline-bound action plans for government use, addressing complex, inconsistent legal documents and ensuring explainable and verifiable outputs.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "Ollama",
+    "pdfplumber",
+    "Surya",
+    "PostgreSQL",
+    "HTMX",
+    "Jinja",
+    "React",
+    "Redis",
+    "RQ"
+  ],
+  "key_steps": [
+    "judgment ingestion and scanning",
+    "classification of paragraphs",
+    "extraction of verdict class, operative directions, and case metadata",
+    "generation of action plans by a rules engine",
+    "verification of extracted data against source text"
+  ],
+  "optimization_claims": [
+    "calculation of limitation periods by citing exact statutes",
+    "assignment of monitoring responsibility to departments by role designation",
+    "use of near-miss tracker and consequence chips for risk management"
+  ],
+  "constraints_addressed": [
+    "handling complex, inconsistent legal PDFs",
+    "outputting explainable and verifiable data",
+    "focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

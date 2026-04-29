@@ -1,0 +1,36 @@
+{
+  "solution_id": "S000",
+  "problem_id": "Theme_3",
+  "team_name": "TenderMind AI - Explainable Procurement Intelligence Platform",
+  "summary": "AI-based tender evaluation and eligibility analysis platform for government procurement, providing explainable evaluations, reducing evaluation time, improving consistency, enhancing fairness, and bringing accountability to the public procurement process.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Natural Language Processing",
+    "OCR",
+    "Document Understanding Models",
+    "Rule-based logic",
+    "Machine Learning"
+  ],
+  "key_steps": [
+    "Processing tender documents",
+    "Extracting and structuring eligibility criteria",
+    "Ingesting bidder submissions in multiple formats",
+    "Matching extracted bidder data against the defined criteria",
+    "Producing clear verdicts for each bidder",
+    "Ensuring transparency and trust with detailed evidence"
+  ],
+  "optimization_claims": [
+    "Reducing evaluation time",
+    "Improving consistency",
+    "Enhancing fairness",
+    "Bringing accountability to public procurement"
+  ],
+  "constraints_addressed": [
+    "Complex tender documents",
+    "Diverse bidder submissions in multiple formats",
+    "Ambiguous or low-confidence cases"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,26 @@
+{
+  "solution_id": "S404",
+  "problem_id": "Theme_2",
+  "team_name": "Android",
+  "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common join key between Karnataka's Single Window System and legacy department systems.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Android"
+  ],
+  "key_steps": [
+    "Implement Android layer for two-way interoperability",
+    "Use UBID as common join key",
+    "Test integration with department systems"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Data inconsistency due to manual data entry",
+    "Lack of real-time updates between systems"
+  ],
+  "missing_components": [
+    "Web interface for the layer",
+    "Integration tests and documentation"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

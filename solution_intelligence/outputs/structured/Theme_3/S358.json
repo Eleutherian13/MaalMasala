@@ -1,0 +1,31 @@
+{
+  "solution_id": "S358",
+  "problem_id": "Theme_3",
+  "team_name": "Scan to Score — AI-Powered Tender Evaluation Platform for Government Procurement",
+  "summary": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports for government procurement officers.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "AI Agents",
+    "Vector Database"
+  ],
+  "key_steps": [
+    "Tender Parsing",
+    "Document Ingestion",
+    "Agentic Evaluation Loop",
+    "Explainable Verdicts",
+    "Human-in-the-Loop",
+    "Audit-Ready Report"
+  ],
+  "optimization_claims": [
+    "Reducing evaluation time from days to a review-and-approve workflow.",
+    "Ensuring no silent disqualification of bidders."
+  ],
+  "constraints_addressed": [
+    "Mixed document formats",
+    "Mandatory vs optional criteria"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

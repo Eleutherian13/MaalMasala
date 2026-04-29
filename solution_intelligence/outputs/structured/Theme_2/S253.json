@@ -1,0 +1,23 @@
+{
+  "solution_id": "S253",
+  "problem_id": "Theme_2",
+  "team_name": "BRIDGE — Bidirectional Real-time Interoperability for Distributed Government Entities",
+  "summary": "Design a layer for bidirectional real-time interoperability using UBID as common join key between Karnataka's Single Window System and legacy department systems.",
+  "approach_type": "system",
+  "tech_stack": [
+    "BRIDGE"
+  ],
+  "key_steps": [
+    "Implement bidirectional propagation of service requests",
+    "Use UBID as common join key"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Interoperability between different systems"
+  ],
+  "missing_components": [
+    "Detailed design and implementation guidelines for the BRIDGE system"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,36 @@
+{
+  "solution_id": "S275",
+  "problem_id": "Theme_3",
+  "team_name": "TenderGuard: AI-Powered Bid Screening and Fraud Detection",
+  "summary": "Design a technical platform that automates tender evaluation, eligibility analysis, and fraud detection for government procurement using AI technologies.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Python",
+    "NLP (BERT or spaCy)",
+    "Machine Learning (Random Forest/XGBoost)",
+    "OCR (Tesseract)",
+    "Cloud Platform"
+  ],
+  "key_steps": [
+    "Analyze tender documents",
+    "Extract relevant information",
+    "Verify eligibility criteria",
+    "Assign scores to each bidder",
+    "Generate a ranked list of eligible vendors",
+    "Incorporate anomaly detection techniques"
+  ],
+  "optimization_claims": [
+    "Reduces manual work and time",
+    "Improves transparency and accountability",
+    "Reduces bias",
+    "Ensures fraud detection"
+  ],
+  "constraints_addressed": [
+    "Time-consuming manual process",
+    "Lack of transparency and accountability",
+    "Potential for fraud or collusion"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

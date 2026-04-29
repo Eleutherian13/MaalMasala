@@ -1,0 +1,34 @@
+{
+  "solution_id": "S627",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens AI: Explainable Tender Evaluation & Eligibility Intelligence System",
+  "summary": "Design a technical platform that automates tender evaluation, ensures explainability, and produces auditable reports in the field of government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "AI models"
+  ],
+  "key_steps": [
+    "Tender Understanding",
+    "Bidder Document Analysis",
+    "Eligibility Evaluation Engine",
+    "Explainability",
+    "Confidence & Risk Handling",
+    "Human-in-the-Loop Workflow"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time significantly",
+    "Improves consistency across decisions",
+    "Enables transparent and auditable procurement",
+    "Minimizes human error while retaining control"
+  ],
+  "constraints_addressed": [
+    "Inconsistent evaluations",
+    "High risk of oversight",
+    "Lack of transparency and auditability",
+    "Existing workflows do not provide clear justification for eligibility decisions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

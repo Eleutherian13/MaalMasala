@@ -1,0 +1,31 @@
+{
+  "solution_id": "S347",
+  "problem_id": "Theme_11",
+  "team_name": "Judgment-to-Action Intelligence System A Verified and Explainable Decision Architecture for Government Compliance",
+  "summary": "Build an AI system that converts unstructured court judgments into structured, verified, and explainable action plans for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PDF processing",
+    "NLP",
+    "Reasoning"
+  ],
+  "key_steps": [
+    "Ingestion and Normalization",
+    "Semantic Understanding",
+    "Action Plan Generation",
+    "Human Verification",
+    "Trusted Output Dashboard"
+  ],
+  "optimization_claims": [
+    "Mandatory human verification",
+    "Continuous learning via feedback"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

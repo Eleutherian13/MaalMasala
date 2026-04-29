@@ -1,0 +1,32 @@
+{
+  "solution_id": "S094",
+  "problem_id": "Theme_3",
+  "team_name": "Bidexa AI: Smarter, Fairer, and Safer Tender Evaluation with AI",
+  "summary": "Design a technical platform that can understand tenders, evaluate eligibility, rank bidders, detect anomalies, incorporate Explainable AI, integrate with existing e-procurement systems, and improve efficiency in government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "AI",
+    "Machine Learning",
+    "API"
+  ],
+  "key_steps": [
+    "Document Analysis",
+    "Bidder Evaluation",
+    "Multi-criteria Scoring Model",
+    "Risk Intelligence Engine",
+    "Explainable AI (XAI)"
+  ],
+  "optimization_claims": [
+    "Improved efficiency",
+    "Reduced risk",
+    "Strengthened trust in public sector contracting"
+  ],
+  "constraints_addressed": [
+    "Anomalies detection",
+    "Inconsistent data",
+    "Potential fraud patterns"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

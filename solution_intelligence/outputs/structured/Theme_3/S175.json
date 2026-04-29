@@ -1,0 +1,49 @@
+{
+  "solution_id": "S175",
+  "problem_id": "Theme_3",
+  "team_name": "PRAMAN : Evidence-Based AI Tender Evaluation & Eligibility Analysis Platform for CRPF",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, and produce explainable evaluation reports. The platform must handle heterogeneous document formats and ambiguous rules, while ensuring auditability.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "Pydantic",
+    "PaddleOCR",
+    "Docling",
+    "React",
+    "Docker",
+    "On-prem",
+    "VM"
+  ],
+  "key_steps": [
+    "Tender Understanding",
+    "Bidder Document Understanding",
+    "RAG and Chat with PDF",
+    "Deterministic Decision Engine",
+    "Real-Time Tender Monitoring",
+    "Multi-Government / Multi-Tender Support",
+    "Multi-Language Support",
+    "Notifications System",
+    "Bidder Rating & Leaderboard",
+    "Similar Bidder Detection",
+    "False Certificate Detection",
+    "Signature Detection",
+    "Immutable Audit & Hashing",
+    "Live Process Tracking",
+    "Bidder Profiles"
+  ],
+  "optimization_claims": [
+    "Faster",
+    "More consistent",
+    "Easier to audit"
+  ],
+  "constraints_addressed": [
+    "Heterogeneous documents",
+    "Ambiguous rules",
+    "Human validation",
+    "Auditability",
+    "Real-world government use"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,31 @@
+{
+  "solution_id": "S045",
+  "problem_id": "Theme_3",
+  "team_name": "TenderMind AI - Explainable Procurement Intelligence Platform",
+  "summary": "Design a technical platform for AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement using TenderMind AI.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PyMuPDF",
+    "Tesseract 5",
+    "Google Cloud Vision",
+    "LLM"
+  ],
+  "key_steps": [
+    "Criterion Extraction",
+    "Bidder Parsing",
+    "Matching & Verdicts",
+    "Human-in-the-Loop & Auditability"
+  ],
+  "optimization_claims": [
+    "Reducing evaluation time from days to hours.",
+    "Providing a gold-standard audit trail for government transparency."
+  ],
+  "constraints_addressed": [
+    "Hallucination Risk",
+    "Data Privacy",
+    "Legal Risk"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

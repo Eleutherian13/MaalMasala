@@ -1,0 +1,42 @@
+{
+  "solution_id": "S112",
+  "problem_id": "Theme_3",
+  "team_name": "TEVA 2.0",
+  "summary": "Design a technical platform using GPT-4o, Google Earth Engine, ISRO Bhuvan, Neo4j, XGBoost, and Hyperledger Fabric to evaluate eligibility of bidders for government procurement by extracting identifiers from submitted documents, verifying reality from sources the bidder cannot control or fabricate, detecting cartels, predicting delivery risk, and producing explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "GPT-4o",
+    "Google Earth Engine",
+    "ISRO Bhuvan",
+    "Neo4j",
+    "XGBoost",
+    "Hyperledger Fabric"
+  ],
+  "key_steps": [
+    "Upload Tender PDF",
+    "Extract mandatory & desirable criteria",
+    "Upload Bidder Submissions",
+    "Extract identifiers",
+    "Truth Stack Agents fire in parallel",
+    "Neo4j Cartel Detection",
+    "Composite Score generation",
+    "Officer Dashboard review"
+  ],
+  "optimization_claims": [
+    "Time per tender: minutes",
+    "Delivers a ranked composite score for every bidder",
+    "Validates turnover via GST DNA instead of reading a balance sheet",
+    "Confirms project existence via satellite instead of accepting an experience letter",
+    "Detects cartel manipulation via a director ownership graph",
+    "Predicts delivery risk via an ML model trained on real contract outcomes",
+    "Rewards EPF-compliant vendors and flags those with worker exploitation signals"
+  ],
+  "constraints_addressed": [
+    "Slow, inconsistent, and easily manipulated manual reviews",
+    "Forged certificates pass undetected",
+    "Cartel bids go unnoticed"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

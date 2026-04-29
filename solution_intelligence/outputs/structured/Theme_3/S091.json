@@ -1,0 +1,33 @@
+{
+  "solution_id": "S091",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens: Explainable AI Platform for Government Tender Evaluation",
+  "summary": "Design a technical platform that automates tender eligibility evaluation for government procurement using four AI agents. The system can handle scanned documents, produces explainable verdicts with source citations, and ensures an audit trail.",
+  "approach_type": "dl",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "Tesseract OCR",
+    "OpenCV",
+    "LayoutLM",
+    "Claude/GPT-4 API",
+    "PostgreSQL",
+    "React"
+  ],
+  "key_steps": [
+    "Tender Parsing",
+    "Document Processing",
+    "Criterion Evaluation",
+    "Report Generation"
+  ],
+  "optimization_claims": [
+    "Never silently disqualifies a bidder — all ambiguous cases go to human review",
+    "Full audit trail: every verdict links to exact document, page, and extracted value"
+  ],
+  "constraints_addressed": [
+    "Handles scanned documents and photographs, not just digital PDFs"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

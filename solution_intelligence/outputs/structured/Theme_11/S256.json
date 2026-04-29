@@ -1,0 +1,36 @@
+{
+  "solution_id": "S256",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaSetu — AI-Powered Court Judgment Analysis and Verified Action Plan Generator",
+  "summary": "Build an AI system that extracts key information from court judgment PDFs, generates a structured action plan, and ensures human-verified data is presented in a government dashboard.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Large Language Model",
+    "Tesseract OCR",
+    "Google Document AI",
+    "PostgreSQL",
+    "Next.js",
+    "PDF.js",
+    "FastAPI (Python)"
+  ],
+  "key_steps": [
+    "Judgment Ingestion and Pre-Processing",
+    "Structured Extraction",
+    "AI-Assisted Action Plan Generation",
+    "Human-in-the-Loop Verification",
+    "Dashboard for Decision-Makers"
+  ],
+  "optimization_claims": [
+    "Improved accuracy through LLM, OCR confidence scores, and human review",
+    "Reduced reviewer bottleneck with AI pre-filling",
+    "Robustness to legal language variation"
+  ],
+  "constraints_addressed": [
+    "Handling complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support rather than full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

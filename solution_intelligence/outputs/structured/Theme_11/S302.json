@@ -1,0 +1,34 @@
+{
+  "solution_id": "S302",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaSetu — AI-Powered Court Judgment to Action Plan System",
+  "summary": "Develop an AI system that reads court judgement PDFs, extracts key information, generates a structured action plan, and presents human-verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "Streamlit",
+    "Google Gemini 1.5 Flash API",
+    "PyMuPDF",
+    "SQLite"
+  ],
+  "key_steps": [
+    "Accepts court judgment PDFs",
+    "Extracts case number, order date, directives, parties, and timelines",
+    "Generates a structured action plan",
+    "Presents extracted data with source highlights for human verification",
+    "Only verified records flow into a department-wise action dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces review time from hours to minutes",
+    "Eliminates missed deadlines",
+    "Creates a full audit trail for every directive"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

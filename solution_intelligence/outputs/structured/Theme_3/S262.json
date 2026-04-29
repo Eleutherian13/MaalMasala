@@ -1,0 +1,26 @@
+{
+  "solution_id": "S262",
+  "problem_id": "Theme_3",
+  "team_name": "TrustGraph AI: Audit-Ready Tender Evaluation with Evidence-Based Decision Mapping (CRPF)",
+  "summary": "Design a technical platform to understand tender documents, evaluate bidders' eligibility, and produce explainable evaluation reports based on the CRPF's audit-ready tender evaluation system with evidence-based decision mapping.",
+  "approach_type": "system",
+  "tech_stack": [
+    "Hackerearth"
+  ],
+  "key_steps": [
+    "Understand tender document",
+    "Evaluate each bidder",
+    "Produce explainable evaluation reports"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Eligibility analysis for government procurement"
+  ],
+  "missing_components": [
+    "ML",
+    "DL",
+    "hybrid"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

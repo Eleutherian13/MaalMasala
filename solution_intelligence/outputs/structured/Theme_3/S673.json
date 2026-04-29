@@ -1,0 +1,33 @@
+{
+  "solution_id": "S673",
+  "problem_id": "Theme_3",
+  "team_name": "ProcureAI: Multi-Tenant Tender Evaluation & Compliance Command Centre",
+  "summary": "Design a technical platform that can understand tenders, evaluate eligibility of bidders, and produce explainable evaluation reports. The platform should handle complex documents, ensure legal transparency, and prevent fraud.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Google Gemini 2.0 Flash (Structured Output mode)",
+    "FastAPI",
+    "Next.js 14",
+    "WebSockets"
+  ],
+  "key_steps": [
+    "Tender DNA Compilation",
+    "Asynchronous 'No-Timeout' Architecture",
+    "Visual Decision Trees",
+    "Precedent-Aware HITL (Human-in-the-Loop)",
+    "Cryptographic Maker-Checker Ledger",
+    "Zero-Trust Live Oracles"
+  ],
+  "optimization_claims": [
+    "Reduced evaluation timelines from weeks to hours",
+    "Potential to secure billions in public funds"
+  ],
+  "constraints_addressed": [
+    "Handling complex documents",
+    "Ensuring legal transparency",
+    "Preventing fraud"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

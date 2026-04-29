@@ -1,0 +1,29 @@
+{
+  "solution_id": "S582",
+  "problem_id": "Theme_3",
+  "team_name": "Aegis: High-Assurance Procurement Gateway",
+  "summary": "Design a technical platform that can understand tender documents, evaluate bidders' eligibility, and produce explainable evaluation reports using AI. The solution is Aegis: High-Assurance Procurement Gateway.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "semantic parsing",
+    "advanced machine learning"
+  ],
+  "key_steps": [
+    "ingest tender specifications and vendor submissions",
+    "cross-reference critical eligibility criteria",
+    "map unstructured vendor data against regulatory frameworks",
+    "generate a transparent, tamper-proof audit trail"
+  ],
+  "optimization_claims": [
+    "eliminating human oversight errors",
+    "drastically reducing evaluation turnaround times"
+  ],
+  "constraints_addressed": [
+    "ISO certifications",
+    "financial thresholds",
+    "operational history"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

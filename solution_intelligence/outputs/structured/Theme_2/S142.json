@@ -1,0 +1,24 @@
+{
+  "solution_id": "S142",
+  "problem_id": "Theme_2",
+  "team_name": "New",
+  "summary": "Design a layer that facilitates bi-directional propagation of service requests using Unique Business Identifier (UBID) as common join key, for Karnataka's Single Window System and legacy department systems.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "API",
+    "UBID"
+  ],
+  "key_steps": [
+    "Develop the bi-directional layer",
+    "Establish UBID as common join key",
+    "Integrate with Single Window System and legacy department systems"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Data integration between disparate systems",
+    "Interoperability between Single Window System and legacy departments"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

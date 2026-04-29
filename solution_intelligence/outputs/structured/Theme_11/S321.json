@@ -1,0 +1,36 @@
+{
+  "solution_id": "S321",
+  "problem_id": "Theme_11",
+  "team_name": "Nyaya-Setu — AI-Driven Legal Action & Compliance Engine",
+  "summary": "Develop an AI system to extract key information from court judgment PDFs and generate verified action plans for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "pdfplumber",
+    "Tesseract OCR",
+    "Claude 3.5 Sonnet / GPT-4o",
+    "React + PDF.js",
+    "FastAPI",
+    "PostgreSQL",
+    "AWS S3",
+    "D3.js"
+  ],
+  "key_steps": [
+    "Intelligent PDF Ingestion & Text Extraction",
+    "AI Information Extraction & Mapping",
+    "Action Plan & Timeline Generation",
+    "Human-in-the-Loop (HITL) & The 'Trusted-Only' Dashboard"
+  ],
+  "optimization_claims": [
+    "Eliminates the risk of missing critical directives hidden on page 45 of a judgment PDF",
+    "Fundamentally shifts the government’s legal strategy from reactive to proactive",
+    "Guarantees high-stakes legal decisions are backed by evidence"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

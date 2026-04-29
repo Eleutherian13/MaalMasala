@@ -1,0 +1,31 @@
+{
+  "solution_id": "S287",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Smart Tender Evaluation and Eligibility Analysis System",
+  "summary": "AI-Powered Smart Tender Evaluation and Eligibility Analysis System for Government Procurement",
+  "approach_type": "ml",
+  "tech_stack": [
+    "FastAPI",
+    "Flask",
+    "React.js",
+    "spaCy",
+    "Transformers",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Upload and handle tender documents (PDF)",
+    "Use NLP to find eligibility criteria",
+    "Check eligibility automatically",
+    "System for scoring and ranking applicants",
+    "Interactive dashboard"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Evaluation of government tenders",
+    "Eligibility analysis",
+    "Faster and data-driven decision making"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

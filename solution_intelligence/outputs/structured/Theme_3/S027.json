@@ -1,0 +1,37 @@
+{
+  "solution_id": "S027",
+  "problem_id": "Theme_3",
+  "team_name": "Procurement Decision Intelligence Platform (PDIP)",
+  "summary": "Design an AI-based platform that automates tender evaluation, ranks bidders, and provides explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP",
+    "LLM",
+    "OCR",
+    "PDF parsing",
+    "document parsing",
+    "information extraction models"
+  ],
+  "key_steps": [
+    "Tender Understanding (Criteria Extraction)",
+    "Bidder Document Parsing",
+    "Bidders Evaluation Engine",
+    "Intelligent ranking and prioritization layer",
+    "Explainability & Audit Layer",
+    "Reviewer Dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces manual effort",
+    "Improves consistency",
+    "Ensures transparency",
+    "Speeds up decision-making process"
+  ],
+  "constraints_addressed": [
+    "Time-consuming evaluation",
+    "Inconsistent across officers",
+    "Difficult to audit"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

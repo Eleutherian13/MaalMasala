@@ -1,0 +1,36 @@
+{
+  "solution_id": "S339",
+  "problem_id": "Theme_11",
+  "team_name": "AadeshPaalan — Contempt Risk Radar for Court Compliance in CCMS",
+  "summary": "Build an AI system that can read court judgment PDFs, extract key information, generate a structured action plan, and present human-verified data in a dashboard for government use to prevent missed compliance and appeal deadlines.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Tailwind CSS",
+    "FastAPI (Python)",
+    "Ollama",
+    "PyMuPDF",
+    "Tesseract",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Extract",
+    "Structure",
+    "Verify",
+    "Act"
+  ],
+  "optimization_claims": [
+    "Weeks to seconds for directive extraction",
+    "Missed directives reduced to near zero",
+    "Full visibility of compliance risk",
+    "Continuity maintained even after officer transfers"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

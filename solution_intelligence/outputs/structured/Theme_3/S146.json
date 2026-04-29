@@ -1,0 +1,42 @@
+{
+  "solution_id": "S146",
+  "problem_id": "Theme_3",
+  "team_name": "VerdictAI — Criterion-Aware Tender Evaluation with Explainable Verdicts and Institutional Memory",
+  "summary": "Design a technical platform to understand tenders, evaluate eligibility, and produce explainable reports for government procurement using VerdictAI.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OpenCV",
+    "Sauvola adaptive binarisation",
+    "Rubber stamp isolation",
+    "Non-local means denoising",
+    "ESRGAN super-resolution",
+    "Tesseract 5",
+    "PaddleOCR v3",
+    "Azure OpenAI GPT-4o",
+    "Llama 3.1 70B",
+    "PostgreSQL",
+    "pgvector",
+    "React",
+    "Polygon / NIC blockchain"
+  ],
+  "key_steps": [
+    "Document Intelligence pre-processing",
+    "Effective Tender Specification (ETS) Builder",
+    "Evidence Extractor",
+    "Evaluation Engine + Confidence Router",
+    "Immutable Audit Ledger"
+  ],
+  "optimization_claims": [
+    "Never-silent guarantee: any mandatory-criterion FAIL routes to mandatory review before commitment",
+    "CPM context: up to 3 matching precedents from same department with tender IDs",
+    "Second-officer confirmation for borderline overrides"
+  ],
+  "constraints_addressed": [
+    "No institutional memory — similar works is interpreted differently by every evaluator. No record of how that phrase was resolved in prior tenders from the same department.",
+    "No reproducible trace — a CVC complaint cannot be answered with a criterion-level record linking each verdict to a specific document, page, and value. Committee minutes are not an audit trail.",
+    "No protection against silent errors — misread turnover figures, expired certificates, wrong measurement periods propagate to the final evaluation undetected."
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

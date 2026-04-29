@@ -1,0 +1,45 @@
+{
+  "solution_id": "S272",
+  "problem_id": "Theme_3",
+  "team_name": "TenderMind AI — Evidence-Backed Procurement Intelligence System for Fraud Detection and Eligibility Verification in CRPF Tender Evaluation",
+  "summary": "Design a technical platform that can understand tenders, evaluate eligibility, and produce explainable evaluation reports for government procurement departments. The platform will use AI for document understanding and analysis, and provide features like risk dashboard, human-in-the-loop review system, and audit trail.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React.js",
+    "Tailwind CSS",
+    "FastAPI",
+    "OCR",
+    "NLP",
+    "Semantic document matching",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Tender Understanding and Criteria Extraction",
+    "Bidder Document Understanding",
+    "Smart Eligibility Verification",
+    "Cross-Document Contradiction Detection",
+    "Human-in-the-Loop Review System",
+    "Procurement Risk Dashboard",
+    "Explainable Evaluation Engine",
+    "Audit Trail and Decision Logging"
+  ],
+  "optimization_claims": [
+    "Reducing manual verification workload",
+    "Improving consistency in bidder evaluation",
+    "Supporting transparent procurement practices",
+    "Detecting discrepancies earlier in the review process",
+    "Improving explainability in evaluation decisions",
+    "Accelerating tender assessment workflows",
+    "Supporting accountable and auditable procurement decisions"
+  ],
+  "constraints_addressed": [
+    "Poor-quality scanned documents",
+    "Inconsistent document formats across vendors",
+    "Ambiguous legal language",
+    "Partial or missing information",
+    "Low-confidence OCR extraction"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

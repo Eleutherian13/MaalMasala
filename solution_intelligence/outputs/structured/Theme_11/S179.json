@@ -1,0 +1,32 @@
+{
+  "solution_id": "S179",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaSetu: AI-Powered Bridge from Court Judgments to Verified Government Action Plans",
+  "summary": "Build an AI system that converts complex court judgments into structured, verified, and actionable plans for government departments.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "Natural Language Processing"
+  ],
+  "key_steps": [
+    "PDF ingestion",
+    "Key information extraction",
+    "Action plan generation",
+    "Intelligent deadline tracking",
+    "Human-in-the-loop verification",
+    "Centralized dashboard creation"
+  ],
+  "optimization_claims": [
+    "Improved efficiency",
+    "Enhanced accountability",
+    "Faster data-driven governance"
+  ],
+  "constraints_addressed": [
+    "Handling complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

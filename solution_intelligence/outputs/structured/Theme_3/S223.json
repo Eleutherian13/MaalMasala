@@ -1,0 +1,38 @@
+{
+  "solution_id": "S223",
+  "problem_id": "Theme_3",
+  "team_name": "CRPF GTEMS - Government Tender Eligibility & Management System using AI Evaluation Engine",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders based on various criteria, produce explainable evaluation reports, and replace the entire manual process of government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "neural networks",
+    "deep analytical AI",
+    "OCR",
+    "legal classification"
+  ],
+  "key_steps": [
+    "Tender Understanding",
+    "Document Ingestion",
+    "Criterion Matching",
+    "Evaluation Report"
+  ],
+  "optimization_claims": [
+    "Completing a full tender evaluation in under 4 hours instead of 3 to 5 days.",
+    "Zero bidders silently disqualified due to evaluator oversight or OCR failure."
+  ],
+  "constraints_addressed": [
+    "Average vs. single-year turnover under Ind AS",
+    "CA certificate membership number requirement per ICAI norms",
+    "ISO scope vs. tender scope mismatch detection",
+    "IAF-accredited certification body validation",
+    "JV experience credit at configurable percentage",
+    "MSME exemption application per PPP 2012",
+    "Udyam portal active-status verification",
+    "Semantic interpretation of 'similar work'",
+    "Related-party experience flagging",
+    "Scanned Hindi-language document processing"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

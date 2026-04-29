@@ -1,0 +1,28 @@
+{
+  "solution_id": "S547",
+  "problem_id": "Theme_3",
+  "team_name": "TenderGraph Zero-Hallucination, Evidence-Anchored Evaluation Engine for Government Procurement",
+  "summary": "Design a technical platform that can understand tenders, evaluate eligibility, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Local Vision-Language Models (VLMs)",
+    "deterministic logic engine"
+  ],
+  "key_steps": [
+    "Secure data extraction from messy bidder documents within an air-gapped sandbox",
+    "Mathematical evaluation of the extracted data against tender's rules",
+    "Auditability through 'Sniper-Highlight UI' and Human-in-the-Loop (HITL) review dashboard"
+  ],
+  "optimization_claims": [
+    "Zero hallucination in decision making",
+    "Privacy-first architecture",
+    "Fast, explainable, and legally defensible process"
+  ],
+  "constraints_addressed": [
+    "Data privacy concerns due to cloud APIs",
+    "Silent rejection of ambiguous documents"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

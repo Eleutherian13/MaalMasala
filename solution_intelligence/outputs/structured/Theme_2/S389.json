@@ -1,0 +1,24 @@
+{
+  "solution_id": "S389",
+  "problem_id": "Theme_2",
+  "team_name": "Happy",
+  "summary": "Design a layer for two-way interoperability between Karnataka's Single Window System and legacy department systems using UBID as common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "APIs"
+  ],
+  "key_steps": [
+    "Integration of APIs for data exchange",
+    "Implementation of UBID-based matching system"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Data consistency across systems"
+  ],
+  "missing_components": [
+    "Detailed technical design",
+    "Performance optimization strategies"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

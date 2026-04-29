@@ -1,0 +1,30 @@
+{
+  "solution_id": "S397",
+  "problem_id": "Theme_2",
+  "team_name": "“Samanvaya: A UBID-Centric Interoperability Layer for Real-Time Government System Synchronization”",
+  "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Samanvaya",
+    "Webhooks",
+    "Snapshot Diffing"
+  ],
+  "key_steps": [
+    "Identify local IDs with UBID",
+    "Schema Translation",
+    "Data Propagation",
+    "Idempotency Check",
+    "Conflict Resolution"
+  ],
+  "optimization_claims": [
+    "Ensures at least once delivery of updates using retry logic and exponential backoff.",
+    "Prevents redundant updates by hashing payloads."
+  ],
+  "constraints_addressed": [
+    "Fragmented architecture between Single Window System and departmental databases",
+    "Inconsistent critical business data across platforms"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

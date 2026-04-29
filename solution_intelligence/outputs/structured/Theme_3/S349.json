@@ -1,0 +1,32 @@
+{
+  "solution_id": "S349",
+  "problem_id": "Theme_3",
+  "team_name": "NyayScan — AI Procurement Eligibility Auditor",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders based on given criteria, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PDF processing",
+    "OCR",
+    "rule-based logic",
+    "LLM"
+  ],
+  "key_steps": [
+    "Reading and organizing tender eligibility conditions",
+    "Handling bidder documents in various formats",
+    "Matching bidder information against tender criteria",
+    "Providing clear verdicts and manual review flags for each criterion",
+    "Recording the decision trail as the official audit record"
+  ],
+  "optimization_claims": [
+    "Nobody is silently rejected if system is not sure",
+    "Specific mechanisms for handling real-world issues"
+  ],
+  "constraints_addressed": [
+    "Understanding varying legal language",
+    "Handling documents in different formats",
+    "Consistently evaluating eligibility without missing anything"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

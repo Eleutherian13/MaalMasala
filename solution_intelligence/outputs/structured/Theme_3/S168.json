@@ -1,0 +1,39 @@
+{
+  "solution_id": "S168",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ — AI-Powered Multi-Agent Tender Evaluation Platform for Government Procurement",
+  "summary": "Design a technical platform that automates the tender evaluation pipeline while keeping a human officer in control, handles various document formats, and produces explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LangGraph",
+    "Groq API with Llama 3.1 70B",
+    "Tesseract OCR",
+    "PyMuPDF",
+    "FastAPI",
+    "React",
+    "ReportLab",
+    "ChromaDB",
+    "SQLite"
+  ],
+  "key_steps": [
+    "OCR Agent",
+    "Criteria Agent",
+    "Parsing Agent",
+    "Evaluator Agent",
+    "Report Agent"
+  ],
+  "optimization_claims": [
+    "No bidder is ever silently disqualified — every uncertain case surfaces in a human review queue with the exact reason",
+    "Every verdict cites the specific document, page number, and excerpt that drove the decision",
+    "The system handles scanned documents and certificate photographs, not just digital files",
+    "Full audit trail per agent action — suitable for RTI and procurement audit requirements"
+  ],
+  "constraints_addressed": [
+    "Handling various document formats",
+    "Producing explainable evaluation reports",
+    "Addressing linguistic variation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

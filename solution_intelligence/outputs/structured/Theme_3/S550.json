@@ -1,0 +1,33 @@
+{
+  "solution_id": "S550",
+  "problem_id": "Theme_3",
+  "team_name": "TenderEval AI — AI-Powered Tender Evaluation for Government Procurement",
+  "summary": "Design a technical platform that can understand tenders, evaluate bidder eligibility, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "SQLAlchemy",
+    "Docling",
+    "PaddleOCR",
+    "Claude API (JSON-mode)",
+    "React",
+    "TypeScript",
+    "Tailwind"
+  ],
+  "key_steps": [
+    "Extract",
+    "Parse",
+    "Evaluate"
+  ],
+  "optimization_claims": [
+    "Automates the evaluation process, saving weeks per tender.",
+    "Provides explainable reasoning for each eligibility verdict."
+  ],
+  "constraints_addressed": [
+    "Handling various document formats (PDF, Word, scanned copies, photos)",
+    "Addressing ambiguous cases with explicit Needs Review"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

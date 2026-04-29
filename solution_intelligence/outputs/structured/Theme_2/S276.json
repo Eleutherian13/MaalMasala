@@ -1,0 +1,32 @@
+{
+  "solution_id": "S276",
+  "problem_id": "Theme_2",
+  "team_name": "SAMANVAYA: Zero-Disruption Interoperability OS",
+  "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Tailwind CSS",
+    "Python (FastAPI)",
+    "PostgreSQL",
+    "local Llama-3"
+  ],
+  "key_steps": [
+    "Intercept service requests in SWS and route events to department-specific adapters",
+    "Write data via robust PostgreSQL-backed retry queues",
+    "Detect changes using Webhooks, Adaptive API Polling, or Merkle-Tree Snapshot Diffing",
+    "Translate data to the SWS schema and write with UBID as the join key"
+  ],
+  "optimization_claims": [
+    "Idempotency and auditability guaranteed",
+    "Zero modifications to SWS or legacy systems",
+    "Local LLM used only for design-time schema mapping on non-PII column headers"
+  ],
+  "constraints_addressed": [
+    "Cascading failures from big-bang migration",
+    "Lack of interoperability between SWS and department systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

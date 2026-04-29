@@ -1,0 +1,32 @@
+{
+  "solution_id": "S170",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaBot — AI Copilot for Court Judgment Compliance",
+  "summary": "Develop an AI system to extract key information from court judgment PDFs, generate a structured action plan, and present human-verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Llama 3.1 (Ollama)",
+    "PyMuPDF + Tesseract OCR",
+    "FastAPI",
+    "Next.js",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Extract — AI pulls case details, order date, key directives, parties, and timelines with exact page references",
+    "Action Plan — for each directive: comply or appeal, deadline, responsible department, required action",
+    "Human Verification — officers review side-by-side with the source PDF, see confidence scores, and approve/edit/reject (only verified data proceeds)",
+    "Dashboard — department-wise view of actions, deadlines, and compliance status."
+  ],
+  "optimization_claims": [
+    "reduces processing time from days to minutes",
+    "ensures accountability via audit trails"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

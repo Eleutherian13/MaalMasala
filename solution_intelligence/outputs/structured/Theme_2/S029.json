@@ -1,0 +1,37 @@
+{
+  "solution_id": "S029",
+  "problem_id": "Theme_2",
+  "team_name": "Sutradhara: AI-Powered Two-Way Interoperability Layer Between Karnataka Single Window System and Department Systems",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "AI",
+    "Middleware"
+  ],
+  "key_steps": [
+    "Implementing an AI-powered orchestration layer",
+    "Using UBID as a common identity key",
+    "Propagating verified updates in both directions",
+    "Conflict detection and resolution",
+    "Auditability of every action",
+    "AI assistance for onboarding, schema mappings, conflict rules, anomaly explanations"
+  ],
+  "optimization_claims": [
+    "Faster approvals",
+    "Consistent business records across departments",
+    "Lower reconciliation workload",
+    "Stronger compliance monitoring",
+    "Better investor confidence",
+    "Future-ready interoperable governance infrastructure"
+  ],
+  "constraints_addressed": [
+    "Fragmented records",
+    "Operational delays",
+    "Repeated document verification",
+    "Inconsistent decisions",
+    "Poor citizen experience"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

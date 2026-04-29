@@ -1,0 +1,40 @@
+{
+  "solution_id": "S701",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Tender Intelligence System for Automated Eligibility Evaluation and Explainable Procurement Decisions",
+  "summary": "Design a technical platform that automates the end-to-end process of tender understanding, bidder analysis, and eligibility evaluation while ensuring full explainability and human oversight.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract",
+    "AWS Textract",
+    "OpenAI",
+    "HuggingFace models",
+    "Node.js",
+    "Python (FastAPI)",
+    "React.js",
+    "MongoDB",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Ingesting tender documents",
+    "Extracting key eligibility criteria",
+    "Processing bidder submissions",
+    "Mapping extracted bidder data against tender criteria",
+    "Generating evaluation reports"
+  ],
+  "optimization_claims": [
+    "Reduces manual effort",
+    "Minimizes human error",
+    "Ensures fair and data-driven decision-making",
+    "Improves consistency and transparency",
+    "Transforms government procurement by making it faster, transparent, consistent, fully auditable"
+  ],
+  "constraints_addressed": [
+    "Time-consuming manual evaluation",
+    "Inconsistent evaluation",
+    "Difficult to audit"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

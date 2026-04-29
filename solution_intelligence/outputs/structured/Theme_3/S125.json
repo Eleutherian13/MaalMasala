@@ -1,0 +1,37 @@
+{
+  "solution_id": "S125",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens: AI-Based Tender Evaluation and Eligibility Analysis",
+  "summary": "Design a technical platform for AI-based tender evaluation and eligibility analysis in government procurement, automating the process while keeping human control over uncertain decisions.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract 5",
+    "PaddleOCR",
+    "PyMuPDF",
+    "PostgreSQL",
+    "MinIO",
+    "Kafka",
+    "FastAPI",
+    "LLaVA"
+  ],
+  "key_steps": [
+    "Document chaos handling",
+    "Eligibility criteria extraction",
+    "Bidder submission parsing",
+    "Criterion matching and evaluation",
+    "Explainability and human review"
+  ],
+  "optimization_claims": [
+    "The system is biased towards review over rejection.",
+    "Every verdict carries a confidence score."
+  ],
+  "constraints_addressed": [
+    "Document chaos",
+    "Language ambiguity",
+    "No silent disqualification",
+    "Auditability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

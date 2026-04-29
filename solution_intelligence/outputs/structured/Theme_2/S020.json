@@ -1,0 +1,32 @@
+{
+  "solution_id": "S020",
+  "problem_id": "Theme_2",
+  "team_name": "OmniLink: Bi-Directional Legacy Sync Layer",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "Kafka or RabbitMQ",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Problem Understanding & Constraints",
+    "Two-Way Propagation Architecture",
+    "Schema Translation & Management",
+    "Conflict Resolution & Idempotency",
+    "Audit Trail Design",
+    "Architecture Overview",
+    "Risks & Trade-Offs",
+    "Implementation Plan (Round 2)"
+  ],
+  "optimization_claims": [
+    "Batching snapshot queries during off-peak hours and strictly limiting the query scope to high-velocity tables"
+  ],
+  "constraints_addressed": [
+    "Strict idempotency, flawless auditability, zero source-system modification"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,28 @@
+{
+  "solution_id": "S357",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSort — AI-Based Tender Evaluation Platform",
+  "summary": "Design a technical platform that evaluates tenders, understands bidders, checks eligibility, and produces explainable evaluation reports using AI.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "OCR",
+    "Language Processing"
+  ],
+  "key_steps": [
+    "Information extraction from tender documents",
+    "Classification of eligibility criteria",
+    "Evaluation of bids based on classifications",
+    "Production of explainable evaluation reports"
+  ],
+  "optimization_claims": [
+    "Reduction in manual review time",
+    "Consistency in decisions made"
+  ],
+  "constraints_addressed": [
+    "Ambiguous results",
+    "Grey areas"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

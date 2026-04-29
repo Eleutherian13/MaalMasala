@@ -1,0 +1,27 @@
+{
+  "solution_id": "S482",
+  "problem_id": "Theme_3",
+  "team_name": "A platform that extracts eligibility criteria from tender documents, parses heterogeneous bidder submissions, produces explainable criterion-level verdicts, and preserves a courtroom-grade audit trail.",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement by CRPF",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Natural Language Processing",
+    "Machine Learning"
+  ],
+  "key_steps": [
+    "Extraction of eligibility criteria from tender documents",
+    "Parsing heterogeneous bidder submissions",
+    "Producing criterion-level verdicts",
+    "Preserving a courtroom-grade audit trail"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Understanding complex tender documents",
+    "Handling diverse bidder submissions"
+  ],
+  "missing_components": [
+    "Explanation of how the system addresses the optimization claims"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

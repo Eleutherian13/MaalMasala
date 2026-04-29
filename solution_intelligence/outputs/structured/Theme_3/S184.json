@@ -1,0 +1,37 @@
+{
+  "solution_id": "S184",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ – Explainable AI Platform for Tender Evaluation and Bidder Eligibility Analysis",
+  "summary": "Design an AI platform that automates tender scrutiny, bidder eligibility analysis, and audit-ready decision support. The platform reduces evaluation time, improves fairness, transparency, and procurement efficiency.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "NLP",
+    "rule-based compliance engine",
+    "AI"
+  ],
+  "key_steps": [
+    "Understanding the Tender",
+    "Understanding Bidder Submissions",
+    "AI Eligibility Evaluation",
+    "Explainable Decisions",
+    "Human-in-the-Loop Safety"
+  ],
+  "optimization_claims": [
+    "80% faster tender evaluation",
+    "Fewer human errors",
+    "Transparent decision making",
+    "Complete audit trail"
+  ],
+  "constraints_addressed": [
+    "Slow evaluation cycles",
+    "Human errors and missed criteria",
+    "Inconsistent decisions across evaluators",
+    "Difficult audit trails",
+    "Poor handling of scanned / image documents",
+    "Delayed procurement decisions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,46 @@
+{
+  "solution_id": "S696",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Tender Evaluation & Eligibility Analysis Platform (CRPF)",
+  "summary": "Design a technical platform that can understand tenders, evaluate bidders, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "React",
+    "Tesseract",
+    "PaddleOCR",
+    "BERT",
+    "IndicBERT",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Problem Understanding",
+    "Proposed Solution",
+    "AI & Technology Usage",
+    "Architecture",
+    "Explainability & Auditability",
+    "Edge Cases",
+    "Human-in-the-Loop",
+    "Feasibility",
+    "Impact",
+    "Risks",
+    "Implementation Plan",
+    "Key Differentiators"
+  ],
+  "optimization_claims": [
+    "70%+ reduction in evaluation time",
+    "Improved consistency and accuracy",
+    "Reduced manual workload"
+  ],
+  "constraints_addressed": [
+    "Manual review of lengthy, complex documents",
+    "Criteria scattered across technical, financial, and compliance sections",
+    "Ambiguous legal language",
+    "Bidder submissions in mixed formats",
+    "Lack of standard evaluation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,39 @@
+{
+  "solution_id": "S437",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSense AI: A Multi-Agent, Explainable System for Smart Government Tender Evaluation",
+  "summary": "Design a technical platform for AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement, reducing time, minimizing mistakes, ensuring fairness, and increasing transparency.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "AI",
+    "Rule-based"
+  ],
+  "key_steps": [
+    "Understand Tender",
+    "Read Documents",
+    "Extract Data",
+    "Multi-Agent Evaluation",
+    "Final Decision",
+    "Audit and Traceability",
+    "Handling Challenges",
+    "Explainability and Trust",
+    "Future Scalability and Enhancements"
+  ],
+  "optimization_claims": [
+    "Reduces time by automating evaluation",
+    "Minimizes mistakes with AI-based similarity checks",
+    "Ensures fairness through multi-agent evaluation",
+    "Increases transparency with full auditability and traceability"
+  ],
+  "constraints_addressed": [
+    "Different document formats",
+    "Complex language",
+    "Missing data",
+    "OCR errors",
+    "Fraudulent submissions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

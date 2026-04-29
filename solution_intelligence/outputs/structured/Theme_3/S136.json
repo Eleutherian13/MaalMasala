@@ -1,0 +1,28 @@
+{
+  "solution_id": "S136",
+  "problem_id": "Theme_3",
+  "team_name": "EvidentAI: An Explainable AI System for Tender Evaluation and Eligibility Analysis",
+  "summary": "Design a technical platform that can understand tenders, evaluate eligibility of bidders, and produce explainable evaluation reports using an AI system.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "C Coding-KLAN",
+    "EvidentAI"
+  ],
+  "key_steps": [
+    "Understand tender document",
+    "Evaluate bidder submissions",
+    "Eligibility analysis",
+    "Produce explainable evaluation reports"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Tender understanding",
+    "Bidder evaluation",
+    "Explainability"
+  ],
+  "missing_components": [
+    "No information provided about the method used for optimization or specific constraints addressed beyond those mentioned"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

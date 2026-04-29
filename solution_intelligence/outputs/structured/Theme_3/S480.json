@@ -1,0 +1,35 @@
+{
+  "solution_id": "S480",
+  "problem_id": "Theme_3",
+  "team_name": "InferX — AI-Powered Tender Evaluation with Explainability & Human-in-the-Loop Validation",
+  "summary": "Design an AI-powered technical platform for automating tender evaluation, ensuring transparency, auditability, and human control. The system should process multi-format documents, perform intelligent extraction of tender criteria, evidence extraction from bidder documents, deterministic rule-based evaluation, explainable results with source references, and human-in-the-loop validation for ambiguous cases.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "PyMuPDF",
+    "PaddleOCR",
+    "JavaScript",
+    "Vanilla UI",
+    "HTML/CSS",
+    "Google Gemini API"
+  ],
+  "key_steps": [
+    "Intelligent extraction of tender criteria using LLMs",
+    "Evidence extraction from bidder documents",
+    "Deterministic rule-based evaluation",
+    "Explainable results with source references",
+    "Human-in-the-loop validation for ambiguous cases"
+  ],
+  "optimization_claims": [
+    "Significantly reduces evaluation time",
+    "Improves consistency",
+    "Introduces transparency into government procurement systems"
+  ],
+  "constraints_addressed": [
+    "Manual, complex, and error-prone process involving the verification of multiple bidder documents"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

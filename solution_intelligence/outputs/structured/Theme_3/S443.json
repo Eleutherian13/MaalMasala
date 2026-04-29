@@ -1,0 +1,33 @@
+{
+  "solution_id": "S443",
+  "problem_id": "Theme_3",
+  "team_name": "Dhiyanta: A Multi-Agent AI Platform for Secure, Transparent, and Auditable Tender Evaluation",
+  "summary": "Design a technical platform for AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement that uses a multi-agent AI system, intelligent document processing, explainable AI, immutable audit trail, and human-in-the-loop interface.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Angular",
+    "Python (FastAPI)",
+    "Node.js (Express)",
+    "Enterprise IDP Suite"
+  ],
+  "key_steps": [
+    "Tender Ingestion & Criteria Extraction",
+    "Bidder Submission & Intelligent Document Processing",
+    "Automated Evaluation & Explainable Verdicts",
+    "Audit Trail & Human-in-the-Loop (HITL) Review"
+  ],
+  "optimization_claims": [
+    "Delivers higher accuracy and deeper understanding than a single, general-purpose model.",
+    "Eliminates manual data entry and errors from misinterpretation of unstructured documents.",
+    "Builds trust and ensures human expertise is applied where it matters most—in cases of ambiguity."
+  ],
+  "constraints_addressed": [
+    "Handles diverse document formats",
+    "Addresses ambiguous language",
+    "Requires explainability and auditability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,34 @@
+{
+  "solution_id": "S123",
+  "problem_id": "Theme_3",
+  "team_name": "Explainable AI for CRPF Tender Evaluation: Automated Eligibility Analysis with Human-in-the-Loop Auditability",
+  "summary": "Design a technical platform that can understand tender requirements, extract relevant evidence from bidder submissions, perform consistent eligibility evaluation using rule-based system and generate explainable evaluation reports.",
+  "approach_type": "rule-based",
+  "tech_stack": [
+    "NLP",
+    "OCR",
+    "entity extraction",
+    "pattern-based methods"
+  ],
+  "key_steps": [
+    "Tender Criterion Extraction",
+    "Bidder Document Intake and Normalization",
+    "Evidence Extraction Layer",
+    "Evaluation and Decision Engine",
+    "Human Review and Audit Layer"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time",
+    "Ensures consistent application of criteria",
+    "Eliminates subjective interpretation",
+    "Provides full transparency and traceability"
+  ],
+  "constraints_addressed": [
+    "Complex tender documents",
+    "Heterogeneous bidder submissions",
+    "Real-world uncertainty"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

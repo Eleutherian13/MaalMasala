@@ -1,0 +1,31 @@
+{
+  "solution_id": "S352",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Based Tender Evaluation & Eligibility Analysis",
+  "summary": "Design an AI platform to evaluate tenders, understand bidders, assess eligibility, and produce explainable reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract 5 OCR",
+    "layout-aware parsing",
+    "LLMs like Gemini 1.5 Pro or GPT-4o"
+  ],
+  "key_steps": [
+    "Document parsing",
+    "OCR with confidence threshold",
+    "Extracting, categorizing, and normalizing critical entities",
+    "Three-layer hybrid matching architecture",
+    "Confidence-based routing mechanism",
+    "Human-in-the-Loop (HITL) dashboard"
+  ],
+  "optimization_claims": [
+    "Mitigating hallucinations",
+    "Trading raw processing speed for layered accuracy"
+  ],
+  "constraints_addressed": [
+    "Compliance with CVC, CAG, and RTI guidelines",
+    "No bidder is ever silently disqualified"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

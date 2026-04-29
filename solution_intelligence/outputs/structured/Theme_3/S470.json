@@ -1,0 +1,35 @@
+{
+  "solution_id": "S470",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Based Tender Evaluation & Explainable Eligibility Analysis Platform",
+  "summary": "Design a technical platform that automates tender evaluation, understands bidder eligibility, and produces explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "Natural Language Processing"
+  ],
+  "key_steps": [
+    "Text extraction from scanned documents",
+    "Identification and structuring of eligibility criteria",
+    "Matching of bidder data against eligibility criteria",
+    "Rule-based evaluation with contextual understanding",
+    "Production of explanatory reports linking criterion, extracted value, and source document"
+  ],
+  "optimization_claims": [
+    "Consistent, explainable, reliable evaluation",
+    "Handles ambiguity while maintaining human oversight",
+    "Compatible with data-sharing constraints",
+    "Operates within existing procurement workflows without requiring changes to current processes",
+    "Scalability across multiple departments and types of tenders"
+  ],
+  "constraints_addressed": [
+    "Unstructured tender documents",
+    "Complex legal language spread across multiple pages",
+    "Varying bidder document formats",
+    "Inconsistencies in evaluation due to different evaluators interpreting the same documents differently",
+    "Difficulty in auditing decisions because they are not always clearly traceable to specific pieces of evidence"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

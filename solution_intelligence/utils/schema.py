@@ -1,7 +1,54 @@
 import json
 import logging
+from pydantic import BaseModel, Field
+from typing import List, Optional
 
 logger = logging.getLogger(__name__)
+
+# Pydantic Models for Strict Schema Validation
+
+class SolutionScores(BaseModel):
+    """Individual scoring criteria (1-5 scale)."""
+    problem_fit: int = Field(ge=1, le=5)
+    feasibility: int = Field(ge=1, le=5)
+    optimization: int = Field(ge=1, le=5)
+    completeness: int = Field(ge=1, le=5)
+    scalability: int = Field(ge=1, le=5)
+    novelty: int = Field(ge=1, le=5)
+    clarity: int = Field(ge=1, le=5)
+
+class Penalty(BaseModel):
+    """Penalty structure."""
+    missing_core: int = Field(default=0, ge=0, le=20)
+    overclaim: int = Field(default=0, ge=0, le=10)
+
+class FinalEvaluation(BaseModel):
+    """Complete evaluation with scores, penalties, and reasoning."""
+    solution_id: str
+    scores: SolutionScores
+    penalties: Penalty
+    base_score: float = Field(ge=0, le=100)
+    final_score: float = Field(ge=0, le=100)
+    confidence: float = Field(ge=0.0, le=1.0)
+    reasoning: str
+
+class SolutionExtraction(BaseModel):
+    """Extracted structured solution data."""
+    solution_id: Optional[str] = None
+    problem_id: str
+    team_name: Optional[str] = None
+    summary: str
+    approach_type: str  # rule-based, ml, dl, system, hybrid
+    tech_stack: List[str] = Field(default_factory=list, alias="tools_and_techniques")
+    key_steps: List[str] = Field(default_factory=list, alias="pipeline_steps")
+    optimization_claims: List[str] = Field(default_factory=list, alias="optimization_techniques")
+    constraints_addressed: List[str] = Field(default_factory=list)
+    missing_components: List[str] = Field(default_factory=list)
+    strengths: List[str] = Field(default_factory=list)
+    weaknesses: List[str] = Field(default_factory=list)
+    
+    class Config:
+        populate_by_name = True  # Allow both field name and alias
 
 def validate_inputs(problems_path: str, solutions_path: str):
     """

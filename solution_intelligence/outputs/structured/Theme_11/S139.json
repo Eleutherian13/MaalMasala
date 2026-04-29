@@ -1,0 +1,29 @@
+{
+  "solution_id": "S139",
+  "problem_id": "Theme_11",
+  "team_name": "Judgment2Action: Explainable AI for Converting Court Judgments into Verified Action Plans",
+  "summary": "Develop an AI system to convert court judgments into verified action plans for government use, focusing on explainability and decision support.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "Parsing Techniques",
+    "Language Models"
+  ],
+  "key_steps": [
+    "Text Extraction from PDFs",
+    "Identifying key details",
+    "Generating structured action plans",
+    "Explainability",
+    "Human-in-the-loop verification"
+  ],
+  "optimization_claims": [
+    "Ensure explainable and verifiable outputs",
+    "Focus on decision support instead of full automation"
+  ],
+  "constraints_addressed": [
+    "Handling complex, inconsistent legal PDFs"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

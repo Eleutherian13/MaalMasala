@@ -1,0 +1,32 @@
+{
+  "solution_id": "S047",
+  "problem_id": "Theme_3",
+  "team_name": "Sentinel-Procure: An Automated Multimodal AI Framework for Explainable Tender Eligibility & Compliance Analysis",
+  "summary": "Design an AI-based platform for tender evaluation and eligibility analysis in government procurement. The platform uses multimodal AI, intelligent tender deconstruction, bidder synthesis, and explainable AI decision engine for accurate and transparent evaluations.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Layout-Aware LLMs",
+    "Advanced OCR & Image Restoration",
+    "Contextual Extraction",
+    "Semantic Matching",
+    "Gemini 1.5 Pro",
+    "Vector Embeddings"
+  ],
+  "key_steps": [
+    "Intelligent Tender Deconstruction",
+    "Multimodal Bidder Synthesis",
+    "The 'Explainable AI' (XAI) Decision Engine"
+  ],
+  "optimization_claims": [
+    "Reduces the evaluation cycle from days to minutes",
+    "Eliminates 'silent disqualifications'",
+    "Provides a consolidated, sign-off-ready report"
+  ],
+  "constraints_addressed": [
+    "Handles heterogeneous documents",
+    "Addresses low-quality scans and ambiguous legal phrasing"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

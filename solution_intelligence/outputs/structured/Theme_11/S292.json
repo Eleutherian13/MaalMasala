@@ -1,0 +1,38 @@
+{
+  "solution_id": "S292",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaLoop: AI-Powered Court Judgment to Verified Action Plan Engine",
+  "summary": "Develop an AI system that reads court judgment PDFs, extracts key information, generates a structured action plan, and presents it in a dashboard for government use. The system handles complex, inconsistent legal PDFs, focuses on decision support, outputs are explainable and verifiable, and the outputted data is human-verified.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Azure Document Intelligence",
+    "PyMuPDF",
+    "Tesseract",
+    "Claude API / GPT-4o",
+    "FastAPI (Python)",
+    "React with Tailwind CSS",
+    "PDF.js",
+    "PostgreSQL",
+    "Redis",
+    "Docker containers"
+  ],
+  "key_steps": [
+    "Intelligent Extraction",
+    "AI-Generated Action Plan",
+    "Human-in-the-Loop Verification",
+    "Decision-Maker Dashboard"
+  ],
+  "optimization_claims": [
+    "Automates the process of reading and extracting key information from court judgment PDFs",
+    "Generates a structured, decision-ready action plan",
+    "Provides a legally defensible chain with documented human authorization at every step"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

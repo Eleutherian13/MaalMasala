@@ -1,0 +1,37 @@
+{
+  "solution_id": "S726",
+  "problem_id": "Theme_2",
+  "team_name": "The \"Smart Bridge\": A Two-Way Interoperability Layer for Karnataka's E-Governance Ecosystem",
+  "summary": "Design a bidirectional interoperability layer for Karnataka's e-governance ecosystem using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Apache Kafka",
+    "Redis",
+    "Debezium",
+    "Apache Camel or Jolt",
+    "Apache Flink",
+    "TimescaleDB",
+    "Temporal.io"
+  ],
+  "key_steps": [
+    "Capture changes in SWS and legacy systems",
+    "UBID Routing",
+    "Metadata-Driven Schema Translation",
+    "Idempotent Proxy",
+    "Cross-Cutting Concern: Conflict Detection & Resolution",
+    "Cross-Cutting Concern: Auditability & Distributed State Management"
+  ],
+  "optimization_claims": [
+    "Asynchronous, at-least-once delivery",
+    "Prevention of silent data overwrites",
+    "High availability",
+    "Mathematically tamper-evident audits"
+  ],
+  "constraints_addressed": [
+    "Data consistency across systems",
+    "Non-intrusive data extraction from legacy systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

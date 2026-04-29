@@ -1,0 +1,35 @@
+{
+  "solution_id": "S204",
+  "problem_id": "Theme_3",
+  "team_name": "SaakshyaNet — AI-Powered Tender Evaluation and Bid Eligibility Intelligence Platform",
+  "summary": "Design an AI platform for tender evaluation and eligibility analysis in government procurement, capable of processing various document formats, extracting values, making decisions using rule-based and machine learning systems, providing transparent explanations, and generating immutable audit records.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "LLM",
+    "deterministic rule engine"
+  ],
+  "key_steps": [
+    "Ingestion of tender documents and bids",
+    "Creation of machine-readable criterion registry",
+    "Extraction of bid values",
+    "Evaluation using rule-based and LLM systems",
+    "Issuance of consolidated evaluation report"
+  ],
+  "optimization_claims": [
+    "Improved efficiency in tender evaluation process",
+    "Increased transparency for procurement officers",
+    "Reduced human error"
+  ],
+  "constraints_addressed": [
+    "Different document formats",
+    "Ambiguities in criterion",
+    "Low confidence levels",
+    "Conflicting pieces of evidence",
+    "Ambiguous documents",
+    "Threshold values"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

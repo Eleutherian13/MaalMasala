@@ -1,0 +1,36 @@
+{
+  "solution_id": "S052",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ — Explainable AI & Multimodal Evaluation Engine for Government Procurement",
+  "summary": "Design a technical platform using React, FastAPI, and Multimodal AI for government tender evaluation, eligibility analysis, and explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React (TypeScript)",
+    "Vite",
+    "Tailwind CSS v4",
+    "Framer Motion",
+    "Lucide-React",
+    "Python",
+    "FastAPI",
+    "Pydantic",
+    "Uvicorn"
+  ],
+  "key_steps": [
+    "Development of a responsive, modern user interface",
+    "Creation of a live overview tracking active tenders and bids",
+    "Implementation of an Evidence Viewer for contextual snippets and page numbers from bidder's documents",
+    "Development of a fallback mechanism for manual review when necessary",
+    "Building of a fully-typed backend simulation layer"
+  ],
+  "optimization_claims": [
+    "The Human-AI Evaluation Workbench provides explainable evaluation reports",
+    "The system prevents silent algorithmic disqualification"
+  ],
+  "constraints_addressed": [
+    "Data integrity through declarative Pydantic schemas",
+    "Live overrides for dynamically recalculating bidder status"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

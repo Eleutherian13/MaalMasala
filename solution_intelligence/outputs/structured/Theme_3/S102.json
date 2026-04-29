@@ -1,0 +1,37 @@
+{
+  "solution_id": "S102",
+  "problem_id": "Theme_3",
+  "team_name": "TenderKit — AI-powered eligibility evaluation for government procurement",
+  "summary": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports that a human officer can trust and sign off on.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "ChromaDB",
+    "pdfplumber",
+    "pymupdf4llm",
+    "PaddleOCR",
+    "AWS Textract",
+    "python-docx",
+    "LLM",
+    "FastAPI",
+    "RTI-compliant Word report generation",
+    "React"
+  ],
+  "key_steps": [
+    "Extract and structure the tender criteria",
+    "Parse every bidder document",
+    "Evaluate each bidder criterion with full evidence",
+    "Analyze all bidders to surface fraud signals"
+  ],
+  "optimization_claims": [
+    "The system is allowed to be uncertain, but it is never allowed to hide that uncertainty.",
+    "Every borderline case surfaces with a reason."
+  ],
+  "constraints_addressed": [
+    "Manual review inconsistency",
+    "Invisible fraud",
+    "Time-consuming evaluation process"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

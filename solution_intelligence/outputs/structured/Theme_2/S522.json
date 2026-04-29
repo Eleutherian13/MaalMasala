@@ -1,0 +1,32 @@
+{
+  "solution_id": "S522",
+  "problem_id": "Theme_2",
+  "team_name": "SWS-Sync — Bidirectional Interoperability Layer for SWS and Legacy Departments",
+  "summary": "Design a layer for bidirectional interoperability between Karnataka's Single Window System and legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Node.js / TypeScript",
+    "Kafka (or NATS JetStream)",
+    "PostgreSQL",
+    "Temporal"
+  ],
+  "key_steps": [
+    "Implement lightweight adapters for each department system",
+    "Use durable bus for propagating canonical events keyed and ordered by UBID",
+    "Develop schema translator driven by declarative mapping files",
+    "Enforce idempotency through deterministic event IDs",
+    "Configure conflict resolver policies and capture audit logs"
+  ],
+  "optimization_claims": [
+    "Avoids big-bang migration trap",
+    "SWS becomes authoritative over time",
+    "Training burden is minimized"
+  ],
+  "constraints_addressed": [
+    "No modification of source systems",
+    "Hot-reloadable conflict policies for governance teams"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

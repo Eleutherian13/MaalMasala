@@ -1,0 +1,42 @@
+{
+  "solution_id": "S033",
+  "problem_id": "Theme_3",
+  "team_name": "NyayaCheck — Explainable AI Procurement Auditor for Government Tenders",
+  "summary": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports that a human officer can trust and sign off on.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "CRPF Submission",
+    "OCR",
+    "NyayaCheck"
+  ],
+  "key_steps": [
+    "Tender Parsing",
+    "Criterion Schema Creation",
+    "OCR Pipeline",
+    "Verdict Engine Development",
+    "Confidence Scoring",
+    "Review Queue UI Development",
+    "Report Generation",
+    "Audit Trail Implementation",
+    "End-to-end Testing",
+    "Web Prototype Development",
+    "GitHub Repo Creation",
+    "Sample Report Generation",
+    "Demo Video Creation"
+  ],
+  "optimization_claims": [
+    "Under 30 minutes for evaluation regardless of document format",
+    "Criterion-level explainability",
+    "No silent disqualification",
+    "Scanned document support",
+    "End-to-end audit trail for government compliance"
+  ],
+  "constraints_addressed": [
+    "Badly scanned documents",
+    "LLMs can hallucinate evidence",
+    "Forged documents"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,29 @@
+{
+  "solution_id": "S425",
+  "problem_id": "Theme_3",
+  "team_name": "Nyayadarsi: AI-Powered Tender Evaluation and Accountability Engine",
+  "summary": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LayoutLMv3",
+    "LLM"
+  ],
+  "key_steps": [
+    "Document Eligibility (AI)",
+    "The YELLOW Queue (Human + AI)",
+    "Micro-Collusion Check"
+  ],
+  "optimization_claims": [
+    "Verdicts are reached using an optimized LLM running purely in extractive mode to prevent hallucination",
+    "Format Detection: Identifies digital PDFs, scanned images, and structured tables.",
+    "Layout-Aware Extraction: We utilize LayoutLMv3 to preserve the spatial relationships of financial tables and technical matrices."
+  ],
+  "constraints_addressed": [
+    "Standard OCR converts documents to plain text and destroys table structures",
+    "Sophisticated Forgery: A visually perfect, mathematically consistent forged document will pass extraction. We mitigate this through cross-document consistency checks.",
+    "Legal Ambiguity: Criteria like 'works of similar complexity' are subjective. Nyayadarsi is programmed to flag these as YELLOW rather than guess, keeping legal authority firmly with the human officer."
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

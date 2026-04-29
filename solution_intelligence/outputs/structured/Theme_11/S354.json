@@ -1,0 +1,32 @@
+{
+  "solution_id": "S354",
+  "problem_id": "Theme_11",
+  "team_name": "AI-Powered Court Order Compliance Tracking Dashboard",
+  "summary": "AI-Powered Court Order Compliance Tracking Dashboard for Government departments to track court order compliance and generate verified action plans.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract (OCR)",
+    "NLP extraction",
+    "React dashboard",
+    "Python backend"
+  ],
+  "key_steps": [
+    "Upload judgment PDF",
+    "AI extracts directive, deadline, responsible department",
+    "Live dashboard tracks status with automatic alerts",
+    "Department updates progress as work continues",
+    "System generates court-ready compliance report"
+  ],
+  "optimization_claims": [
+    "80% less manual tracking time",
+    "0% missed deadlines"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

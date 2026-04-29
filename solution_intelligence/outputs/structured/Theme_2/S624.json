@@ -1,0 +1,31 @@
+{
+  "solution_id": "S624",
+  "problem_id": "Theme_2",
+  "team_name": "Event Ease – Smart Event Planning and Vendor Marketplace Platform",
+  "summary": "Design a layer that facilitates two-way propagation of service requests using UBID as the common key between Karnataka's Single Window System and legacy department systems.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "API",
+    "UBID"
+  ],
+  "key_steps": [
+    "Integrate APIs for data exchange",
+    "Implement UBID as common key",
+    "Establish two-way propagation of service requests"
+  ],
+  "optimization_claims": [
+    "Improved efficiency in service request processing",
+    "Reduced errors due to manual data entry",
+    "Enhanced transparency and traceability"
+  ],
+  "constraints_addressed": [
+    "Data silos across department systems",
+    "Manual and time-consuming process of service request propagation"
+  ],
+  "missing_components": [
+    "Real-time monitoring and alert system",
+    "User interface for department systems"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

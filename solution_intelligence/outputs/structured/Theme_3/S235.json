@@ -1,0 +1,30 @@
+{
+  "solution_id": "S235",
+  "problem_id": "Theme_3",
+  "team_name": "Design a system to detect phishing, scams, or suspicious activities in real-time using AI or rule-based approaches.",
+  "summary": "Design a system to automatically evaluate tenders and bidder eligibility using AI or rule-based approaches, producing explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "AI",
+    "Deep Machine Learning",
+    "Contextual Heuristics"
+  ],
+  "key_steps": [
+    "Understand tender documents",
+    "Analyze bidder submissions",
+    "Evaluate eligibility",
+    "Produce explainable evaluation reports"
+  ],
+  "optimization_claims": [
+    "Massive Memory: AI has studied over 5 Million examples of scams to learn exactly how hackers think",
+    "Double-Check System: Uses two different 'brains'—one for checking websites and one for checking text messages",
+    "Instant Results: You get a safety verdict in less than half a second"
+  ],
+  "constraints_addressed": [
+    "Phishing attacks have increased by 300% annually",
+    "Mobile users are thrice as vulnerable to a “smishing” message on their phones due to smaller screens"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

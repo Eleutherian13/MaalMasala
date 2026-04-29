@@ -1,0 +1,35 @@
+{
+  "solution_id": "S385",
+  "problem_id": "Theme_3",
+  "team_name": "TenderIQ: Multi-Agent AI Copilot for Government Procurement Evaluation",
+  "summary": "Design a technical platform that evaluates tenders, understands each bidder, evaluates eligibility, and produces explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "Tesseract/TrOCR",
+    "React",
+    "Vector DB"
+  ],
+  "key_steps": [
+    "Criteria Extraction",
+    "Document Intelligence",
+    "Multi-Agent Evaluation",
+    "Human-in-the-Loop Design",
+    "Output & Reporting"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time from days to minutes",
+    "Ensures consistent, bias-free decisions",
+    "Provides full auditability"
+  ],
+  "constraints_addressed": [
+    "Heterogeneous Documents",
+    "Ambiguous Language",
+    "Missing / Partial Data",
+    "Explainability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

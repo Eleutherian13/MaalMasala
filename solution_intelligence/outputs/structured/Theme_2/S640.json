@@ -1,0 +1,38 @@
+{
+  "solution_id": "S640",
+  "problem_id": "Theme_2",
+  "team_name": "InteropSync Karnataka — Self-Healing Semantic Middleware for Government Interoperability",
+  "summary": "Design a bidirectional translation and propagation layer between Karnataka's Single Window System (SWS) and department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "REST API",
+    "webhook callback",
+    "SFTP file drop",
+    "database polling",
+    "SQLite"
+  ],
+  "key_steps": [
+    "Multi-Surface Integration Engine",
+    "Configurable Schema Translation Layer",
+    "Conflict Detection & Resolution with Policy Engine",
+    "Tamper-Proof Cryptographic Audit Chain",
+    "Retry & Failure Recovery with Dead-Letter Queue",
+    "Offline-First Sync for Rural District Offices",
+    "Department Health Dashboard & SLA Monitoring"
+  ],
+  "optimization_claims": [
+    "Data consistency across systems",
+    "Reduced manual re-entry",
+    "Improved approval times",
+    "Tamper-proof audit trail",
+    "No data loss due to system failures"
+  ],
+  "constraints_addressed": [
+    "Heterogeneous databases",
+    "No modification of existing systems",
+    "Intermittent rural connectivity"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

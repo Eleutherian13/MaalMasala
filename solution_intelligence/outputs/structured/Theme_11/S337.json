@@ -1,0 +1,29 @@
+{
+  "solution_id": "S337",
+  "problem_id": "Theme_11",
+  "team_name": "NyayaFlow — AI-Powered Court Judgment to Verified Action Plan System",
+  "summary": "Develop an AI system (NyayaFlow) that extracts key information from court judgment PDFs, generates a structured action plan, and presents the human-verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "LLM"
+  ],
+  "key_steps": [
+    "Intelligent Extraction",
+    "AI Action Plan Generation",
+    "Human Verification",
+    "Trusted Dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces manual review time per document",
+    "Improves compliance and avoids contempt of court"
+  ],
+  "constraints_addressed": [
+    "Complex, inconsistent legal PDFs",
+    "Explainable and verifiable outputs",
+    "Focus on decision support"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

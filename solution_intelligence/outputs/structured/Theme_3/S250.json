@@ -1,0 +1,29 @@
+{
+  "solution_id": "S250",
+  "problem_id": "Theme_3",
+  "team_name": "Sudhanshu Kumar",
+  "summary": "Design a technical platform that understands tender documents, evaluates bidders based on eligibility criteria, and generates explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "Rule-Based Systems"
+  ],
+  "key_steps": [
+    "Tender document understanding",
+    "Bidder profile analysis",
+    "Eligibility evaluation",
+    "Report generation"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Complex tender documents",
+    "Diverse bidder profiles"
+  ],
+  "missing_components": [
+    "Performance evaluation metrics",
+    "Automated explanation of evaluation reports"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

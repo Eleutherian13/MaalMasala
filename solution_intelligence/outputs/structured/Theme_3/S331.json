@@ -1,0 +1,30 @@
+{
+  "solution_id": "S331",
+  "problem_id": "Theme_3",
+  "team_name": "GOVERNMENT TENDER EVALUATION ENGINE",
+  "summary": "Design a technical platform that can understand tender documents, evaluate bidders' eligibility, produce explainable evaluation reports, and is submitted by CRPF on April 24, 2026. The solution is provided by Hackerearth.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PRACTICE",
+    "COMPETE",
+    "JOBS",
+    "LEADERBOARD"
+  ],
+  "key_steps": [
+    "Understand tender document",
+    "Evaluate bidders",
+    "Produce explainable evaluation reports"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Government procurement",
+    "Tender understanding",
+    "Eligibility analysis",
+    "Explainability"
+  ],
+  "missing_components": [
+    "None (Based on provided information)"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

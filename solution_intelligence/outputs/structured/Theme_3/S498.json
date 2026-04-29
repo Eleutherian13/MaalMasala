@@ -1,0 +1,32 @@
+{
+  "solution_id": "S498",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAudit — Criterion-Level Tender Evaluation with Audit Trail",
+  "summary": "Design an AI-based technical platform for tender evaluation and eligibility analysis in government procurement, ensuring explainable reports and never silently disqualifying bidders.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PyMuPDF",
+    "PaddleOCR",
+    "LayoutLMv3",
+    "ChromaDB",
+    "self-hosted open-source LLM (Llama-3 / Gemma / Qwen)",
+    "FastAPI",
+    "Next.js"
+  ],
+  "key_steps": [
+    "Extracting the tender's eligibility criteria",
+    "Parsing each bidder's submission",
+    "Evaluating eligibility",
+    "Producing explanatory evaluation reports"
+  ],
+  "optimization_claims": [
+    "Compresses 10-working-day committee evaluations to 2-hour verifications"
+  ],
+  "constraints_addressed": [
+    "Absence of evidence is always Needs Manual Review",
+    "Digitally signed, fully auditable evaluation reports"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

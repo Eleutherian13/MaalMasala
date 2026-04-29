@@ -1,0 +1,38 @@
+{
+  "solution_id": "S261",
+  "problem_id": "Theme_11",
+  "team_name": "AI-Based Court Judgment Action Intelligence System",
+  "summary": "Build an AI system that reads court judgment PDFs, extracts key information, generates a structured action plan, and ensures human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React.js",
+    "FastAPI (Python)",
+    "Tesseract / PaddleOCR",
+    "NLP Extraction Engine",
+    "LLM APIs",
+    "Rule-based Deadline Detector",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Read court judgment PDFs",
+    "Extract key legal information",
+    "Detect deadlines and directives",
+    "Suggest whether to comply / appeal / review",
+    "Identify responsible department",
+    "Provide confidence score and reasoning",
+    "Enable mandatory human verification",
+    "Display only trusted outputs on dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces officer workload significantly",
+    "Faster Governance | Better Compliance | Smarter Decision-Making"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

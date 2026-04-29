@@ -1,0 +1,41 @@
+{
+  "solution_id": "S632",
+  "problem_id": "Theme_2",
+  "team_name": "SyncBridge Karnataka: Event-Driven Bidirectional Interoperability Mesh with Zero-Touch System Integration",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Apache Kafka",
+    "Redis",
+    "HashiCorp Vault",
+    "Kong",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Build an autonomous interoperability mesh",
+    "Use UBID as the universal join key",
+    "Deploy schema translation engine",
+    "Implement dual-mode change capture",
+    "Establish direction 1: SWS to Department Propagation",
+    "Establish direction 2: Department to SWS Propagation",
+    "Cross-Cutting: Conflict Detection & Explainable Resolution"
+  ],
+  "optimization_claims": [
+    "Eliminating split-brain means businesses update once, not forty times",
+    "From Karnataka to National Integration",
+    "Revenue & Compliance Impact: Officer productivity rises, citizen grievances drop, and compliance timelines shrink from weeks to hours"
+  ],
+  "constraints_addressed": [
+    "SWS and legacy departments operate as independent authorities with no shared state",
+    "A business can file the same request in two places simultaneously, creating divergent records",
+    "Department schemas, identifiers, validation rules, and APIs are heterogeneous and frozen",
+    "Some departments emit no events at all"
+  ],
+  "missing_components": [
+    "Performance optimization for handling large-scale data",
+    "Real-time conflict resolution for critical updates",
+    "Long-term scalability plan for adding more departments and services"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

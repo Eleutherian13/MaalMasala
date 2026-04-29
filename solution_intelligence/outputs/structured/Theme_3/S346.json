@@ -1,0 +1,33 @@
+{
+  "solution_id": "S346",
+  "problem_id": "Theme_3",
+  "team_name": "Nirikshan AI",
+  "summary": "Design a technical platform that can understand tender documents, evaluate bidders, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Layout LMV3",
+    "Vision Language Models for Document Understanding",
+    "LLMs for Reasoning/Rule Extraction",
+    "FastAPI/Flask Back-End",
+    "React"
+  ],
+  "key_steps": [
+    "Extracting Evaluation Criteria",
+    "Formatting Bidder Submissions",
+    "Evaluating Engine",
+    "Reviewing/Validating by Auditor/Agent Inloop"
+  ],
+  "optimization_claims": [
+    "Decreased hallucinations and errors",
+    "Modularity and scalability",
+    "Real-world workflow aligned"
+  ],
+  "constraints_addressed": [
+    "Complex eligibility criteria in tender documents",
+    "Heterogeneous bidder document formats",
+    "Time-consuming manual evaluation process"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

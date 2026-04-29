@@ -1,0 +1,27 @@
+{
+  "solution_id": "S541",
+  "problem_id": "Theme_3",
+  "team_name": "TenderEye: An Auditable, On-Premise AI Evaluation Engine for Government Tenders",
+  "summary": "Design a technical platform for AI-based tender evaluation, eligibility analysis, and explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "LLM"
+  ],
+  "key_steps": [
+    "Standardized Ingestion",
+    "Locked Rules",
+    "Targeted Matchers"
+  ],
+  "optimization_claims": [
+    "3-state verdict (eligible, not eligible, needs review)",
+    "Total visual traceability"
+  ],
+  "constraints_addressed": [
+    "OCR confidence drops below 75%",
+    "Legal language ambiguity"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

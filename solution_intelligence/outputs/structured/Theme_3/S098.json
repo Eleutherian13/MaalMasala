@@ -1,0 +1,31 @@
+{
+  "solution_id": "S098",
+  "problem_id": "Theme_3",
+  "team_name": "ParakhOps",
+  "summary": "Design a technical platform that automates tender evaluation and eligibility analysis for government procurement processes, improving efficiency, consistency, and transparency.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Streamlit",
+    "Google Gemini 1.5 Pro",
+    "JSON"
+  ],
+  "key_steps": [
+    "Extracting eligibility criteria from tender documents",
+    "Evaluating bidder submissions",
+    "Providing clear reasoning and document references",
+    "Flagging ambiguous or low-confidence cases for human review"
+  ],
+  "optimization_claims": [
+    "Significantly reduces evaluation time",
+    "Improves consistency across decisions",
+    "Provides transparent, audit-ready outputs"
+  ],
+  "constraints_addressed": [
+    "Inefficiencies in traditional evaluation processes",
+    "Manual verification of complex eligibility criteria",
+    "Limited auditability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

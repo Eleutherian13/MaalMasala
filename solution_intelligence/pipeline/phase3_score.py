@@ -1,10 +1,124 @@
 import os
 import json
 import logging
+import hashlib
+import re
 import math
+from typing import Optional
 from config import SCORE_WEIGHTS
+from utils.llm import ask_llm
+from utils.schema import SolutionExtraction, SolutionScores, Penalty, FinalEvaluation
+from pydantic import ValidationError
 
 logger = logging.getLogger(__name__)
+
+def get_llm_scores(extraction: SolutionExtraction) -> Optional[SolutionScores]:
+    """Helper function to fetch bounded 1-5 scores from LLM with strict rules."""
+    cache_key = hashlib.sha256(("score_" + extraction.model_dump_json()).encode('utf-8')).hexdigest()
+    cache_dir = "cache/scores"
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = os.path.join(cache_dir, f"{cache_key}.json")
+    
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                return SolutionScores(**json.load(f))
+        except Exception:
+            pass
+
+    prompt = f"""SYSTEM:
+You are a strict scoring engine. You ONLY output a valid JSON object. No explanation, no extra text.
+Evaluate the extracted solution features and assign integer scores (1-5) for each criterion.
+1 = Poor/Non-existent, 5 = Excellent/Highly evident.
+
+Criteria Definitions:
+- problem_fit: alignment with problem requirements
+- feasibility: implementation realism
+- optimization: efficiency improvements
+- completeness: pipeline coverage
+- scalability: large-scale viability
+- novelty: uniqueness
+- clarity: structure and readability
+
+Output JSON strictly matching this schema:
+{{
+  "problem_fit": int (1-5),
+  "feasibility": int (1-5),
+  "optimization": int (1-5),
+  "completeness": int (1-5),
+  "scalability": int (1-5),
+  "novelty": int (1-5),
+  "clarity": int (1-5)
+}}
+
+USER:
+Solution Features:
+{extraction.model_dump_json(indent=2)}
+"""
+
+    for _ in range(3):
+        try:
+            response = ask_llm(prompt, expect_json=True, force_rerun=True)
+            cleaned = re.sub(r'```json\s*|\s*```', '', response)
+            cleaned = re.sub(r',\s*([\]}])', r'\1', cleaned)
+            parsed = json.loads(cleaned)
+            scores = SolutionScores(**parsed)
+            
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                f.write(scores.model_dump_json())
+            return scores
+        except Exception:
+            continue
+            
+    return None
+
+def score_solution(extraction: SolutionExtraction) -> Optional[FinalEvaluation]:
+    """Converts SolutionExtraction to a strict FinalEvaluation architecture."""
+    scores = get_llm_scores(extraction)
+    if not scores:
+        return None
+        
+    # 3. Deterministic Computation
+    base_score = (
+        0.25 * scores.problem_fit +
+        0.20 * scores.feasibility +
+        0.20 * scores.optimization +
+        0.15 * scores.completeness +
+        0.10 * scores.scalability +
+        0.05 * scores.novelty +
+        0.05 * scores.clarity
+    ) * 20
+    
+    # 4. Penalty Logic
+    missing_core = 20 if (scores.feasibility <= 2 or scores.completeness <= 2) else 0
+    overclaim = 10 if (len(extraction.optimization_claims) > 0 and scores.optimization <= 2) else 0
+    penalties = Penalty(missing_core=missing_core, overclaim=overclaim)
+    
+    # 5. Final Score
+    final_score = max(0.0, min(100.0, base_score - missing_core - overclaim))
+    
+    # 6. Confidence
+    confidence = max(0.3, 1.0 - 0.1 * len(extraction.missing_components))
+    
+    # 7. Reasoning (Deterministic construction)
+    reasoning_parts = [f"Base score computed at {base_score:.1f}/100."]
+    if missing_core > 0:
+        reasoning_parts.append("Missing core principles penalty applied (-20).")
+    if overclaim > 0:
+        reasoning_parts.append("Overclaim penalty applied (-10).")
+    if missing_core == 0 and overclaim == 0:
+        reasoning_parts.append("No penalties applied.")
+    reasoning_parts.append(f"Confidence reduced to {confidence:.2f} due to {len(extraction.missing_components)} missing components.")
+    
+    reasoning = " ".join(reasoning_parts)[:300]
+    
+    return FinalEvaluation(
+        scores=scores,
+        penalties=penalties,
+        final_score=final_score,
+        confidence=confidence,
+        reasoning=reasoning
+    )
 
 def phase3_score(problem_id: str, output_dir: str):
     cluster_dir = os.path.join(output_dir, "clusters")
@@ -35,7 +149,6 @@ def phase3_score(problem_id: str, output_dir: str):
         with open(summary_file, 'r', encoding='utf-8') as f:
             structured_data = json.load(f)
 
-        # Create quick lookup for structured solutions (needed for noise evaluation)
         sol_map = {s["solution_id"]: s for s in structured_data if not s.get("parse_error")}
 
         total_solutions = sum(c["size"] for c in cluster_data.get("clusters", [])) + cluster_data.get("n_noise", 0)
@@ -43,55 +156,20 @@ def phase3_score(problem_id: str, output_dir: str):
             logger.warning(f"No solutions found in clusters for {pid}. Skipping.")
             continue
 
-        # 1. Calculate raw scores
-        raw_clusters = []
-        raw_scores = []
-        for c in cluster_data.get("clusters", []):
-            avg_q = c["avg_quality"]
-            avg_n = c["avg_novelty"]
-            size = c["size"]
-            
-            raw_score = (SCORE_WEIGHTS["quality"] * avg_q) + \
-                        (SCORE_WEIGHTS["novelty"] * avg_n) + \
-                        (SCORE_WEIGHTS["size_log"] * math.log(size + 1))
-            
-            raw_scores.append(raw_score)
-            raw_clusters.append({
-                "cluster_id": c["cluster_id"],
-                "avg_quality": avg_q,
-                "avg_novelty": avg_n,
-                "size": size,
-                "dominance_pct": round(size / total_solutions, 4),
-                "raw_score": raw_score
-            })
-
-        # 2. Normalize and assign tiers
-        min_score = min(raw_scores) if raw_scores else 0
-        max_score = max(raw_scores) if raw_scores else 0
-        score_range = max_score - min_score if max_score > min_score else 1
-
+        # Clusters already have their scores and tiers from Phase 2
         ranked_clusters = []
-        for rc in raw_clusters:
-            norm_score = (rc["raw_score"] - min_score) / score_range if raw_scores else 0
-            norm_score = round(norm_score, 4)
+        for c in cluster_data.get("clusters", []):
+            avg_score = c.get("avg_score", 0)
             
-            if norm_score >= 0.75:
-                tier = "ELITE"
-            elif norm_score >= 0.50:
-                tier = "STRONG"
-            elif norm_score >= 0.25:
-                tier = "AVERAGE"
-            else:
-                tier = "WEAK"
-                
             ranked_clusters.append({
-                "cluster_id": rc["cluster_id"],
-                "tier": tier,
-                "cluster_score": norm_score,
-                "avg_quality": round(rc["avg_quality"], 2),
-                "avg_novelty": round(rc["avg_novelty"], 2),
-                "size": rc["size"],
-                "dominance_pct": rc["dominance_pct"]
+                "cluster_id": c["cluster_id"],
+                "tier": c.get("tier", "BASELINE"),
+                "cluster_score": avg_score / 100.0, # Normalizing to 0-1 for backward compat
+                "avg_score": avg_score,
+                "max_score": c.get("max_score", 0),
+                "variance": c.get("variance", 0),
+                "size": c["size"],
+                "dominance_pct": round(c["size"] / total_solutions, 4)
             })
 
         # Sort descending by normalized score
@@ -101,8 +179,14 @@ def phase3_score(problem_id: str, output_dir: str):
         rare_high_impact = []
         for noise_sid in cluster_data.get("noise_solutions", []):
             sol = sol_map.get(noise_sid)
-            if sol and sol.get("novelty_score", 0) >= 8:
-                rare_high_impact.append(noise_sid)
+            if sol:
+                try:
+                    s_extraction = SolutionExtraction(**sol)
+                    s_evaluation = score_solution(s_extraction)
+                    if s_evaluation and s_evaluation.final_score > 75:
+                        rare_high_impact.append(noise_sid)
+                except Exception:
+                    pass
 
         # 4. Save Output
         output_data = {

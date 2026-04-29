@@ -1,0 +1,24 @@
+{
+  "solution_id": "S695",
+  "problem_id": "Theme_3",
+  "team_name": "TenderShield: Automated Document Verification & Eligibility Assistant",
+  "summary": "Design an AI platform to automatically scan bidder submissions for mandatory compliance, flagging missing or blurry documents for human review. Reduces manual 'first-pass' screening time by up to 80%.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "OCR"
+  ],
+  "key_steps": [
+    "Document Scanning",
+    "Keyword-based OCR",
+    "Flagging for Human Review"
+  ],
+  "optimization_claims": [
+    "Up to 80% reduction in manual 'first-pass' screening time"
+  ],
+  "constraints_addressed": [
+    "Clerical oversights leading to bidder disqualification"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

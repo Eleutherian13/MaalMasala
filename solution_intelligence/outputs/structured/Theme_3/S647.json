@@ -1,0 +1,30 @@
+{
+  "solution_id": "S647",
+  "problem_id": "Theme_3",
+  "team_name": "MindCare Web - A Digital Mental Health & Psychological Support Platform for Students",
+  "summary": "Design an AI platform to simplify government-citizen interaction, handle tenders, evaluate bidders, and produce explainable evaluation reports.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "multilingual voice AI",
+    "document intelligence",
+    "predictive analytics"
+  ],
+  "key_steps": [
+    "understanding tender documents",
+    "analyzing bidder submissions",
+    "eligibility evaluation",
+    "generating explainable reports"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "multilingual support (Hindi, English, others)"
+  ],
+  "missing_components": [
+    "rule-based approach",
+    "dl",
+    "system",
+    "hybrid"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

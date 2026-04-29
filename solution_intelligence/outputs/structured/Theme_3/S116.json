@@ -1,0 +1,36 @@
+{
+  "solution_id": "S116",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI — Explainable AI Platform for Government Tender Evaluation & Eligibility Analysis",
+  "summary": "Design an AI platform for government tender evaluation and eligibility analysis, providing structured explainable auditable outputs to ensure trust, consistency, and auditability.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LLM",
+    "OCR",
+    "NLP",
+    "Docker"
+  ],
+  "key_steps": [
+    "Tender Understanding Engine",
+    "Bidder Document Intelligence",
+    "Evaluation Engine",
+    "Confidence-Aware Decision System",
+    "Explainability Layer",
+    "Human-in-the-Loop Workflow",
+    "Audit & Compliance Layer"
+  ],
+  "optimization_claims": [
+    "Reduced evaluation time",
+    "Improved consistency",
+    "Enhanced auditability"
+  ],
+  "constraints_addressed": [
+    "Real-world messy documents",
+    "Ambiguity in criteria",
+    "Silent disqualification",
+    "Government-grade compliance"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,34 @@
+{
+  "solution_id": "S268",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI – Explainable AI System for Automated Tender Evaluation",
+  "summary": "Design an AI-based platform for automated tender evaluation and eligibility analysis in government procurement. The system uses OCR, NLP, rule-based evaluation engine, and ensures explainable decision-making.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI (Python)",
+    "spaCy / Transformers",
+    "Tesseract",
+    "MongoDB / PostgreSQL",
+    "React"
+  ],
+  "key_steps": [
+    "Read tender documents and bidder submissions",
+    "Extract key eligibility criteria",
+    "Compare bidder data with extracted criteria",
+    "Classify bidders as eligible, not eligible, or needs manual review",
+    "Flag ambiguous or low-confidence cases for human review"
+  ],
+  "optimization_claims": [
+    "Reduces manual workload",
+    "Improves evaluation consistency",
+    "Enables faster decision-making",
+    "Scalable decision-making in government procurement processes"
+  ],
+  "constraints_addressed": [
+    "Unstructured documents",
+    "Inconsistent bidder submissions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

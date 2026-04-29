@@ -1,0 +1,44 @@
+{
+  "solution_id": "S678",
+  "problem_id": "Theme_3",
+  "team_name": "TenderTrust - AI Driven Tender Eligibility & Evaluation for CRPF Procurement",
+  "summary": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "Streamlit",
+    "Tesseract",
+    "EasyOCR",
+    "Google Vision",
+    "OpenAI",
+    "Gemini",
+    "PostgreSQL",
+    "MongoDB",
+    "FAISS",
+    "Pinecone"
+  ],
+  "key_steps": [
+    "Extracting Rules form Tender Document",
+    "Understanding Bidder Document Pipeline",
+    "Evaluation and Decision Making",
+    "Human-in-Loop System",
+    "Audit and Transparency"
+  ],
+  "optimization_claims": [
+    "Saves time and reduces manual effort",
+    "Gives consistent and fair evaluation",
+    "Shows proof for every decision (transparent)",
+    "Works with real-world messy documents",
+    "Keeps a proper record for audit and verification"
+  ],
+  "constraints_addressed": [
+    "OCR errors",
+    "Wrong rule extraction",
+    "Incorrect evaluation",
+    "Missing/ambiguous data",
+    "Low trust in system"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

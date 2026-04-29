@@ -1,0 +1,33 @@
+{
+  "solution_id": "S727",
+  "problem_id": "Theme_2",
+  "team_name": "SyncBridge — A Two-Way Interoperability Layer for Karnataka's SWS and Department Systems",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Kafka",
+    "PostgreSQL",
+    "Redis",
+    "Spring Boot"
+  ],
+  "key_steps": [
+    "Event-driven architecture",
+    "Translation Engine",
+    "Schema Registry",
+    "Conflict Detector",
+    "Audit Trail",
+    "Reviewer Dashboard"
+  ],
+  "optimization_claims": [
+    "Replay capability for error handling",
+    "Version control for schema mappings",
+    "Fast conflict detection and resolution"
+  ],
+  "constraints_addressed": [
+    "Too many systems with different schemas and identifiers",
+    "Lack of common join key across systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

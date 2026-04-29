@@ -1,0 +1,35 @@
+{
+  "solution_id": "S206",
+  "problem_id": "Theme_3",
+  "team_name": "TenderAI: Explainable AI System for Automated Tender Eligibility Evaluation",
+  "summary": "Design an AI platform to automate tender evaluation, eligibility analysis, and produce explainable reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "Document Processing",
+    "NLP",
+    "AI-based Criteria Extraction Engine",
+    "Eligibility Matching Engine",
+    "Explainability Layer"
+  ],
+  "key_steps": [
+    "Extract eligibility criteria from tender documents",
+    "Parse bidder submissions across formats",
+    "Map extracted bidder data to each criterion",
+    "Automatically evaluate eligibility",
+    "Provide criterion-level explainability"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time by 70–80%",
+    "Ensures consistent and unbiased decision-making",
+    "Provides complete audit trail for government compliance"
+  ],
+  "constraints_addressed": [
+    "No silent disqualification",
+    "Handles scanned and low-quality documents using OCR",
+    "Fully auditable decision pipeline"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

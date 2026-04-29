@@ -1,0 +1,36 @@
+{
+  "solution_id": "S044",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens — Explainable AI Procurement Auditor for Government Tenders",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, produce explainable evaluation reports, and handle scanned documents and photographs.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Python",
+    "pdfplumber",
+    "Tesseract",
+    "sentence-transformers",
+    "Docker"
+  ],
+  "key_steps": [
+    "Tender understanding",
+    "Bidder parsing",
+    "Evaluation engine",
+    "Output"
+  ],
+  "optimization_claims": [
+    "Confidence below a threshold routes to human review",
+    "Full audit trail"
+  ],
+  "constraints_addressed": [
+    "Handling scanned documents and photographs",
+    "Ensuring explainability at criterion level",
+    "No silent disqualification"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

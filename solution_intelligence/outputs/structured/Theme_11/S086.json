@@ -1,0 +1,33 @@
+{
+  "solution_id": "S086",
+  "problem_id": "Theme_11",
+  "team_name": "KarnaNyaya : An AI-Driven Judgment-to-Execution Framework for Efficient and Accountable Justice Delivery in India",
+  "summary": "AI-Driven Judgment-to-Execution Framework for Efficient and Accountable Justice Delivery in India",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "Named Entity Recognition (NER)",
+    "rhetorical role labeling"
+  ],
+  "key_steps": [
+    "extract key directives",
+    "identify responsible departments",
+    "organize cases based on legal context",
+    "Comply or Appeal decision intelligence system",
+    "automated deadline tracking",
+    "workflow assignment",
+    "escalation mechanisms"
+  ],
+  "optimization_claims": [
+    "minimizes delays and legal risks",
+    "faster and more informed legal decisions"
+  ],
+  "constraints_addressed": [
+    "Must handle complex, inconsistent legal PDFs",
+    "Outputs must be explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

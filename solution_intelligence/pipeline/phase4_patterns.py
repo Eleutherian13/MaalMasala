@@ -1,8 +1,12 @@
 import os
 import json
 import logging
+from collections import defaultdict
+from typing import Dict, List, Set
 from tqdm import tqdm
-from utils.llm import ask_llm
+
+from utils.schema import SolutionExtraction
+from pipeline.phase3_score import score_solution
 
 logger = logging.getLogger(__name__)
 
@@ -14,133 +18,146 @@ def phase4_patterns(problems_dict: dict, problem_id: str, force_rerun: bool, out
 
     pids_to_process = [problem_id] if problem_id else list(problems_dict.keys())
 
-    logger.info("Phase 4: Extracting Winning Patterns & Contradictions...")
+    logger.info("Phase 4: Extracting Winning Patterns & Contradictions (Deterministic)...")
 
     for pid in tqdm(pids_to_process, desc="Processing Patterns"):
         problem = problems_dict.get(pid)
         if not problem:
             continue
             
-        scores_file = os.path.join(scores_dir, f"{pid}.json")
+        cluster_file = os.path.join(output_dir, "clusters", f"{pid}.json")
         summary_file = os.path.join(structured_dir, pid, "_summary.json")
 
-        if not os.path.exists(scores_file) or not os.path.exists(summary_file):
-            logger.warning(f"Missing required Phase 1/3 outputs for {pid}. Skipping Phase 4.")
+        if not os.path.exists(cluster_file) or not os.path.exists(summary_file):
+            logger.warning(f"Missing required Phase 2/structured outputs for {pid}. Skipping Phase 4.")
             continue
 
-        with open(scores_file, 'r', encoding='utf-8') as f:
-            scores_data = json.load(f)
+        with open(cluster_file, 'r', encoding='utf-8') as f:
+            cluster_data = json.load(f)
 
         with open(summary_file, 'r', encoding='utf-8') as f:
             structured_data = json.load(f)
 
-        sol_map = {s["solution_id"]: s for s in structured_data if not s.get("parse_error")}
-
-        cluster_patterns = []
-
-        # 1. Extract Patterns per ELITE / STRONG cluster
-        ranked_clusters = scores_data.get("ranked_clusters", [])
-        target_clusters = [c for c in ranked_clusters if c["tier"] in ["ELITE", "STRONG"]]
-
-        if not target_clusters:
-            logger.info(f"Problem {pid}: No ELITE or STRONG clusters found.")
+        # 1. Aggregate features & Scores
+        feature_scores: Dict[str, Dict[str, float]] = {
+            "tech_stack": defaultdict(float),
+            "key_steps": defaultdict(float),
+            "approach_type": defaultdict(float)
+        }
         
-        for cluster in target_clusters:
-            cid = cluster["cluster_id"]
+        feature_counts: Dict[str, Dict[str, int]] = {
+            "tech_stack": defaultdict(int),
+            "key_steps": defaultdict(int),
+            "approach_type": defaultdict(int)
+        }
+        
+        # Track which clusters features appear in
+        feature_clusters: Dict[str, Dict[str, Set[int]]] = {
+            "tech_stack": defaultdict(set),
+            "key_steps": defaultdict(set),
+            "approach_type": defaultdict(set)
+        }
+        
+        cluster_tiers = {}
+        for c in cluster_data.get("clusters", []):
+            cluster_tiers[c["cluster_id"]] = c.get("tier", "BASELINE")
+
+        sol_map = {}
+        for s in structured_data:
+            if s.get("parse_error"):
+                continue
             
-            # We need to find the solution_ids for this cluster. 
-            # They are in the phase 2 clusters output, or we can read them from phase2 directly...
-            # Wait, phase 3 output doesn't contain solution_ids in the ranked_clusters by default (based on previous schema).
-            # Let's read from phase 2 clusters output.
-            cluster_file = os.path.join(output_dir, "clusters", f"{pid}.json")
-            if not os.path.exists(cluster_file):
-                logger.error(f"Missing phase 2 cluster file for {pid}. Skipping pattern extraction for cluster {cid}.")
-                continue
-                
-            with open(cluster_file, 'r', encoding='utf-8') as cf:
-                cluster_data_orig = json.load(cf)
-                
-            c_orig = next((c for c in cluster_data_orig.get("clusters", []) if c["cluster_id"] == cid), None)
-            if not c_orig:
-                continue
-                
-            c_solutions = []
-            for sid in c_orig["solution_ids"]:
-                if sid in sol_map:
-                    c_solutions.append(sol_map[sid])
-
-            if not c_solutions:
-                continue
-
-            n = len(c_solutions)
-            batch_json = json.dumps(c_solutions, indent=2)
-
-            prompt = f"""SYSTEM:
-You are a competition strategy analyst. You receive a cluster of similar solutions to the same problem. Your job is to extract the shared winning patterns. Return ONLY valid JSON. No preamble, no markdown.
-
-USER:
-Problem: {problem['title']}
-Problem Description: {problem['description']}
-
-The following {n} solutions were grouped together as sharing similar approaches.
-Cluster tier: {cluster['tier']} | Avg quality: {cluster['avg_quality']}/10 | Avg novelty: {cluster['avg_novelty']}/10
-
-Solutions in this cluster:
-{batch_json}
-
-Return a JSON object with these exact keys:
-- "cluster_id": integer
-- "shared_strategy": string (2-3 sentences: the core shared approach)
-- "why_it_works": string (2-3 sentences: mechanism of effectiveness)
-- "key_techniques": array of strings (the techniques that appear across multiple solutions)
-- "distinguishing_factors": string (what separates the better solutions in this cluster)
-- "limitations": string (shared weaknesses or blind spots in this cluster)
-- "contradiction_with": array of strings (names/ids of clusters this approach conflicts with, if any)"""
-
             try:
-                pattern = ask_llm(prompt, expect_json=True, force_rerun=force_rerun)
-                # Ensure cluster_id is present and correct
-                if isinstance(pattern, dict):
-                    pattern["cluster_id"] = cid
-                    cluster_patterns.append(pattern)
-            except Exception as e:
-                logger.error(f"Failed to extract pattern for cluster {cid} in problem {pid}: {e}")
+                extraction = SolutionExtraction(**s)
+                eval_obj = score_solution(extraction)
+                if eval_obj:
+                    sol_map[s["solution_id"]] = {
+                        "extraction": extraction,
+                        "score": eval_obj.final_score
+                    }
+            except Exception:
+                continue
 
-        # 2. Contradiction Detection
-        contradictions = []
-        if len(cluster_patterns) > 1:
-            n_patterns = len(cluster_patterns)
-            patterns_json = json.dumps(cluster_patterns, indent=2)
+        if not sol_map:
+            logger.warning(f"No valid scored solutions for {pid}.")
+            continue
+
+        # Reverse map solution to its cluster_id
+        sol_to_cluster = {}
+        for c in cluster_data.get("clusters", []):
+            cid = c["cluster_id"]
+            for sid in c["solution_ids"]:
+                sol_to_cluster[sid] = cid
+
+        for sid, data in sol_map.items():
+            ext = data["extraction"]
+            score = data["score"]
+            cid = sol_to_cluster.get(sid, -1) # -1 is noise
             
-            contradiction_prompt = f"""SYSTEM: You are a competition analyst. Return ONLY valid JSON array. No preamble, no markdown.
+            # Helper to tally
+            def tally(category: str, items: List[str]):
+                for item in items:
+                    item_clean = item.strip().lower()
+                    if not item_clean:
+                        continue
+                    feature_scores[category][item_clean] += score
+                    feature_counts[category][item_clean] += 1
+                    if cid != -1:
+                        feature_clusters[category][item_clean].add(cid)
 
-USER:
-Given these {n_patterns} extracted cluster strategies for problem "{problem['title']}":
-{patterns_json}
+            tally("tech_stack", ext.tech_stack)
+            tally("key_steps", ext.key_steps)
+            if ext.approach_type:
+                tally("approach_type", [ext.approach_type])
 
-Identify pairs of strategies that fundamentally contradict each other.
-Return a JSON array of objects, each with:
-- "cluster_a": integer
-- "cluster_b": integer  
-- "contradiction": string (why these approaches conflict)
-- "resolution": string (how to reconcile or choose between them)"""
+        # 2. Compute winning, anti, tradeoffs
+        winning_patterns = []
+        anti_patterns = []
+        tradeoffs = []
+        
+        # Criteria parameters
+        min_occurrences = 2
 
-            try:
-                contradictions = ask_llm(contradiction_prompt, expect_json=True, force_rerun=force_rerun)
-                if not isinstance(contradictions, list):
-                    logger.warning(f"Contradictions LLM returned {type(contradictions).__name__}, expected list. Wrapping.")
-                    if isinstance(contradictions, dict):
-                        contradictions = [contradictions]
-                    else:
-                        contradictions = []
-            except Exception as e:
-                logger.error(f"Failed to extract contradictions for problem {pid}: {e}")
+        for category, items in feature_scores.items():
+            for item, total_score in items.items():
+                count = feature_counts[category][item]
+                if count < min_occurrences:
+                    continue
+                    
+                avg_weighted_score = total_score / count
+                clusters_present = feature_clusters[category][item]
+                
+                # Check tiers of clusters this feature is in
+                tiers_present = {cluster_tiers.get(c, "BASELINE") for c in clusters_present}
+                
+                feature_record = {
+                    "feature": item,
+                    "category": category,
+                    "count": count,
+                    "avg_weighted_score": round(avg_weighted_score, 2),
+                    "clusters": list(clusters_present)
+                }
 
-        # 3. Save Output
+                if avg_weighted_score > 75.0 and ("ELITE" in tiers_present or "STRONG" in tiers_present):
+                    winning_patterns.append(feature_record)
+                elif avg_weighted_score < 50.0 and "ELITE" not in tiers_present:
+                    anti_patterns.append(feature_record)
+                    
+                # Tradeoffs: Appears in both high and low performing clusters
+                if "ELITE" in tiers_present and len(tiers_present) > 1 and "BASELINE" in tiers_present:
+                    tradeoffs.append(feature_record)
+
+        # Sort descending by score
+        winning_patterns.sort(key=lambda x: x["avg_weighted_score"], reverse=True)
+        anti_patterns.sort(key=lambda x: x["avg_weighted_score"])
+        tradeoffs.sort(key=lambda x: x["avg_weighted_score"], reverse=True)
+
+        # 4. Output
         output_data = {
             "problem_id": pid,
-            "cluster_patterns": cluster_patterns,
-            "contradictions": contradictions
+            "winning_patterns": winning_patterns,
+            "anti_patterns": anti_patterns,
+            "tradeoffs": tradeoffs
         }
 
         with open(os.path.join(patterns_dir, f"{pid}.json"), 'w', encoding='utf-8') as f:

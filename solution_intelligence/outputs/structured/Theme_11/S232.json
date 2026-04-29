@@ -1,0 +1,36 @@
+{
+  "solution_id": "S232",
+  "problem_id": "Theme_11",
+  "team_name": "Veracta - Turning pages of law into paths of action.",
+  "summary": "Build an AI system that can extract key information from court judgment PDFs, generate a structured action plan, and present human-verified data in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Tesseract OCR",
+    "pdf-parse",
+    "OpenAI",
+    "LangChain",
+    "react-pdf",
+    "Next.js",
+    "Node.js",
+    "MongoDB"
+  ],
+  "key_steps": [
+    "PDF text extraction",
+    "Information processing using AI models",
+    "Action plan generation",
+    "Human verification",
+    "Displaying verified data in a dashboard"
+  ],
+  "optimization_claims": [
+    "Improves accuracy and speed of government processes",
+    "Reduces manual effort"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

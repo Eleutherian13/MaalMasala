@@ -1,0 +1,40 @@
+{
+  "solution_id": "S145",
+  "problem_id": "Theme_3",
+  "team_name": "TenderMind AI — Intelligent Procurement Evaluation Platform",
+  "summary": "Design a technical platform for government procurement officers to evaluate tenders and bidder eligibility using AI. The platform reads tender documents, processes bids, evaluates eligibility, produces explainable evaluation reports, and ensures consistency and defensibility.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "PyMuPDF",
+    "OpenCV",
+    "Tesseract 5",
+    "Azure Doc Intelligence",
+    "LayoutLMv3",
+    "spaCy",
+    "Claude Sonnet (de-identified inputs only)",
+    "LangChain + pgvector",
+    "React",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "key_steps": [
+    "Tender ingestion and criteria extraction",
+    "Bidder extraction and debarment checks",
+    "Eligibility evaluation with confidence gating",
+    "Review dashboard development",
+    "Report generation and demo"
+  ],
+  "optimization_claims": [
+    "Time saving: 38 minutes instead of three days for a tender",
+    "Consistent, documented, and defensible evaluation process",
+    "Improves over time with each tender cycle through model retraining"
+  ],
+  "constraints_addressed": [
+    "Language barriers: OCR and extraction pipeline handles multilingual documents",
+    "Field deployment: Offline PWA interface designed for unreliable connectivity"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

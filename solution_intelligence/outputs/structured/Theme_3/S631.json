@@ -1,0 +1,34 @@
+{
+  "solution_id": "S631",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSense — AI-Powered Tender Eligibility Extraction & Evaluation Engine",
+  "summary": "Design a technical platform that uses AI to extract and evaluate eligibility criteria from government procurement tenders in India, reducing evaluation time, eliminating subjective interpretation, and creating a corruption-resistant process.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Tesseract OCR",
+    "LayoutLM",
+    "spaCy/Legal-BERT",
+    "FastAPI",
+    "React",
+    "PostgreSQL"
+  ],
+  "key_steps": [
+    "Upload tender document",
+    "OCR and layout analysis",
+    "NLP pipeline for eligibility criteria identification",
+    "Rule conversion",
+    "Vendor profile evaluation",
+    "Dashboard display of results with audit trail"
+  ],
+  "optimization_claims": [
+    "Reducing tender evaluation time from days to minutes",
+    "Eliminating subjective interpretation"
+  ],
+  "constraints_addressed": [
+    "Complex legal language in tenders",
+    "Human error or bias in eligibility evaluation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

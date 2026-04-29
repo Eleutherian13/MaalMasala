@@ -1,0 +1,29 @@
+{
+  "solution_id": "S203",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSetu: A Trust-Anchored AI Platform for Explainable Tender Evaluation in Indian Government Procurement",
+  "summary": "Design an AI platform that evaluates tenders and bids, addresses constraints in government procurement, and produces explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PaddleOCR",
+    "LayoutLMv3",
+    "custom table-transformer"
+  ],
+  "key_steps": [
+    "Criterion Extraction",
+    "Multi-Modal Bid Ingestion",
+    "Reasoning and Verdict"
+  ],
+  "optimization_claims": [
+    "Adversarial Forgery Detection Module",
+    "Criterion Drift Detector",
+    "Doubt Ledger"
+  ],
+  "constraints_addressed": [
+    "typos in tender documents",
+    "fraudulent bids"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,44 @@
+{
+  "solution_id": "S069",
+  "problem_id": "Theme_3",
+  "team_name": "ProcureCheck — AI-Assisted Tender Eligibility Evaluation for Government Procurement",
+  "summary": "Design a technical platform that can understand tenders, understand each bidder, evaluate eligibility, and produce explainable evaluation reports for government procurement officers.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Google Vision API",
+    "BM25",
+    "Semantic Search",
+    "Qdrant Vector Store",
+    "Structured LLM Output",
+    "PostgreSQL Immutable Audit Log"
+  ],
+  "key_steps": [
+    "Tender Upload",
+    "Tender Understanding Engine",
+    "Officer Criteria Review Layer",
+    "Bidder Document Ingestion",
+    "Document Processing Pipeline",
+    "Evidence Extraction Layer",
+    "Evidence Reliability Scoring Engine",
+    "Retrieval and Matching Engine",
+    "Rule-Aware Evaluation Engine",
+    "Verdict Engine",
+    "Officer Review Workflow",
+    "Audit and Compliance Layer",
+    "Dashboard and Reporting Layer"
+  ],
+  "optimization_claims": [
+    "Evaluation time drops from 15 days to 2.",
+    "Every rejection becomes documentable and defensible."
+  ],
+  "constraints_addressed": [
+    "Poor scan quality",
+    "Ambiguous mandatory/optional conditions in the tender",
+    "Evidence split across multiple documents",
+    "Missing documents entirely",
+    "Contradictions within a single bidder's submission"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

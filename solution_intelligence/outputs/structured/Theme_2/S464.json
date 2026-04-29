@@ -1,0 +1,21 @@
+{
+  "solution_id": "S464",
+  "problem_id": "Theme_2",
+  "team_name": "Title 1",
+  "summary": "Design a layer that enables two-way interoperability between Karnataka's Single Window System and legacy department systems using Unique Business Identifier (UBID) as common join key.",
+  "approach_type": "system",
+  "tech_stack": [
+    "Hackerearth Platform"
+  ],
+  "key_steps": [
+    "Propagating service requests both ways",
+    "Using UBID as the common join key"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Interoperability between systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

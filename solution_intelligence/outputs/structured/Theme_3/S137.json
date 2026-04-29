@@ -1,0 +1,35 @@
+{
+  "solution_id": "S137",
+  "problem_id": "Theme_3",
+  "team_name": "Tatva AI — AI-Powered Procurement Evidence Management System",
+  "summary": "Design a technical platform that evaluates tenders, understands each bidder, evaluates eligibility, and produces explainable evaluation reports. The platform uses AI to extract eligibility criteria from tender documents, classify bidder documents, evaluate bidders criterion-by-criterion, detect cross-bidder collusion signals, manage tender versioning, and provide a fully traceable Officer Brief.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Python",
+    "FastAPI",
+    "pymupdf",
+    "pytesseract",
+    "Anthropic API",
+    "Streamlit",
+    "ReportLab",
+    "pandas"
+  ],
+  "key_steps": [
+    "Extract eligibility criteria from tender documents",
+    "Classify every bidder document",
+    "Evaluate each bidder criterion-by-criterion",
+    "Produce a fully traceable Officer Brief",
+    "Detect cross-bidder collusion signals",
+    "Manage tender versioning"
+  ],
+  "optimization_claims": [
+    "Zero silent rejections",
+    "10 unbreakable system guarantees"
+  ],
+  "constraints_addressed": [
+    "Liability problem in government procurement"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

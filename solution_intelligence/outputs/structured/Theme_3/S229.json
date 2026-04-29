@@ -1,0 +1,40 @@
+{
+  "solution_id": "S229",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Tender Evaluation & Eligibility Analysis System for Transparent Government Procurement (CRPF)",
+  "summary": "AI-Based Tender Evaluation and Eligibility Analysis System for Transparent Government Procurement (CRPF)",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React.js",
+    "Node.js",
+    "Python (FastAPI)",
+    "spaCy",
+    "Transformers",
+    "Scikit-learn",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "Azure"
+  ],
+  "key_steps": [
+    "Automated Tender Parsing",
+    "Vendor Eligibility Matching",
+    "Risk & Compliance Scoring",
+    "Intelligent Recommendation Engine",
+    "Explainable AI (XAI)"
+  ],
+  "optimization_claims": [
+    "Reduces manual effort by 70–80%",
+    "Ensures fair, transparent, and unbiased evaluation",
+    "Speeds up procurement cycles",
+    "Minimizes human errors and corruption risks"
+  ],
+  "constraints_addressed": [
+    "Manual scrutiny of tenders",
+    "Vendor eligibility checks",
+    "Compliance verification"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

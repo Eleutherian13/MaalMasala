@@ -1,0 +1,32 @@
+{
+  "solution_id": "S338",
+  "problem_id": "Theme_3",
+  "team_name": "AI-Powered Tender Intelligence System for Explainable Eligibility Evaluation",
+  "summary": "Design a technical platform that can understand tenders, understand bidders, evaluate eligibility, and produce explainable evaluation reports for government procurement.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "pdfplumber",
+    "LLMs",
+    "rule-based evaluation engine"
+  ],
+  "key_steps": [
+    "Tender Understanding",
+    "Bidder Document Understanding",
+    "Evaluation Engine",
+    "Explainability & Human-in-the-Loop"
+  ],
+  "optimization_claims": [
+    "Prevents incorrect or non-transparent disqualification",
+    "Provides audit-ready, explainable decision reports"
+  ],
+  "constraints_addressed": [
+    "Ambiguity-Aware Decision Making",
+    "Dynamic Rule Construction",
+    "Semantic Alignment Layer",
+    "Evidence-Linked Outputs"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

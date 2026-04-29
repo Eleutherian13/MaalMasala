@@ -1,0 +1,35 @@
+{
+  "solution_id": "S420",
+  "problem_id": "Theme_3",
+  "team_name": "AI Platform for Tender Evaluation with Human-in-the-Loop Verification",
+  "summary": "Design an AI platform that automates tender evaluation, eligibility verification and decision support while ensuring full transparency, auditability and human control.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "LLM",
+    "BM25",
+    "Dense Embeddings",
+    "Docker/Kubernetes",
+    "mTLS"
+  ],
+  "key_steps": [
+    "Tender Rules Extraction",
+    "Evidence Ingestion",
+    "Agentic Evaluation Engine",
+    "RBAC Dashboard & Immutable Audit System"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation time by 70–80%",
+    "Ensures consistent and unbiased decision-making",
+    "Eliminates manual document verification overhead"
+  ],
+  "constraints_addressed": [
+    "LLMs misinterpreting legally ambiguous clauses",
+    "Vision AI silently corrupting financial values",
+    "RAG pipelines failing on exact identifiers",
+    "No support for regional-language government certificates",
+    "Scalability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

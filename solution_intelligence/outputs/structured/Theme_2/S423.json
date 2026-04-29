@@ -1,0 +1,35 @@
+{
+  "solution_id": "S423",
+  "problem_id": "Theme_2",
+  "team_name": "VyaparaSetu: Connecting Karnataka’s Business Systems through Event Driven Middleware",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "API",
+    "CDC",
+    "Polling",
+    "Logs",
+    "Kafka",
+    "AI"
+  ],
+  "key_steps": [
+    "Converts updates from any system into standardized events",
+    "Uses UBID as the single linking key",
+    "Propagates updates across systems through an event-driven pipeline",
+    "Ensures data consistency, reliability, and traceability"
+  ],
+  "optimization_claims": [
+    "Two-way synchronization (SWS ↔ Departments)",
+    "Zero modification to existing systems",
+    "Conflict detection & resolution using configurable rules",
+    "Full auditability (who changed what, when, and where)"
+  ],
+  "constraints_addressed": [
+    "Data inconsistency across departments",
+    "Operational inefficiencies",
+    "Lack of trust"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

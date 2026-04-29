@@ -1,0 +1,29 @@
+{
+  "solution_id": "S003",
+  "problem_id": "Theme_2",
+  "team_name": "Setu AI — Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+  "summary": "Design a layer that propagates service requests bidirectionally between Karnataka's Single Window System (SWS) and its department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Setu AI"
+  ],
+  "key_steps": [
+    "DIRECTION 1 — SWS TO DEPARTMENTS: propagation, idempotency keys, exponential backoff retry queue, declarative mapping engine, configuration-based onboarding",
+    "DIRECTION 2 — DEPARTMENTS TO SWS: three-tier detection strategy, webhook subscription, REST polling, scheduled snapshot diffing",
+    "CONFLICT RESOLUTION",
+    "AUDIT TRAIL",
+    "RISKS ADDRESSED"
+  ],
+  "optimization_claims": [
+    "Zero modifications to either SWS or department systems",
+    "Every propagation is idempotent, auditable, and conflict-aware"
+  ],
+  "constraints_addressed": [
+    "Department system going offline mid-propagation",
+    "Schema changes in a department system breaking the mapping",
+    "Clock skew between systems causing false conflict detection"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

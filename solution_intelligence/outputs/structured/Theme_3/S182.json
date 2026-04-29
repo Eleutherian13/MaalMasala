@@ -1,0 +1,28 @@
+{
+  "solution_id": "S182",
+  "problem_id": "Theme_3",
+  "team_name": "ProcureAI: An Explainable AI-Powered Decision-Support Platform for Tender Evaluation",
+  "summary": "Design a technical platform that can understand tender documents, evaluate eligibility of bidders, and produce explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Explainable AI",
+    "Document Understanding Pipelines",
+    "AI Matching Engine"
+  ],
+  "key_steps": [
+    "Automatic extraction of technical, financial, and compliance criteria",
+    "Mapping bidder submissions against extracted rules",
+    "Human-in-the-loop verification dashboard"
+  ],
+  "optimization_claims": [
+    "Reduces evaluation timelines",
+    "Eliminates inconsistencies",
+    "Delivers end-to-end auditability"
+  ],
+  "constraints_addressed": [
+    "Requires no modifications to existing legacy systems"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

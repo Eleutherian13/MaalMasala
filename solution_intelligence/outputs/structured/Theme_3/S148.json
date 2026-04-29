@@ -1,0 +1,33 @@
+{
+  "solution_id": "S148",
+  "problem_id": "Theme_3",
+  "team_name": "SmartProcure AI: Transforming Tender Evaluation with Explainable Intelligence || AI -Powered Tender Evaluation system with Explainable &Auditable Decision Intelligence",
+  "summary": "Design an AI-driven platform that evaluates tenders, understands bidder submissions, evaluates eligibility, and generates explainable reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "OCR",
+    "AI",
+    "Rule-based"
+  ],
+  "key_steps": [
+    "Upload tender",
+    "Extract criteria",
+    "Parse submissions",
+    "Match",
+    "Evaluate",
+    "Explain",
+    "Report"
+  ],
+  "optimization_claims": [
+    "Consistent and accurate evaluation outcomes",
+    "Unified comparison view",
+    "Fully traceable and explainable decisions"
+  ],
+  "constraints_addressed": [
+    "Diverse formats such as PDFs, scanned documents, and images",
+    "Transparency, accountability, and trust in procurement decisions"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

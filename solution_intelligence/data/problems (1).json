@@ -1,0 +1,214 @@
+{
+  "hackathon_themes": [
+    {
+      "theme_id": "Theme_2",
+      "title": "Two-Way Interoperability between the Single Window System and Department Systems",
+      "organization": "Karnataka Commerce & Industry",
+      "context": "Karnataka's Single Window System (SWS) is the State's canonical front door for new business registrations and cross-department service requests. In parallel, 40+ legacy department systems remain live with their own schemas, identifiers, and APIs. A single-day cutover is not realistic, creating a split-brain problem where changes on one side do not propagate to the other.",
+      "problem_statement": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+      "directions": [
+        {
+          "direction": "Direction 1 — From SWS to Department Systems",
+          "requirements": [
+            "Service request raised in SWS must propagate to every department system where the same business exists, identified by UBID.",
+            "Schemas, identifiers and APIs differ on every target system and cannot be changed; the layer must translate SWS representation into each target's representation.",
+            "Failures and retries must be handled without producing duplicates or losing updates."
+          ]
+        },
+        {
+          "direction": "Direction 2 — From Department Systems to SWS",
+          "requirements": [
+            "A service request raised inside a department system must also reach SWS.",
+            "Some department systems do not natively emit events; the layer must pick up changes via API, webhook, polling, or snapshot comparison.",
+            "Changes must be translated into the SWS representation, joined on UBID, and written to SWS."
+          ]
+        },
+        {
+          "direction": "Cross-Cutting — Conflicts and Audit",
+          "requirements": [
+            "When updates to the same UBID arrive from more than one source within a short window, the layer must detect the conflict and apply a configurable resolution policy.",
+            "Every propagation must leave behind an audit trail covering: what changed, where it came from, where it was written, and whether any conflict was resolved."
+          ]
+        }
+      ],
+      "non_negotiables": [
+        "Neither SWS nor any department system can be modified.",
+        "UBID is the only reliable join key; the solution must treat it as a precondition.",
+        "Every propagation must be idempotent and fully auditable; no silent overwrites, no lost updates.",
+        "Any Round 2 implementation will run on deterministically scrambled or synthetic data inside a sandbox.",
+        "Hosted-LLM calls on raw PII are not permitted."
+      ],
+      "success_criteria": [
+        "A change of registered address raised in SWS reaches every matching department system for the same UBID, with a complete audit trail.",
+        "The same change raised directly in a department system reaches SWS and is visibly reflected there.",
+        "When two updates for the same UBID arrive nearly simultaneously, the conflict is detected, a clear resolution is applied, and the final state is auditable.",
+        "Any individual service request can be traced end-to-end, including any retries or reconciliation steps."
+      ],
+      "sample_scenario": "A business with a known UBID updates its registered address in SWS. The interoperability layer propagates the change to the corresponding records in Shop Establishment and Factories, producing an audit trail for each write. Later, the same business has its authorised signatory updated directly inside the Factories system. The layer picks up this change, translates it and writes it to SWS. In a third step, two updates for the same UBID arrive nearly simultaneously, the conflict is detected, a resolution policy is applied, and the audit trail explains the final state.",
+      "solution_requirements": [
+        "Understanding of the problem and real-world constraints.",
+        "How the layer propagates requests in both directions without modifying SWS or department systems.",
+        "Approach to schema translation between heterogeneous representations and managing mapping as new departments are added.",
+        "Approach to discovering changes in department systems that do not natively emit events.",
+        "How to detect and resolve conflicting updates in an explainable and reversible way.",
+        "How to guarantee idempotency, at-least-once delivery and a complete audit trail under failure and retry conditions.",
+        "Architecture overview, key technology choices, and justification.",
+        "Main risks, trade-offs, and handling strategies.",
+        "Rough implementation plan for Round 2 with mock SWS and department endpoints."
+      ],
+      "evaluation_criteria": [
+        "Clarity of problem understanding — grasping why big-bang migration is not an option and why UBID is a precondition.",
+        "Technical soundness of the proposed two-way propagation, translation, conflict handling, and audit design.",
+        "Feasibility within the non-negotiables, particularly the 'no source system changes' constraint.",
+        "Depth of thinking on failure modes, retries, duplicates, lost updates, and reconciliation.",
+        "Quality of the architecture, justification of technology choices, and identified risks and trade-offs."
+      ]
+    },
+    {
+      "theme_id": "Theme_3",
+      "title": "AI-Based Tender Evaluation and Eligibility Analysis for Government Procurement",
+      "organization": "CRPF (Central Reserve Police Force)",
+      "context": "Government organisations such as CRPF issue tenders specifying detailed requirements across technical specifications, financial thresholds, compliance rules, eligibility conditions, document checklists, and certifications. Private companies respond with bids containing supporting documents in many formats — structured PDFs, scanned copies, Word files, tables, and photographs. Evaluation is currently manual, slow, inconsistent, prone to oversight, and hard to audit.",
+      "problem_statement": "Design a technical platform that, given a tender document and a set of bidder submissions, can understand the tender, understand each bidder, evaluate eligibility, and produce explainable evaluation reports that a human officer can trust and sign off on.",
+      "core_capabilities": [
+        {
+          "capability": "Understand the Tender",
+          "tasks": [
+            "Extract eligibility criteria — technical specifications, financial thresholds, compliance conditions, document and certification requirements.",
+            "Distinguish between mandatory and optional criteria.",
+            "Capture each criterion in a form that can be matched against a bidder's submission."
+          ]
+        },
+        {
+          "capability": "Understand Each Bidder",
+          "tasks": [
+            "Parse every bidder submission regardless of document type — typed PDFs, scanned copies, Word files, or photographs.",
+            "Extract values and evidence relevant to each criterion.",
+            "Handle variation in how bidders present the same information."
+          ]
+        },
+        {
+          "capability": "Evaluate and Explain",
+          "tasks": [
+            "For each bidder, decide whether they are Eligible, Not Eligible, or Need Manual Review against each criterion and overall.",
+            "Produce an explanation for every verdict referencing the specific criterion, document, and value.",
+            "Surface ambiguous or uncertain cases for human review rather than silently disqualifying them.",
+            "Produce a consolidated evaluation report for the procurement officer."
+          ]
+        }
+      ],
+      "non_negotiables": [
+        "Every verdict must be explainable at the criterion level — which criterion, which document, what value was found, and why the bidder passed/failed/needs review.",
+        "The system must never silently disqualify a bidder; ambiguous cases must be surfaced for human review.",
+        "The system must handle scanned documents and photographs, not only digital text.",
+        "The system must be auditable end-to-end and suitable for formal government procurement decisions.",
+        "Real tender and bid data will not be released for Round 1; Round 2 will use representative mock or redacted documents."
+      ],
+      "success_criteria": [
+        "A procurement officer uploads a tender document and bidder submissions; the system extracts eligibility criteria automatically and lists them for review.",
+        "For each bidder, the system produces a criterion-by-criterion evaluation with references back to source documents.",
+        "Clearly eligible and clearly ineligible bidders are marked as such; genuinely ambiguous cases are flagged for manual review with the reason.",
+        "A consolidated report can be exported and signed off, with a complete audit trail of every automated decision."
+      ],
+      "sample_scenario": {
+        "tender_criteria": [
+          "Minimum annual turnover of ₹5 crore",
+          "At least 3 similar projects completed in the last 5 years",
+          "Valid GST registration",
+          "ISO 9001 certification"
+        ],
+        "bidders": 10,
+        "expected_output": "6 bidders clearly eligible with evidence for each criterion, 3 clearly ineligible with the specific criterion failed and the document that showed it, and 1 flagged for manual review because the turnover document is a scanned certificate with figures that could not be read with confidence."
+      },
+      "solution_requirements": [
+        "Understanding of the problem and the realities of government procurement.",
+        "Approach to extracting eligibility criteria from a tender document, separating technical, financial, and compliance conditions, and distinguishing mandatory from optional criteria.",
+        "Approach to parsing bidder submissions with heterogeneous document types and extracting relevant values.",
+        "How to match extracted bidder information against criteria, handling ambiguity, partial information, and variation in legal and technical language.",
+        "How the system produces explainable criterion-level verdicts and surfaces ambiguous cases for human review.",
+        "How to guarantee auditability of every decision for formal government procurement.",
+        "Architecture overview, key technology and model choices, and justification.",
+        "Main risks, trade-offs, and handling strategies.",
+        "Rough implementation plan for Round 2 with sample tender and bidder documents."
+      ],
+      "evaluation_criteria": [
+        "Clarity of problem understanding — grasping the realities of government procurement, not just the surface problem.",
+        "Technical soundness of the proposed approach including document understanding, criterion matching, and explainability.",
+        "Depth of thinking on edge cases: scanned documents, photographs, ambiguous language, partial information, and format inconsistency.",
+        "Design of the human-in-the-loop path for ambiguous cases and the audit trail.",
+        "Quality of the architecture, justification of technology and model choices, and identified risks and trade-offs."
+      ]
+    },
+    {
+      "theme_id": "Theme_11",
+      "title": "From Court Judgments to Verified Action Plans",
+      "organization": "Centre for e-Governance",
+      "context": "The Centre for e-Governance has developed the Court Case Monitoring System (CCMS), a web-enabled digital application to track and manage court cases involving government departments. CCMS is integrated with the High Court's Court Information System (CIS), enabling access to case details, daily cause lists, orders, disposal status, and final judgment copies. Once a case is disposed of, judgment PDFs are automatically fetched into CCMS via API. These judgments contain critical directives requiring timely administrative decisions, but officials must manually read and interpret lengthy, complex legal documents, resulting in delays and risk of missing important directives.",
+      "problem_statement": "Build an AI system that can read court judgment PDFs, extract key information, generate a structured action plan, and ensure human-verified data is presented in a dashboard for government use.",
+      "core_problem_flow": [
+        {
+          "step": 1,
+          "name": "Extract — Understand the Judgment",
+          "tasks": [
+            "Case details",
+            "Date of order",
+            "Key directions and orders",
+            "Parties involved",
+            "Relevant timelines (if mentioned)"
+          ]
+        },
+        {
+          "step": 2,
+          "name": "Generate Action Plan — Key Differentiator",
+          "tasks": [
+            "What is required: Compliance or Consideration for Appeal",
+            "Key timelines (explicit or inferred)",
+            "Responsible department(s)",
+            "Nature of action required"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Verify — Human-in-the-Loop (Mandatory)",
+          "tasks": [
+            "Show extracted data with source highlights from PDF",
+            "Provide confidence levels",
+            "Allow human reviewer to Approve, Edit, or Reject",
+            "Only verified records move forward"
+          ]
+        },
+        {
+          "step": 4,
+          "name": "Dashboard — Trusted View Only",
+          "tasks": [
+            "Display only approved action plans",
+            "Department-wise view",
+            "Key actions required",
+            "Important dates",
+            "Clean, reliable information for decision-makers"
+          ]
+        }
+      ],
+      "input": [
+        "Court judgment PDFs (multi-page, unstructured, scanned or digital)"
+      ],
+      "output": [
+        "Structured extracted data",
+        "AI-assisted action plan",
+        "Human-verified records",
+        "Simple dashboard"
+      ],
+      "constraints": [
+        "Must handle complex, inconsistent legal PDFs",
+        "Outputs must be explainable and verifiable",
+        "Focus on decision support, not full automation"
+      ],
+      "evaluation_criteria": [
+        "Accuracy of extraction",
+        "Quality of action plan generation",
+        "Effectiveness of human verification",
+        "Clarity and usability of dashboard"
+      ]
+    }
+  ]
+}

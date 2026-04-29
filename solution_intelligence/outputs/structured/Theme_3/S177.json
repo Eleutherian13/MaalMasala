@@ -1,0 +1,37 @@
+{
+  "solution_id": "S177",
+  "problem_id": "Theme_3",
+  "team_name": "TenderProof — AI Tender Evaluation with Criterion-Level Explainability and Immutable Audit Trail",
+  "summary": "Design an AI-based technical platform for government procurement tender evaluation and eligibility analysis, providing explainable evaluation reports with an immutable audit trail.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Pydantic typed schema",
+    "Claude 3.5 Sonnet Vision / GPT-4o Vision",
+    "Python",
+    "NetworkX",
+    "FastAPI",
+    "PostgreSQL",
+    "Next.js"
+  ],
+  "key_steps": [
+    "Compile the Tender into a Typed Evaluation Schema",
+    "Extract Bidder Evidence Without OCRE",
+    "Evaluate Deterministically",
+    "Cross-Bidder Integrity Analysis",
+    "Consolidated Report and Audit Log"
+  ],
+  "optimization_claims": [
+    "Eliminates significant accuracy degradation in OCR on scanned inputs",
+    "Guarantees reproducibility by design",
+    "Eliminates hallucination risk in the final decision",
+    "Actively detects bid rigging and shared credential fraud"
+  ],
+  "constraints_addressed": [
+    "Consistency",
+    "Explainability",
+    "Institutional trust"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

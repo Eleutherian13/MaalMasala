@@ -1,0 +1,32 @@
+{
+  "solution_id": "S115",
+  "problem_id": "Theme_3",
+  "team_name": "Explainable AI with Human-in-the-Loop for Reliable Tender Evaluation and Eligibility Analysis.",
+  "summary": "Design an AI-powered system that automates tender evaluation, ensures transparency through explainable outputs, verifies eligibility, and provides clear reasoning behind each decision. The system also includes document parsing and analysis, human-in-the-loop validation for critical decisions, and bias reduction.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP",
+    "Machine Learning",
+    "Rule-based"
+  ],
+  "key_steps": [
+    "Document understanding",
+    "Eligibility verification",
+    "Explainable AI",
+    "Human-in-the-loop validation",
+    "Bias reduction"
+  ],
+  "optimization_claims": [
+    "Enhances trust",
+    "Reduces processing time",
+    "Ensures fair evaluation"
+  ],
+  "constraints_addressed": [
+    "Time-consuming manual analysis",
+    "Human bias or errors",
+    "Inconsistencies and delays in manual analysis"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,36 @@
+{
+  "solution_id": "S301",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSahayak: Transparent, Explainable AI for Government Tender Eligibility Assessment",
+  "summary": "Design an AI-based technical platform for government procurement to understand tenders, evaluate eligibility, and produce explainable evaluation reports.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Claude 3.5",
+    "Google Document AI",
+    "FastAPI",
+    "PostgreSQL",
+    "React"
+  ],
+  "key_steps": [
+    "Automatic identification of eligibility conditions",
+    "Processing bidder's submissions in various formats",
+    "Matching bidder values with tender requirements",
+    "Assigning confidence scores to extractions",
+    "Sending uncertain cases to human officers",
+    "Flagging data inconsistencies for human review",
+    "Recording actions in a tamper-proof audit log"
+  ],
+  "optimization_claims": [
+    "Speed and consistency of evaluation process",
+    "Transparent and explainable decisions",
+    "Audit trail for scrutiny in official and legal contexts"
+  ],
+  "constraints_addressed": [
+    "Volume and complexity of tender documents",
+    "Inconsistency in human evaluations",
+    "Lack of clear records"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

@@ -1,0 +1,40 @@
+{
+  "solution_id": "S721",
+  "problem_id": "Theme_2",
+  "team_name": "BridgeSync : A Two-Way Interoperability Fabric for Karnataka's Single Window System",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems using UBID as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Apache Kafka",
+    "Python",
+    "PostgreSQL",
+    "Redis",
+    "Apache Airflow",
+    "FastAPI",
+    "Docker & Kubernetes"
+  ],
+  "key_steps": [
+    "Change Capture",
+    "Event Routing",
+    "Translation Registry",
+    "Idempotent Dispatch Engine",
+    "Conflict Detection & Resolution Engine",
+    "Retry Queue with Dead-Letter",
+    "Append-Only Audit Ledger",
+    "Operations Dashboard"
+  ],
+  "optimization_claims": [
+    "Improved freshness due to change capture strategies.",
+    "Avoidance of duplicates through read-before-write checks.",
+    "Reduced risk of big-bang migration with configuration-driven extensibility."
+  ],
+  "constraints_addressed": [
+    "Schema heterogeneity",
+    "No change emission systems",
+    "Non-idempotent APIs",
+    "PII in LLM features"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

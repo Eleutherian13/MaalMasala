@@ -1,0 +1,31 @@
+{
+  "solution_id": "S257",
+  "problem_id": "Theme_11",
+  "team_name": "Bharat AI Seva Copilot: Multilingual AI Assistant for Government Services",
+  "summary": "Build an AI system that can interpret legal or policy documents such as court judgments and convert them into simplified, actionable guidance for citizens. The system is extendable from a multilingual AI assistant for government services.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "NLP",
+    "Speech-to-Text",
+    "Text-to-Speech",
+    "recommendation systems"
+  ],
+  "key_steps": [
+    "Document interpretation",
+    "Simplification of complex legal text",
+    "Actionable guidance generation"
+  ],
+  "optimization_claims": [
+    "Improves accessibility",
+    "Reduces dependency on middlemen",
+    "Increases scheme usage"
+  ],
+  "constraints_addressed": [
+    "Language barriers",
+    "Low digital literacy",
+    "Complex processes"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

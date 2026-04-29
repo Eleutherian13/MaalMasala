@@ -1,0 +1,34 @@
+{
+  "solution_id": "S216",
+  "problem_id": "Theme_3",
+  "team_name": "TenderLens CRPF",
+  "summary": "Design an AI-assisted evaluation platform for government tender documents and bidder submissions, providing explanations and eliminating manual work.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "PaddleOCR",
+    "Tesseract",
+    "docTR",
+    "LayoutLM",
+    "Donut-style parsing models",
+    "Rule engine",
+    "Retrieval + local LLM"
+  ],
+  "key_steps": [
+    "tender understanding",
+    "bidder understanding",
+    "eligibility evaluation",
+    "explainability and human review"
+  ],
+  "optimization_claims": [
+    "improves consistency, speed, and trust in procurement decision-making"
+  ],
+  "constraints_addressed": [
+    "complex tender conditions",
+    "heterogeneous bidder submissions",
+    "ambiguity",
+    "procurement auditability"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

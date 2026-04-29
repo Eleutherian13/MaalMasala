@@ -1,0 +1,34 @@
+{
+  "solution_id": "S043",
+  "problem_id": "Theme_2",
+  "team_name": "NullSync — Intelligent Bidirectional Interoperability Layer for Karnataka Government Systems",
+  "summary": "Design a bidirectional interoperability layer for Karnataka's government systems using Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "Node-cron"
+  ],
+  "key_steps": [
+    "Identify changes in SWS",
+    "Translate SWS payload to target schema",
+    "Write updates via APIs",
+    "Handle conflicts",
+    "Audit propagation events"
+  ],
+  "optimization_claims": [
+    "Idempotent operations",
+    "Configurable conflict resolution policy"
+  ],
+  "constraints_addressed": [
+    "No modification of SWS or department systems",
+    "UBID as the only join key"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

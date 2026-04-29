@@ -1,0 +1,37 @@
+{
+  "solution_id": "S186",
+  "problem_id": "Theme_11",
+  "team_name": "Nyayasetu - AI-Powered Judgment Intelligence Platform for Government Compliance",
+  "summary": "Build an AI system that automates the process of reading court judgment PDFs, extracting key information, generating a structured action plan, and ensuring human-verified data is presented in a dashboard for government use.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "PostgreSQL",
+    "PyMuPDF + Tesseract OCR",
+    "Google Gemini 1.5 Pro",
+    "LangChain",
+    "React + PDF.js",
+    "Docker + Celery"
+  ],
+  "key_steps": [
+    "Automatic extraction of case details, key directions, parties involved, and timelines",
+    "Generation of structured action plan",
+    "Human review and verification",
+    "Sorting verified action plans by deadline urgency",
+    "Department-wise filtering",
+    "Automated reminders"
+  ],
+  "optimization_claims": [
+    "Multi-step extraction for more consistent results",
+    "Large context window handles full judgment in one pass",
+    "Ensemble consistency check catches high-confidence hallucinations"
+  ],
+  "constraints_addressed": [
+    "Handles complex, inconsistent legal PDFs",
+    "Outputs are explainable and verifiable",
+    "Focus on decision support, not full automation"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

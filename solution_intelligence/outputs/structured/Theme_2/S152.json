@@ -1,0 +1,27 @@
+{
+  "solution_id": "S152",
+  "problem_id": "Theme_2",
+  "team_name": "New 1m rupiya ka",
+  "summary": "Design a layer that enables two-way propagation of service requests using Unique Business Identifier (UBID) as common join key between Karnataka's Single Window System and legacy department systems.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "API",
+    "UBID"
+  ],
+  "key_steps": [
+    "Define APIs for request propagation",
+    "Implement UBID as common join key",
+    "Test bi-directional data flow"
+  ],
+  "optimization_claims": [],
+  "constraints_addressed": [
+    "Data consistency between systems",
+    "Efficient communication between systems"
+  ],
+  "missing_components": [
+    "Detailed design and architecture",
+    "Implementation details"
+  ],
+  "strengths": [],
+  "weaknesses": []
+}

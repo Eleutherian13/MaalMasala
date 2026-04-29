@@ -1,0 +1,29 @@
+{
+  "solution_id": "S492",
+  "problem_id": "Theme_3",
+  "team_name": "Explainable AI System for Tender Eligibility Evaluation with Evidence-Linked Decision Support",
+  "summary": "Design an AI system for tender eligibility evaluation, focusing on explainable, evidence-backed decision-making. The system extracts eligibility criteria from tender documents, parses bidder submissions across formats, evaluates each bidder at a criterion level, and links every verdict to the exact source evidence and reasoning. It also flags uncertain or conflicting cases for human review.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "Natural Language Processing",
+    "Machine Learning"
+  ],
+  "key_steps": [
+    "Extract eligibility criteria from tender documents",
+    "Parse bidder submissions across formats",
+    "Evaluate each bidder at a criterion level",
+    "Link verdicts to exact source evidence and reasoning",
+    "Flag uncertain or conflicting cases for human review"
+  ],
+  "optimization_claims": [
+    "Consistent, auditable, and fair evaluation",
+    "Suitable for real-world government procurement workflows"
+  ],
+  "constraints_addressed": [
+    "Uncertainty in evaluation",
+    "Conflicting cases"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

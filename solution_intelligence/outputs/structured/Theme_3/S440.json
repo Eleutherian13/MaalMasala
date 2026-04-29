@@ -1,0 +1,38 @@
+{
+  "solution_id": "S440",
+  "problem_id": "Theme_3",
+  "team_name": "TendorGaurd AI – High-Fidelity Automated Eligibility & Audit System",
+  "summary": "Design a technical platform that automates document evaluation in government procurement, ensuring a strict audit trail, source citation mapping, confidence heatmap, and multilingual support.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "FastAPI",
+    "Celery",
+    "Docling",
+    "LlamaIndex",
+    "Hybrid RAG",
+    "Redis",
+    "Qdrant (Vector DB)",
+    "PostgreSQL",
+    "Streamlit"
+  ],
+  "key_steps": [
+    "Architect & Vision Agents",
+    "Fact-Checker & Auditor Agents",
+    "Human-in-the-Loop (HITL)"
+  ],
+  "optimization_claims": [
+    "Source Citation Mapper",
+    "Confidence Heatmap",
+    "Agent Message Bus",
+    "MultiLingual Support",
+    "Interactive Evidence Viewer"
+  ],
+  "constraints_addressed": [
+    "Complex tender rulesets",
+    "Messy, multilingual bidder documents",
+    "AI hallucinations"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

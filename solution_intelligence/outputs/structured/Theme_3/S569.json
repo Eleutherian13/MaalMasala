@@ -1,0 +1,32 @@
+{
+  "solution_id": "S569",
+  "problem_id": "Theme_3",
+  "team_name": "TenderSense AI – Explainable Government Procurement Evaluation System",
+  "summary": "Design a technical platform that automates tender evaluation, ensures explainability, and produces audit-ready reports.",
+  "approach_type": "ml",
+  "tech_stack": [
+    "LLM",
+    "OCR",
+    "NLP"
+  ],
+  "key_steps": [
+    "Criteria Extraction",
+    "Document Processing",
+    "Evaluation Engine",
+    "Explainability",
+    "Human-in-the-Loop"
+  ],
+  "optimization_claims": [
+    "Automates tender evaluation process",
+    "Ensures explainability",
+    "Produces audit-ready reports"
+  ],
+  "constraints_addressed": [
+    "Manual and slow tender evaluation",
+    "Errors in evaluation",
+    "Lack of transparency"
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}

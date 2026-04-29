@@ -1,0 +1,33 @@
+{
+  "solution_id": "S554",
+  "problem_id": "Theme_2",
+  "team_name": "OmniBridge - An Event-Driven, Self-Healing Integration Fabric for SWS",
+  "summary": "Design a layer that propagates service requests both ways between Karnataka's Single Window System and the legacy department systems, using the Unique Business Identifier (UBID) as the common join key.",
+  "approach_type": "hybrid",
+  "tech_stack": [
+    "Django",
+    "Celery + Redis",
+    "PostgreSQL",
+    "Redis",
+    "YAML"
+  ],
+  "key_steps": [
+    "Bidirectional Sync Without Changes",
+    "Schema Mapping & Onboarding",
+    "Change Detection in Legacy Systems",
+    "Conflict Detection & Resolution",
+    "Reliability & Audit",
+    "Demo Scenarios"
+  ],
+  "optimization_claims": [
+    "Adaptive polling based on activity",
+    "Idempotency Unique keys prevent duplicate writes."
+  ],
+  "constraints_addressed": [
+    "SWS backed by 40+ independent systems with different schemas, tech levels, and unsynchronized clocks.",
+    "Departments are independent. Coordinating schema changes is slow and risky."
+  ],
+  "missing_components": [],
+  "strengths": [],
+  "weaknesses": []
+}
